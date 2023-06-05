@@ -1,5 +1,4 @@
-# Opening up ChatGPT: tracking openness, transparency, and
-accountability in instruction-following text generators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Opening up ChatGPT: tracking openness, transparency, and accountability in instruction-following text generators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Large language models that exhibit instruction-following behaviour represent one of the biggest recent upheavals in conversational interfaces, a trend in large part fuelled by the release of OpenAI&#39;s ChatGPT, a proprietary text generator trained using human feedback to simulate instruction-following. We survey 13 open-source projects of comparable architecture and functionality: large language-models with reinforcement learning from human feedback (RLHF), made for prompt-based text and code generation. The main contribution of this paper is to offer scientific documentation of the fast-moving field of large language models of the instruction-following variety. We review prior work on the importance of openness for transparent and trustworthy AI, and evaluate each project with regards to openness, scientific documentation, and access methods. The paper is accompanied by a version-controlled list that will be updated as new alternatives emerge.
 
