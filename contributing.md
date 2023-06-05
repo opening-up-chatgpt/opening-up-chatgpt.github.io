@@ -6,11 +6,21 @@ project you agree to abide by its terms.
 
 ---
 
+## Contributing issues
+
+We track models to add using Issues, and add them to the list using Pull Requests 
+(resolving the issues). Before you add an issue, please check whether the model is 
+already listed. Before you add a PR, please check whether someone else is already 
+working on the issue.
+
+## Contributing PRs
+
+We value Pull Requests that address existing issues. If you're looking to contribute, 
+a good way is to check the list of open issues and see if you can contribute missing data. 
 Ensure your pull request adheres to the following guidelines:
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+- Cover all dimensions of the Openess list
+- Document and motivate your choices for degrees of openness
 
 Thank you for your suggestions!
 
