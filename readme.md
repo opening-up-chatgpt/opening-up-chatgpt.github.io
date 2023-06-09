@@ -14,40 +14,22 @@ Large language models that exhibit instruction-following behaviour represent one
 
 [Link to live overview table](liesenf.github.io/opening-up-chatgpt)
 
+## The template
+
+Append the new project at the end of file
+
+```markdown
+## [{owner}/{project-name}]{https://github.com/link/to/project}
+
+Description goes here
+
+Tags: Bare/Standard/Full/Complicated
+```
+
 ## List of Projects
 
 - [bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)
-    - opencode: full
-    - opencode_link:
-    - opencode_notes:
-    - llmbase: full
-    - llmbase_link:
-    - llmbase_notes:
-    - llmweights: partial
-    - llmweights_link:
-    - llmweights_notes:
-    - rlhfdata:
-    - rlhfdata_link:
-    - rlhfdata_notes:
-    - rlhfweights:
-    - rlhfweights_link:
-    - rlhfweights_notes:
-    - license:
-    - license_link:
-    - license_notes:
-    - doc_code:
-    - doc_code_link:
-    - doc_code_notes:
-    - doc_architecture:
-    - doc_architecture_link:
-    - doc_architecture_notes:
-    - doc_preprint:
-    - doc_preprint_link:
-    - doc_preprint_notes:
-    - doc_paper:
-    - doc_paper_link:
-    - doc_paper_notes:
-    - doc_modelcard:
+
 - [LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
     
 - [BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)		
