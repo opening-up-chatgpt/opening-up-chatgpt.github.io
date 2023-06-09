@@ -12,45 +12,69 @@ Large language models that exhibit instruction-following behaviour represent one
 
 ## Overview
 
-Overview of open-source instruction-following text generators surveyed for availability, documentation, and access methods with ChatGPT (bottom) as reference. Key: 1 Base LLM training data, 2 Base LLM model weights 3 RLHF training data, 4 RLHF model weights.
+[Link to live overview table](liesenf.github.io/opening-up-chatgpt)
 
-| Project                  |   | Availability                                                                     |            |               |             |                |         | Documentation |              |          |       |            | Access methods |                                                   |
-|--------------------------|---|----------------------------------------------------------------------------------|------------|---------------|-------------|----------------|---------|---------------|--------------|----------|-------|------------|----------------|---------------------------------------------------|
-| (maker, base model, URL) |   | Open code                                                                        | LLM data ¹ | LLM weights ² | RLHF data ³ | RLHF weights ⁴ | License | Code          | Architecture | Preprint | Paper | Data sheet | Package        | API                                               |
-| xmtf                     |   | 🟢                                                                               | 🟢         | 🟢            | 🟢          | 🟢             | 🟢      | 🟢            | 🟢           | 🟢       | 🔴    | 🔴         | 🟢             | 🟢                                                |
-| bigscience-workshop      |   | Base: BLOOMZ, mT0                                                                |            |               |             |                |         |               |              |          |       |            |                | https://github.com/bigscience-workshop/xmtf       |
-| Open-Assistant           |   | 🟢                                                                               | 🟢         | 🟢            | 🟢          | 🟢             | 🟢      | 🟢            | 🟢           | 🔴       | 🔴    | 🔴         | 🟢             | 🟢                                                |
-| LAION-AI                 |   | Base: oasst1 (own)                                                               |            |               |             |                |         |               |              |          |       |            |                | https://github.com/LAION-AI/Open-Assistant        |
-| BELLE                    |   | 🟢                                                                               | 🟢         | 🟢            | 🟢          | 🟢             | 🟢      | 🟢            | 🟢           | 🟢       | 🔴    | 🔴         | 🔴             | 🔴                                                |
-| LianjiaTech              |   | Base:  LLaMA, BLOOMZ                                                             |            |               |             |                |         |               |              |          |       |            |                | https://github.com/LianjiaTech/BELLE              |
-| CharRWKV                 |   | 🟢                                                                               | 🟢         | 🟢            | 🟢          | 🟢             | 🟢      | 🟢            | 🟢           | 🔴       | 🔴    | 🔴         | 🟢             | 🟢                                                |
-| BlinkDL                  |   | Base: RWKV-LM (own)                                                              |            |               |             |                |         |               |              |          |       |            |                | https://github.com/BlinkDL/ChatRWKV               |
-| dolly                    |   | 🟢                                                                               | 🟢         | 🟢            | 🟡          | 🔴             | 🟢      | 🟢            | 🟢           | 🟡       | 🔴    | 🔴         | 🟢             | 🔴                                                |
-| databrickslabs           |   | Base: EleutherAI pythia                                                          |            |               |             |                |         |               |              |          |       |            |                | https://github.com/databrickslabs/dolly           |
-| OpenChatKit              |   | 🟢                                                                               | 🟢         | 🟢            | 🟢          | 🟢             | 🟢      | 🟢            | 🔴           | 🟡       | 🔴    | 🔴         | 🟢             | 🔴                                                |
-| togethercomputer         |   | Base: EleutherAI pythia                                                          |            |               |             |                |         |               |              |          |       |            |                | https://github.com/togethercomputer/OpenChatKit   |
-| Cerebras-GPT             |   | 🟢                                                                               | 🟢         | 🟢            | 🔴          | 🔴             | 🟢      | 🟢            | 🟢           | 🟢       | 🔴    | 🔴         | 🔴             | 🔴                                                |
-| Cerebras                 |   | Base: not open                                                                   |            |               |             |                |         |               |              |          |       |            |                | https://huggingface.co/cerebras/Cerebras-GPT-6.7B |
-| stanford_alpaca          |   | 🟢                                                                               | 🟢         | 🟢            | 🟡          | 🔴             | 🟡      | 🟢            | 🟢           | 🔴       | 🔴    | 🔴         | 🔴             | 🔴                                                |
-| Tatsu labs               |   | Base: LLaMA                                                                      |            |               |             |                |         |               |              |          |       |            |                | https://github.com/tatsu-lab/stanford_alpaca      |
-| trlx                     |   | 🟢                                                                               | 🟢         | 🟢            | 🟡          | 🔴             | 🟢      | 🟢            | 🟡           | 🔴       | 🔴    | 🔴         | 🟡             | 🟢                                                |
-| carperai                 |   | Base: various models including EleutherAI pythia, Google flan and Facebook OPT   |            |               |             |                |         |               |              |          |       |            |                | https://github.com/carperai/trlx                  |
-| minChatGPT               |   | 🟢                                                                               | 🟢         | 🟢            | 🟡          | 🔴             | 🟢      | 🟢            | 🟡           | 🔴       | 🔴    | 🔴         | 🔴             | 🟢                                                |
-| ethanyanjiali            |   | Base:  GPT2                                                                      |            |               |             |                |         |               |              |          |       |            |                | https://github.com/ethanyanjiali/minChatGPT       |
-| Vicuna                   |   | 🟢                                                                               | 🟢         | 🟢            | 🟢          | 🟢             | 🟢      | 🔴            | 🔴           | 🔴       | 🔴    | 🔴         | 🔴             | 🔴                                                |
-| Facico                   |   | Base:  LLaMA                                                                     |            |               |             |                |         |               |              |          |       |            |                | https://github.com/Facico/Chinese-Vicuna          |
-| text-generation-webu     |   | 🟢                                                                               | 🟢         | 🟢            | 🔴          | 🔴             | 🟢      | 🟢            | 🔴           | 🔴       | 🔴    | 🔴         | 🔴             | 🔴                                                |
-| oobabooga                |   | Base: EleutherAI pythia                                                          |            |               |             |                |         |               |              |          |       |            |                | https://github.com/Akegarasu/ChatGLM-webui        |
-| PaLM-rlhf-pytorch        |   | 🟢                                                                               | 🔴         | 🔴            | 🔴          | 🔴             | 🟢      | 🟢            | 🔴           | 🔴       | 🔴    | 🔴         | 🟢             | 🔴                                                |
-| lucidrains               |   | Base:  no model                                                                  |            |               |             |                |         |               |              |          |       |            |                | https://github.com/lucidrains/PaLM-rlhf-pytorch   |
-| chatGPT                  |   | 🔴                                                                               | 🔴         | 🔴            | 🔴          | 🔴             | 🔴      | 🔴            | 🔴           | 🔴       | 🔴    | 🔴         | 🔴             | 🟡                                                |
-| OpenAI                   |   | Base: GPT3.5, GPT4                                                               |            |               |             |                |         |               |              |          |       |            |                | https://chat.openai.com                           |
+## List of Projects
 
+- [bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)
+    - opencode: full
+    - opencode_link:
+    - opencode_notes:
+    - llmbase: full
+    - llmbase_link:
+    - llmbase_notes:
+    - llmweights: partial
+    - llmweights_link:
+    - llmweights_notes:
+    - rlhfdata:
+    - rlhfdata_link:
+    - rlhfdata_notes:
+    - rlhfweights:
+    - rlhfweights_link:
+    - rlhfweights_notes:
+    - license:
+    - license_link:
+    - license_notes:
+    - doc_code:
+    - doc_code_link:
+    - doc_code_notes:
+    - doc_architecture:
+    - doc_architecture_link:
+    - doc_architecture_notes:
+    - doc_preprint:
+    - doc_preprint_link:
+    - doc_preprint_notes:
+    - doc_paper:
+    - doc_paper_link:
+    - doc_paper_notes:
+    - doc_modelcard:
+- [LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
+    
+- [BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)		
 
+- [BlinkDL CharRWKV](https://github.com/BlinkDL/ChatRWKV)
 
-## Survey Criteria
+- [databrickslabs dolly](https://github.com/databrickslabs/dolly)
 
-### Availabity
+- [togethercomputer OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
+
+- [Cerebras Cerebras-GPT](https://github.com/bigscience-workshop/xmtf)
+
+- [Tatsu labs stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+
+- [carperai trlx](https://github.com/carperai/trlx)
+
+- [ethanyanjiali minChatGPT](https://github.com/ethanyanjiali/minChatGPT)
+
+- [Facico Vicuna](https://github.com/Facico/Chinese-Vicuna)
+
+- [oobabooga text-generation-webu](https://github.com/Akegarasu/ChatGLM-webui)
+
+- [lucidrainsPaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)		
+
+## Categories
+
+### Availability
 
 #### Open code
 Is the code of the project openly available for inspection? (green)
@@ -92,37 +116,9 @@ Is the code of the project openly available for inspection? (green)
 #### Package:
  A software package has been publically indexed (e.g. Python Package Index, Homebrew) (green)? Is the package shared via a hosting service (e.g. Github) (yellow)?
 
-
 #### API:
  Is an open API available that provides unrestricted access to the text generator (other than security and CDN restrictions) (green)? Is API access limited or monetized in any way (yellow)?
 
-## List of Projects
-
-- [bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)
-
-- [LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
-
-- [BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)		
-
-- [BlinkDL CharRWKV](https://github.com/BlinkDL/ChatRWKV)
-
-- [databrickslabs dolly](https://github.com/databrickslabs/dolly)
-
-- [togethercomputer OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
-
-- [Cerebras Cerebras-GPT](https://github.com/bigscience-workshop/xmtf)
-
-- [Tatsu labs stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
-
-- [carperai trlx](https://github.com/carperai/trlx)
-
-- [ethanyanjiali minChatGPT](https://github.com/ethanyanjiali/minChatGPT)
-
-- [Facico Vicuna](https://github.com/Facico/Chinese-Vicuna)
-
-- [oobabooga text-generation-webu](https://github.com/Akegarasu/ChatGLM-webui)
-
-- [lucidrainsPaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)		
 
 ## Contribute
 
