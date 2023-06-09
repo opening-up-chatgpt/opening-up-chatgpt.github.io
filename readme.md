@@ -24,7 +24,7 @@ Append the new project at the end of file
 
 ## [{owner}/{project-name}]{https://github.com/link/to/project}
 
-2. edit projects\newproject.md template
+2. edit projects/newproject.md template
 ```
 
 ## List of Projects
