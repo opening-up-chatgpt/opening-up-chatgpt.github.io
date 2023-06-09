@@ -4,7 +4,7 @@ Large language models that exhibit instruction-following behaviour represent one
 
 ## Overview
 
-<div><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/go6aa/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/go6aa/full.png" alt="" /></noscript></div>
+<div><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/go6aa/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/go6aa/full.png" alt="" /></noscript></div>
 
 | Project                  |   | Availability                                                                     |            |               |             |                |         | Documentation |              |          |       |            | Access methods |                                                   |
 |--------------------------|---|----------------------------------------------------------------------------------|------------|---------------|-------------|----------------|---------|---------------|--------------|----------|-------|------------|----------------|---------------------------------------------------|
