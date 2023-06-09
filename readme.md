@@ -12,7 +12,7 @@ Large language models that exhibit instruction-following behaviour represent one
 
 ## Overview
 
-[Link to live overview table](liesenf.github.io/opening-up-chatgpt)
+[Link to live overview table](https://liesenf.github.io/opening-up-chatgpt/)
 
 ## The template
 
