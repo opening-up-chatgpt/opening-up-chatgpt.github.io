@@ -19,11 +19,12 @@ Large language models that exhibit instruction-following behaviour represent one
 Append the new project at the end of file
 
 ```markdown
+
+1. Add entry to list of projects: 
+
 ## [{owner}/{project-name}]{https://github.com/link/to/project}
 
-Description goes here
-
-Tags: Bare/Standard/Full/Complicated
+2. edit projects\newproject.md template
 ```
 
 ## List of Projects
