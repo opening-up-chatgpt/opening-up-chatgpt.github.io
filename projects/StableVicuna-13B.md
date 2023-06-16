@@ -1,9 +1,7 @@
-|name field            | entry                                                      |
-|----------------------|------------------------------------------------------------|
-|project_name          |StableVicuna-13B                                                     |
-|project_link          |https://chat.openai.com/                                    |
-|project_notes         |NA                                                          |
-|org_name              |CarperAI	                                                      |
+|project_name          |StableVicuna-13B                                                     
+|project_link          |https://chat.openai.com/                                    
+|project_notes         |NA                                                          
+|org_name              |CarperAI	                                                      
 |org_link              |https://carper.ai/                                         |
 |org_notes             |NA                                                          |
 |opencode_class        |closed                                                      |
