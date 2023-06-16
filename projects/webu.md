@@ -1,12 +1,12 @@
 |project_name          |text-generation-webu                                                     |
-|project_link          |https://github.com/Akegarasu/ChatGLM-webui                                    |
+|project_link          |https://github.com/Akegarasu/ChatGLM-webui            |
 |project_notes         |NA                                                          |
 |org_name              | oobabooga                                                      |
 |org_link              |https://github.com/Akegarasu/                                         |
 |org_notes             |NA                                                          |
 |opencode_class        |open                                                      |
-|opencode_link         |https://github.com/Akegarasu/ChatGLM-webui                                      |
-|opencode_notes        |  |
+|opencode_link         |https://github.com/Akegarasu/ChatGLM-webui
+|opencode_notes        |  							    |
 |llmbase               |various                                                     |
 |llmdata_class         |open                                                      |
 |llmdata_link          |                                                            |
@@ -29,8 +29,8 @@
 |doc_code_link         |                                                          |
 |doc_code_notes        |                                                          |
 |doc_architecture_class|open                                                      |
-|doc_architecture_link |                            |
-|doc_architecture_notes|                   |
+|doc_architecture_link |                          				  |
+|doc_architecture_notes|               						       |
 |doc_preprint_class    |closed                                                      |
 |doc_preprint_link     |                                                          |
 |doc_preprint_notes    |                                                          |
@@ -48,4 +48,4 @@
 |access_package_notes  |                                                          |
 |access_api_class      |partial                                                     |
 |access_api_link       |							  |
-|access_api_notes      |                         |
+|access_api_notes      |                        				  |
