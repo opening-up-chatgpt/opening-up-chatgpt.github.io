@@ -62,7 +62,7 @@ Append the new project at the end of file
 Is the code of the project openly available for inspection? (green)
 
     - **LLM training data**:
- Is the training data of the base large language model (LLM) fully open for inspection (green)? We find that text generators often build on existing base LLMs and often inherit access and documentations restrictions from these models (yellow). % but actually there are no yellow cells in Fig 1 in this column
+ Is the training data of the base large language model (LLM) fully open for inspection (green)? We find that text generators often build on existing base LLMs and often inherit access and documentations restrictions from these models (orange).
 
     - **LLM model weights**:
  Is the fully trained base model made openly available including model weights (green)?
@@ -74,32 +74,32 @@ Is the code of the project openly available for inspection? (green)
  Is the model including RLHF component fully available for inspection (green)?
 
     -  **License**:
- Is the software fully covered by any Open Source Initiatve (OSI)-approved license (green)? Does the license only cover part of the software or model or are additional usage restrictions in place (yellow)?
+ Is the project fully covered by any Open Source Initiative (OSI)-approved license (green)? Does the license only cover part of the project or are additional usage restrictions in place (orange)?
 
 - Documentation
 
    - **Code**:
- Does the software come with professional and comprehensive documentation (green)? Are only parts of the software documented, e.g. API access or higher-order functions (yellow)?
+ Does the project come with professional and comprehensive documentation (green)? Are only parts of the software documented, e.g. API access or higher-order functions (orange)?
 
     - **Architecture**:
- Is the neural network architecture (base model and fine-tuning steps) fully documented (green)? Are only parts of the process documented? (yellow)?
+ Is the neural network architecture (base model and fine-tuning steps) fully documented (green)? Are only parts of the process documented? (orange)?
 
     - **Preprint**:
  Are archived preprint(s) available that cover all parts of the software including base models, fine-tuning, and RLHF components?
 
     - **Paper**:
- Is a peer-reviewed paper available that covers all parts of the software?
+ Is a peer-reviewed paper available that covers the model and all its relevant parts, including a discussion of model architecture, design, and limitations?
 
     - **Datasheets**:
- Are datasheets available for all training data used in all models and fine-tuning steps  (green), only for some data (yellow), or not at all (red)?
+ Are datasheets and model cards available that provide documentation on data collection and curation and on model architecture, training, fine-tuning, and evaluation? Do these cover all or most aspects (green), only some (orange), or are they not available at all (red)?
 
 - Access methods
 
     - **Package**:
- A software package has been publically indexed (e.g. Python Package Index, Homebrew) (green)? Is the package shared via a hosting service (e.g. Github) (yellow)?
+Is there a packaged release of the software/code (e.g. Python Package Index, Homebrew) (green)? Is the code shared but not as a versioned package (orange)?
 
     - **API**:
- Is an open API available that provides unrestricted access to the text generator (other than security and CDN restrictions) (green)? Is API access limited or monetized in any way (yellow)?
+ Is an open API available that provides unrestricted access to the text generator (other than security and CDN restrictions) (green)? Is API access limited or monetized in any way (orange)?
 
 
 ## Contribute
