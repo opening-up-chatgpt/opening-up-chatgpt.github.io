@@ -61,44 +61,44 @@ Append the new project at the end of file
     -  Open code
 Is the code of the project openly available for inspection? (green)
 
-#### LLM training data:
+    - LLM training data:
  Is the training data of the base large language model (LLM) fully open for inspection (green)? We find that text generators often build on existing base LLMs and often inherit access and documentations restrictions from these models (yellow). % but actually there are no yellow cells in Fig 1 in this column
 
-#### LLM model weights:
+    - LLM model weights:
  Is the fully trained base model made openly available including model weights (green)?
 
-#### RLHF training data:
+    - RLHF training data:
  Is the dataset for the reinforcement-learning from human feedback (RLHF) component fully available for inspection? (green)
 
-#### RLHF model weights:
+    - RLHF model weights:
  Is the model including RLHF component fully available for inspection (green)?
 
-#### License:
+    -  License:
  Is the software fully covered by any Open Source Initiatve (OSI)-approved license (green)? Does the license only cover part of the software or model or are additional usage restrictions in place (yellow)?
 
-### Documentation
+- Documentation
 
-#### Code:
+   - Code:
  Does the software come with professional and comprehensive documentation (green)? Are only parts of the software documented, e.g. API access or higher-order functions (yellow)?
 
-#### Architecture:
+    - Architecture:
  Is the neural network architecture (base model and fine-tuning steps) fully documented (green)? Are only parts of the process documented? (yellow)?
 
-#### Preprint:
+    - Preprint:
  Are archived preprint(s) available that cover all parts of the software including base models, fine-tuning, and RLHF components?
 
-#### Paper:
+    - Paper:
  Is a peer-reviewed paper available that covers all parts of the software?
 
-#### Datasheets:
+    - Datasheets:
  Are datasheets available for all training data used in all models and fine-tuning steps  (green), only for some data (yellow), or not at all (red)?
 
-### Access methods
+- Access methods
 
-#### Package:
+    - Package:
  A software package has been publically indexed (e.g. Python Package Index, Homebrew) (green)? Is the package shared via a hosting service (e.g. Github) (yellow)?
 
-#### API:
+    - API:
  Is an open API available that provides unrestricted access to the text generator (other than security and CDN restrictions) (green)? Is API access limited or monetized in any way (yellow)?
 
 
