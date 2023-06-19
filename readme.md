@@ -10,7 +10,7 @@ Large language models that exhibit instruction-following behaviour represent one
 ## Contents
 
 - [Overview](#overview)
-- [Survey criteria](#survey-criteria)
+- [Criteria](#survey-criteria)
 - [List of Projects](#list-of-projects)
 
 ## The template
@@ -54,11 +54,11 @@ Append the new project at the end of file
 
 - [lucidrainsPaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)		
 
-## Categories
+## Criteria
 
-### Availability
+- Availability
 
-#### Open code
+    -  Open code
 Is the code of the project openly available for inspection? (green)
 
 #### LLM training data:
