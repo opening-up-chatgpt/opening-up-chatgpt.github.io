@@ -105,3 +105,9 @@ Is the code of the project openly available for inspection? (green)
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+
+<a href="https://github.com/liesenf/awesome-open-chatgpt/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=liesenf/awesome-open-chatgpt" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
