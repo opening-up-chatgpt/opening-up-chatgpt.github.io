@@ -77,7 +77,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
 
 **[bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)**
 
-    - Availability
+  - Availability
     
         -  Open code: https://github.com/bigscience-workshop/xmtf
     
@@ -110,6 +110,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
         - API: https://github.com/bigscience-workshop/xmtf
 
 **[LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)**
+
     - Availability
     
         -  Open code: https://github.com/LAION-AI/Open-Assistant
