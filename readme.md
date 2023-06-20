@@ -144,7 +144,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
         - API: https://github.com/bigscience-workshop/xmtf
 
     
-** [BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)	**	
+**[BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)**	
 
     - Availability
     
