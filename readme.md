@@ -79,35 +79,35 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
 
     - Availability
     
-        -  **Open code**: https://github.com/bigscience-workshop/xmtf
+        -  Open code: https://github.com/bigscience-workshop/xmtf
     
-        - **LLM training data**: https://github.com/bigscience-workshop/xmtf
+        - LLM training data: https://github.com/bigscience-workshop/xmtf
     
-        - **LLM model weights**: https://github.com/bigscience-workshop/xmtf
+        - LLM model weights: https://github.com/bigscience-workshop/xmtf
     
-        - **RLHF training data**: https://github.com/bigscience-workshop/xmtf
+        - RLHF training data: https://github.com/bigscience-workshop/xmtf
     
-        - **RLHF model weights**: https://github.com/bigscience-workshop/xmtf
+        - RLHF model weights: https://github.com/bigscience-workshop/xmtf
     
-        -  **License**: https://github.com/bigscience-workshop/xmtf
+        -  License: https://github.com/bigscience-workshop/xmtf
     
     - Documentation
     
-       - **Code**: https://github.com/bigscience-workshop/xmtf
+       - Code: https://github.com/bigscience-workshop/xmtf
     
-        - **Architecture**: https://github.com/bigscience-workshop/xmtf
+        - Architecture: https://github.com/bigscience-workshop/xmtf
     
-        - **Preprint**: https://github.com/bigscience-workshop/xmtf
+        - Preprint: https://github.com/bigscience-workshop/xmtf
     
-        - **Paper**: https://github.com/bigscience-workshop/xmtf
+        - Paper: https://github.com/bigscience-workshop/xmtf
     
-        - **Datasheets**: https://github.com/bigscience-workshop/xmtf
+        - Datasheets: https://github.com/bigscience-workshop/xmtf
     
     - Access methods
     
-        - **Package**: https://github.com/bigscience-workshop/xmtf
+        - Package: https://github.com/bigscience-workshop/xmtf
     
-        - **API**: https://github.com/bigscience-workshop/xmtf
+        - API: https://github.com/bigscience-workshop/xmtf
 
 - [LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
 
