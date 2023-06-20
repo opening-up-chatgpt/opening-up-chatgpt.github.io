@@ -89,7 +89,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - RLHF model weights: https://github.com/bigscience-workshop/xmtf
     
-        -  License: https://github.com/bigscience-workshop/xmtf
+        - License: https://github.com/bigscience-workshop/xmtf
     
     - Documentation
     
@@ -109,74 +109,73 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-- [LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)
-
-- Availability
-
-    -  **Open code**: https://github.com/LAION-AI/Open-Assistant
-
-    - **LLM training data**: https://github.com/LAION-AI/Open-Assistant
-
-    - **LLM model weights**: https://github.com/LAION-AI/Open-Assistant
-
-    - **RLHF training data**: https://github.com/LAION-AI/Open-Assistant
-
-    - **RLHF model weights**: https://github.com/LAION-AI/Open-Assistant
-
-    -  **License**: https://github.com/LAION-AI/Open-Assistant
-
-- Documentation
-
-   - **Code**: https://github.com/LAION-AI/Open-Assistant
-
-    - **Architecture**: https://github.com/LAION-AI/Open-Assistant
-
-    - **Preprint**: https://github.com/LAION-AI/Open-Assistant
-
-    - **Paper**: https://github.com/LAION-AI/Open-Assistant
-
-    - **Datasheets**: https://github.com/LAION-AI/Open-Assistant
-
-- Access methods
-
-    - **Package**: https://github.com/LAION-AI/Open-Assistant
-
-    - **API**: https://github.com/LAION-AI/Open-Assistant
+**[LAION-AI Open-Assistant](https://github.com/LAION-AI/Open-Assistant)**
+    - Availability
+    
+        -  Open code: https://github.com/LAION-AI/Open-Assistant
+    
+        - LLM training data: https://github.com/LAION-AI/Open-Assistant
+    
+        - LLM model weights: https://github.com/LAION-AI/Open-Assistant
+    
+        - RLHF training data: https://github.com/LAION-AI/Open-Assistant
+    
+        - RLHF model weights: https://github.com/LAION-AI/Open-Assistant
+    
+        - License: https://github.com/LAION-AI/Open-Assistant
+    
+    - Documentation
+    
+       - Code: https://github.com/bigscience-workshop/xmtf
+    
+        - Architecture: https://github.com/bigscience-workshop/xmtf
+    
+        - Preprint: https://github.com/bigscience-workshop/xmtf
+    
+        - Paper: https://github.com/bigscience-workshop/xmtf
+    
+        - Datasheets: https://github.com/bigscience-workshop/xmtf
+    
+    - Access methods
+    
+        - Package: https://github.com/bigscience-workshop/xmtf
+    
+        - API: https://github.com/bigscience-workshop/xmtf
 
     
-- [BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)		
+** [BELLE LianjiaTech](https://github.com/LianjiaTech/BELLE)	**	
 
-- Availability
-
-    -  **Open code**: https://github.com/LianjiaTech/BELLE
-
-    - **LLM training data**: https://github.com/LianjiaTech/BELLE
-
-    - **LLM model weights**: https://github.com/LianjiaTech/BELLE
-
-    - **RLHF training data**: https://github.com/LianjiaTech/BELLE
-
-    - **RLHF model weights**: https://github.com/LianjiaTech/BELLE
-
-    -  **License**: https://github.com/LianjiaTech/BELLE
-
-- Documentation
-
-   - **Code**: https://github.com/LianjiaTech/BELLE
-
-    - **Architecture**: https://github.com/LianjiaTech/BELLE
-
-    - **Preprint**: https://github.com/LianjiaTech/BELLE
-
-    - **Paper**: https://github.com/LianjiaTech/BELLE
-
-    - **Datasheets**: https://github.com/LianjiaTech/BELLE
-
-- Access methods
-
-    - **Package**: https://github.com/LianjiaTech/BELLE
-
-    - **API**: https://github.com/LianjiaTech/BELLE
+    - Availability
+    
+        -  Open code: https://github.com/LianjiaTech/BELLE
+    
+        - LLM training data: https://github.com/LianjiaTech/BELLE
+    
+        - LLM model weights: https://github.com/LianjiaTech/BELLE
+    
+        - RLHF training data: https://github.com/LianjiaTech/BELLE
+    
+        - RLHF model weights: https://github.com/LianjiaTech/BELLE
+    
+        - License: https://github.com/LianjiaTech/BELLE
+    
+    - Documentation
+    
+       - Code: https://github.com/LianjiaTech/BELLE
+    
+        - Architecture: https://github.com/LianjiaTech/BELLE
+    
+        - Preprint: https://github.com/LianjiaTech/BELLE
+    
+        - Paper: https://github.com/LianjiaTech/BELLE
+    
+        - Datasheets: https://github.com/LianjiaTech/BELLE
+    
+    - Access methods
+    
+        - Package: https://github.com/LianjiaTech/BELLE
+    
+        - API: https://github.com/LianjiaTech/BELLE
 
 
 - [BlinkDL CharRWKV](https://github.com/BlinkDL/ChatRWKV)
