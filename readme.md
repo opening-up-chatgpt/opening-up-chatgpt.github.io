@@ -75,7 +75,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
 
 ## List of Projects
 
-- [bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)
+**[bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)**
 
     - Availability
     
