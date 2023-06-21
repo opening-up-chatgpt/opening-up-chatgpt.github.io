@@ -1,3 +1,6 @@
+
+| Availability | Documentation | Access methods |
+|--------------|---------------|----------------|
 |project_name          |text-generation-webu                                        |
 |project_link          |https://github.com/Akegarasu/ChatGLM-webui                  |
 |project_notes         |NA                                                          |
