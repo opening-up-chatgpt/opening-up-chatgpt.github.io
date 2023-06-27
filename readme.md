@@ -223,42 +223,8 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
         - Package: https://github.com/bigscience-workshop/xmtf
     
         - API: https://github.com/bigscience-workshop/xmtf
-
-- [databrickslabs dolly](https://github.com/databrickslabs/dolly)
-
-    - Availability
-    
-        -  Open code: https://github.com/LAION-AI/Open-Assistant
-    
-        - LLM training data: https://github.com/LAION-AI/Open-Assistant
-    
-        - LLM model weights: https://github.com/LAION-AI/Open-Assistant
-    
-        - RLHF training data: https://github.com/LAION-AI/Open-Assistant
-    
-        - RLHF model weights: https://github.com/LAION-AI/Open-Assistant
-    
-        - License: https://github.com/LAION-AI/Open-Assistant
-    
-    - Documentation
-    
-       - Code: https://github.com/bigscience-workshop/xmtf
-    
-        - Architecture: https://github.com/bigscience-workshop/xmtf
-    
-        - Preprint: https://github.com/bigscience-workshop/xmtf
-    
-        - Paper: https://github.com/bigscience-workshop/xmtf
-    
-        - Datasheets: https://github.com/bigscience-workshop/xmtf
-    
-    - Access methods
-    
-        - Package: https://github.com/bigscience-workshop/xmtf
-    
-        - API: https://github.com/bigscience-workshop/xmtf
-
-- [togethercomputer OpenChatKit](https://github.com/togethercomputer/OpenChatKit)
+        
+**[databrickslabs dolly](https://github.com/databrickslabs/dolly)**
 
     - Availability
     
@@ -292,8 +258,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-
-- [Cerebras Cerebras-GPT](https://github.com/bigscience-workshop/xmtf)
+**[togethercomputer OpenChatKit](https://github.com/togethercomputer/OpenChatKit)**
 
     - Availability
     
@@ -328,7 +293,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
         - API: https://github.com/bigscience-workshop/xmtf
 
 
-- [Tatsu labs stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+**[Cerebras Cerebras-GPT](https://github.com/bigscience-workshop/xmtf)**
 
     - Availability
     
@@ -362,7 +327,8 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-- [carperai trlx](https://github.com/carperai/trlx)
+
+**[Tatsu labs stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)**
 
     - Availability
     
@@ -396,7 +362,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-- [ethanyanjiali minChatGPT](https://github.com/ethanyanjiali/minChatGPT)
+**[carperai trlx](https://github.com/carperai/trlx)**
 
     - Availability
     
@@ -430,7 +396,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-- [Facico Vicuna](https://github.com/Facico/Chinese-Vicuna)
+**[ethanyanjiali minChatGPT](https://github.com/ethanyanjiali/minChatGPT)**
 
     - Availability
     
@@ -464,7 +430,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-- [oobabooga text-generation-webu](https://github.com/Akegarasu/ChatGLM-webui)
+**[Facico Vicuna](https://github.com/Facico/Chinese-Vicuna)**
 
     - Availability
     
@@ -498,7 +464,41 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
     
         - API: https://github.com/bigscience-workshop/xmtf
 
-- [lucidrainsPaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)		
+**[oobabooga text-generation-webu](https://github.com/Akegarasu/ChatGLM-webui)**
+
+    - Availability
+    
+        -  Open code: https://github.com/LAION-AI/Open-Assistant
+    
+        - LLM training data: https://github.com/LAION-AI/Open-Assistant
+    
+        - LLM model weights: https://github.com/LAION-AI/Open-Assistant
+    
+        - RLHF training data: https://github.com/LAION-AI/Open-Assistant
+    
+        - RLHF model weights: https://github.com/LAION-AI/Open-Assistant
+    
+        - License: https://github.com/LAION-AI/Open-Assistant
+    
+    - Documentation
+    
+       - Code: https://github.com/bigscience-workshop/xmtf
+    
+        - Architecture: https://github.com/bigscience-workshop/xmtf
+    
+        - Preprint: https://github.com/bigscience-workshop/xmtf
+    
+        - Paper: https://github.com/bigscience-workshop/xmtf
+    
+        - Datasheets: https://github.com/bigscience-workshop/xmtf
+    
+    - Access methods
+    
+        - Package: https://github.com/bigscience-workshop/xmtf
+    
+        - API: https://github.com/bigscience-workshop/xmtf
+
+**[lucidrainsPaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)**		
 
     - Availability
     
