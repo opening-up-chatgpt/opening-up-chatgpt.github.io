@@ -190,7 +190,7 @@ Is there a packaged release of the software/code (e.g. Python Package Index, Hom
         - API: https://github.com/LianjiaTech/BELLE
 
 
-- [BlinkDL CharRWKV](https://github.com/BlinkDL/ChatRWKV)
+**[BlinkDL CharRWKV](https://github.com/BlinkDL/ChatRWKV)**
 
     - Availability
     
