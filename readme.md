@@ -13,9 +13,9 @@ Large language models that exhibit instruction-following behaviour represent one
 - [Criteria](#survey-criteria)
 - [List of Projects](#list-of-projects)
 
-## The template
+## How to edit the awesome list and live table
 
-Append the new project at the end of file
+Template to add a project to the [List of Projects](#list-of-projects) section:
 
 ```markdown
 
@@ -25,6 +25,17 @@ Append the new project at the end of file
 
 2. edit projects/newproject.md template
 ```
+
+How to add a project to the live table:
+
+```markdown
+
+1. Copy and edit the /project/newproject.csv file in a pull request. 
+
+## [{owner}/{project-name}]{https://github.com/link/to/project}
+
+```
+
 
 ## Criteria
 
