@@ -7,7 +7,7 @@ all_files = glob.glob(path + "/*.csv")
 html_table = '<table>\n'
 html_table += '<thead>\n'
 html_table += '<tr><th class="main-header">Project</th><th colspan="6" class="main-header">Availability</th></tr>\n'
-html_table += '<tr><th class="row-b">(maker, bases, URL)</th><th class="second-header">Open code</th><th class="second-header">LLM data</th><th class="second-header">LLM weights</th><th class="second-header">RLHF data</th><th class="second-header">RLHF weights</th><th class="second-header">License</th></tr>\n'
+html_table += '<tr><th class="second-header">(maker, bases, URL)</th><th class="second-header">Open code</th><th class="second-header">LLM data</th><th class="second-header">LLM weights</th><th class="second-header">RLHF data</th><th class="second-header">RLHF weights</th><th class="second-header">License</th></tr>\n'
 html_table += '</thead>\n'
 html_table += '<tbody>\n'
 
