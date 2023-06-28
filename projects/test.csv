@@ -1,7 +1,7 @@
 var_name,var_value
 project_name,"Test New Project"
 project_link,"https://crfm.stanford.edu/2023/03/13/alpaca.html"
-project_notes,""
+project_notes,"Testing teting"
 project_llmbase,"LLaMA"
 project_rlbase,"Self-Instruct"
 project_license,"LLaMA license agreement"
