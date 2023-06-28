@@ -1,0 +1,43 @@
+name: Concatenate Files
+
+on:
+  push:
+    paths:
+      - 'projects/**'
+
+jobs:
+  create-table:
+    runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Create table
+        uses: ./custom-action
+
+      # commit changed html files
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+    
+  # Trigger deployment workflow on completion of the build workflow
+  deploy:
+    needs: create-table
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+      - name: Trigger Deployment
+        uses: actions/github-script@v6
+        with:
+          script:  |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'static.yml',
+              ref: 'main',
+            })
