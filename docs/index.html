@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Opening up ChatGPT: tracking openness, transparency, and accountability in instruction-tuned text generators</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Opening up ChatGPT</h1>
+  <h2>Tracking openness, transparency, and accountability in instruction-tuned text generators</h2>
 
+  <p>Check out <a href="https://doi.org/10.1145/3571884.3604316">the paper</a> | Contribute to <a href="">the repo</a></p>
+
+  <div id="included-table"></div>
+
+  <script>
+    // Function to include an HTML file
+    function includeHTML(url, targetElementId) {
+      fetch(url)
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById(targetElementId).innerHTML = data;
+        });
+    }
+
+    includeHTML('table.html', 'included-table');
+  </script>
+
+  <p>Notes for contributors go here.</p>
+</body>
+</html>

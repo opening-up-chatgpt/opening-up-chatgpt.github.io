@@ -1,0 +1,72 @@
+body {
+	max-width:800px;
+	margin: auto;
+	font-family:Arial, sans-serif;
+}
+
+/* main table features */
+
+table tr td > * {
+	vertical-align:middle;
+}
+
+tbody tr td {
+	padding:0;
+}
+tbody tr td.row-a {
+	border-top:10px solid #ffffff;
+}
+tbody tr td.row-b {
+	border-bottom:10px solid #ffffff;
+}
+
+tr td.row-b {
+	padding-bottom:5px;
+}
+tr td.row-a {
+	padding-top:5px;
+}
+th {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  text-align:left
+}
+
+/* data cells */
+table .data-cell {
+	text-align:center;
+}
+table td.closed {
+	background-color:#ca6014;
+}
+table td.open {
+	background-color:#3e9b74;
+}
+table td.partial {
+	background-color:#dd9f1c;
+}
+
+td.data-cell a {
+	display:block;
+	padding:0 0 6px 0;
+}
+
+/* links */
+td a:link, td a:visited, td a:active {
+	text-decoration:none;
+	color:#000;
+}
+td.data-cell a:link, td.data-cell a:visited, td.data-cell a:active {
+	color:#fff;
+}
+td.data-cell a:hover {
+	font-weight:bold;
+}
+
+/* secondary rows should be less prominent */
+tr .row-b {
+	color:#cccccc;
+}
+tr .row-b a:link, tr .row-b a:visited, tr .row-b a:active {
+	color:#cccccc;
+}
