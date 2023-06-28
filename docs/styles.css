@@ -4,6 +4,14 @@ body {
 	font-family:Arial, sans-serif;
 }
 
+/* typography */
+p { line-height:1.4em; }
+
+.colour-open { color:#3e9b74; }
+.colour-partial { color:#dd9f1c; }
+.colour-closed { color:#ca6014; }
+
+
 /* main table features */
 
 table tr td > * {
@@ -64,7 +72,7 @@ td.data-cell a:hover {
 }
 
 /* secondary rows should be less prominent */
-tr.row-b > * {
+tr.row-b {
 	color:#cccccc;
 }
 tr.row-b a:link, tr.row-b a:visited, tr.row-b a:active {
