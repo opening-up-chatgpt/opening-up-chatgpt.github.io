@@ -45,5 +45,5 @@ for i, fname in enumerate(all_files):
 html_table += '</tbody>\n'
 html_table += '</table>\n'
 
-with open("./main/docs/table.html", 'w') as file:
+with open("./docs/table.html", 'w') as file:
     file.write(html_table)
