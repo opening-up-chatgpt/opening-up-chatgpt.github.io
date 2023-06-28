@@ -1,5 +1,5 @@
 body {
-	max-width:800px;
+	max-width:1200px;
 	margin: auto;
 	font-family:Arial, sans-serif;
 }
@@ -13,9 +13,28 @@ p { line-height:1.4em; }
 
 
 /* main table features */
-
+table {
+	table-layout:fixed;
+}
+table tr th:nth-of-type(n+1) {
+	width:70px;
+}
+table tr th.first-column {
+	width:120px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+tbody td.name-cell, tbody td.org {
+	display:block;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
 table tr td > * {
 	vertical-align:middle;
+}
+thead tr.second-header th {
+	font-weight:normal;
+	font-size:0.8em;
 }
 
 tbody tr td {
@@ -44,15 +63,10 @@ th {
 table .data-cell {
 	text-align:center;
 }
-table td.closed {
-	background-color:#ca6014;
-}
-table td.open {
-	background-color:#3e9b74;
-}
-table td.partial {
-	background-color:#dd9f1c;
-}
+table td.data-cell { background-color:#f7f7f7;}
+table td.data-cell.closed { background-color:#ca6014;}
+table td.data-cell.open {	background-color:#3e9b74;}
+table td.data-cell.partial { background-color:#dd9f1c;-}
 
 td.data-cell a {
 	display:block;
@@ -74,6 +88,7 @@ td.data-cell a:hover {
 /* secondary rows should be less prominent */
 tr.row-b {
 	color:#cccccc;
+	font-size:0.8em;
 }
 tr.row-b a:link, tr.row-b a:visited, tr.row-b a:active {
 	color:#cccccc;
