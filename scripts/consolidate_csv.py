@@ -6,8 +6,8 @@ all_files = glob.glob(path + "/*.csv")
 
 html_table = '<table>\n'
 html_table += '<thead>\n'
-html_table += '<tr><th class="main-header">Project</th><th colspan="6" class="main-header">Availability</th></tr>\n'
-html_table += '<tr><th class="second-header">(maker, bases, URL)</th><th class="second-header">Open code</th><th class="second-header">LLM data</th><th class="second-header">LLM weights</th><th class="second-header">RLHF data</th><th class="second-header">RLHF weights</th><th class="second-header">License</th></tr>\n'
+html_table += '<tr class="main-header"><th>Project</th><th colspan="6">Availability</th><th colspan="6">Documentation</th><th colspan="2">Access</th></tr>\n'
+html_table += '<tr class="second-header"><th>(maker, bases, URL)</th><th>Open code</th><th>LLM data</th><th>LLM weights</th><th>RLHF data</th><th>RLHF weights</th><th>License</th><th>Code</th><th>Architecture</th><th>Preprint</th><th>Paper</th><th>Modelcard</th><th>Datasheet</th><th>Package</th><th>API</th></tr>\n'
 html_table += '</thead>\n'
 html_table += '<tbody>\n'
 
@@ -24,7 +24,7 @@ for i, fname in enumerate(all_files):
     # also add classes to the <td> elements for colour coding and links to source of the class judgement: https://github.com/liesenf/awesome-open-chatgpt/issues/12
     # get column indices
     ci = {name: index for index, name in enumerate(transposed[0])}
-    cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license"]
+    cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license","code","architecture","preprint","paper","modelcard","datasheet","package","api"]
     #attributes = ["_class", "_link", "_notes"]
     for row in transposed[1:]:
         # first row
