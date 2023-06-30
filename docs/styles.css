@@ -8,7 +8,7 @@ body {
 img#title-logo { 
 	display:inline-block;
 	padding-right:8px;
-	margin-bottoM:-3px;
+	margin-bottom:-3px;
 
 }
 
@@ -26,13 +26,16 @@ p {
 .colour-partial { color:#dd9f1c; }
 .colour-closed { color:#ca6014; }
 
-
+/* make table vertically scrollable on smaller screens */
 @media (max-width:1200px) {
-	#included-table {
+	div#included-table {
 		display:block;
 		overflow-x:auto;
 		white-space:nowrap;
 	}
+}
+div#included-table {
+	margin:0 15px 0 0;
 }
 
 /* main table features */
@@ -50,17 +53,26 @@ thead tr.main-header th {
 thead tr.second-header th {
 	font-weight:normal;
 	font-size:0.8em;
-	width:100px;
+	width:65px;
+	min-width:65px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space:nowrap;
 }
 
 
-/* custom width for first column */
+/* custom width for some columns */
 table tr th.first-column {
 	display:block;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+table tr td.llmbase, table tr td.rlbase {
+	max-width:240px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+
 }
 
 /* ensure that rows are the same height */
