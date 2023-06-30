@@ -120,13 +120,21 @@ How to add a project to the live table:
     
     🟩 Peer-reviewed paper(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
 
-**Datasheets**
+**Model card**
+
+    🟥 Model card(s) not available.
+    
+    🟧 Model card(s) that provide partial insight on model architecture, training, fine-tuning, and evaluation are available.
+    
+    🟩 Model card(s) are available that provide comprehensive insight on model architecture, training, fine-tuning, and evaluation are available.
+
+**Datasheet**
 
     🟥 Datasheet(s) are not available.
     
-    🟧 Datasheet(s) that provide partial insight on data collection and curation and on model architecture, training, fine-tuning, and evaluation are available.
+    🟧 Datasheet(s) that provide partial insight on data collection and curation are available.
     
-    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation and on model architecture, training, fine-tuning, and evaluation are available.
+    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available.
 
 
 ### **Access methods**
