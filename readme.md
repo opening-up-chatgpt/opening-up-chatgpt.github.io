@@ -151,6 +151,8 @@ How to add a project to the live table:
 
 ## List of Projects
 
+Overview of available open text generators with links to evidence of all above evaluation criteria.
+
 **[bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)**
 
      - Availability
