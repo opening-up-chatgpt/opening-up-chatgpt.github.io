@@ -86,7 +86,7 @@ How to add a project to the live table:
     
     🟩 The project is fully covered by a true Open Source Initiative (OSI)-approved license.
        
-**Documentation**
+### **Documentation**
 
 **Code**
  
@@ -129,7 +129,7 @@ How to add a project to the live table:
     🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation and on model architecture, training, fine-tuning, and evaluation are available.
 
 
-**Access methods**
+### **Access methods**
 
 **Package**
 
