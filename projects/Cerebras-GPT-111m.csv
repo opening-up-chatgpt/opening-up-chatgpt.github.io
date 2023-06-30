@@ -5,7 +5,7 @@ project_notes;
 project_llmbase;
 project_rlbase;Alpaca (synthetic)
 project_license;Apache 2.0
-org_name;Cerebras, Schramm
+org_name;Cerebras + Schramm
 org_link;https://github.com/Cerebras
 org_notes;
 opencode_class;open
