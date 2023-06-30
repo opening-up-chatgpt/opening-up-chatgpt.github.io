@@ -38,7 +38,7 @@ for i, fname in enumerate(all_files):
         r1_html += "</tr>\n"
         html_table += r1_html
         # second row
-        r2_html = '<tr class="row-b"><td><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["org_link"]], row[ci["org_notes"]], row[ci["org_name"]])
+        r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["org_link"]], row[ci["org_notes"]], row[ci["org_name"]])
         r2_html += '<td colspan="3" class="row-b">LLM base: {}</td><td colspan="3" class="row-b">RLHF base: {}</td></tr>\n'.format(row[ci["project_llmbase"]], row[ci["project_rlbase"]])
         html_table += r2_html
 
