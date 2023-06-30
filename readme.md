@@ -46,45 +46,108 @@ How to add a project to the live table:
         
         🟩 Project source code openly available and fully open available for inspection.
 
-    - **LLM training data**:
- Is the training data of the base large language model (LLM) fully open for inspection (green)? We find that text generators often build on existing base LLMs and often inherit access and documentations restrictions from these models (orange).
+    - **LLM training data**
+      
+        🟥 Training data of base large language models (LLM) is not open for inspectionn.
+        
+        🟧 Some of the training data of the large language models (LLM) is open for inspection.
+        
+        🟩 The training data of all large language models (LLM) is fully open for inspection.
 
-    - **LLM model weights**:
- Is the fully trained base model made openly available including model weights (green)?
+    - **LLM model weights**
+ 
+        🟥 LLM weights are not shared and model training procedure is not open for inspection.
+        
+        🟧 LLM weights are not fully shared or model training procedure is not fully open for inspection.
+        
+        🟩 LLM weights are shared and model training procedure is fully open for inspection.
 
     - **RLHF training data**:
- Is the dataset for the reinforcement-learning from human feedback (RLHF) component fully available for inspection? (green)
+ 
+        🟥 Training data of the reinforcement-learning from human feedback (RLHF) component is not open for inspectionn.
+        
+        🟧 Some of the training data of the reinforcement-learning from human feedback (RLHF) component is open for inspection.
+        
+        🟩 The training data of for the reinforcement-learning from human feedback (RLHF) component is fully open for inspection.
 
     - **RLHF model weights**:
- Is the model including RLHF component fully available for inspection (green)?
+
+        🟥 RLHF component weights are not shared and model training procedure is not open for inspection.
+        
+        🟧 RLHF component weights are not fully shared or model training procedure is not fully open for inspection.
+        
+        🟩 RLHF component weights are shared and model training procedure is fully open for inspection.
 
     -  **License**:
- Is the project fully covered by any Open Source Initiative (OSI)-approved license (green)? Does the license only cover part of the project or are additional usage restrictions in place (orange)?
 
+        🟥 The project is not licensed clearly or does not use a true Open Source Initiative (OSI)-approved license.
+        
+        🟧 Only parts of the project or components are fully covered by a true Open Source Initiative (OSI)-approved license.
+        
+        🟩 The project is fully covered by a true Open Source Initiative (OSI)-approved license.
+       
 - Documentation
 
-   - **Code**:
- Does the project come with professional and comprehensive documentation (green)? Are only parts of the software documented, e.g. API access or higher-order functions (orange)?
+   - **Code**
+     
+        🟥 Code documentation not available.
+        
+        🟧 Some components of the project features code documentation.
+        
+        🟩 All components of the project features a comprehensive code documentation.
 
-    - **Architecture**:
- Is the neural network architecture (base model and fine-tuning steps) fully documented (green)? Are only parts of the process documented? (orange)?
+    - **Architecture**
 
-    - **Preprint**:
- Are archived preprint(s) available that cover all parts of the software including base models, fine-tuning, and RLHF components?
+        🟥 System architecture and model training setup are not documented.
+        
+        🟧 System architecture and model training setup is partially documented.
+        
+        🟩 System architecture and model training setup is fully documented.
 
-    - **Paper**:
- Is a peer-reviewed paper available that covers the model and all its relevant parts, including a discussion of model architecture, design, and limitations?
+    - **Preprint**
 
-    - **Datasheets**:
- Are datasheets and model cards available that provide documentation on data collection and curation and on model architecture, training, fine-tuning, and evaluation? Do these cover all or most aspects (green), only some (orange), or are they not available at all (red)?
+        🟥 No archived preprint(s) available.
+        
+        🟧 Archived preprint(s) that detail parts of the software including base models, fine-tuning, or RLHF components are available.
+        
+        🟩 Archived preprint(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
+
+    - **Paper**
+
+        🟥 No peer-reviewed paper(s) available.
+        
+        🟧 Peer-reviewed paper(s) detail parts of the software including base models, fine-tuning, or RLHF components.
+        
+        🟩 Peer-reviewed paper(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
+ 
+    - **Datasheets**
+
+        🟥 Datasheet(s) are not available.
+        
+        🟧 Datasheet(s) that provide partial insight on data collection and curation and on model architecture, training, fine-tuning, and evaluation are available.
+        
+        🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation and on model architecture, training, fine-tuning, and evaluation are available.
+ 
 
 - Access methods
 
-    - **Package**:
-Is there a packaged release of the software/code (e.g. Python Package Index, Homebrew) (green)? Is the code shared but not as a versioned package (orange)?
+    - **Package**
 
-    - **API**:
- Is an open API available that provides unrestricted access to the text generator (other than security and CDN restrictions) (green)? Is API access limited or monetized in any way (orange)?
+        🟥 No index software package is available.
+        
+        🟧 User-oriented code or web-interface is available but not as a versioned package.
+        
+        🟩 A packaged release of fully open-source software (e.g. a Python Package Index, Homebrew) is available.
+
+
+    - **API**
+    
+        🟥 No API access.
+        
+        🟧 Commerial or restircted-access user API is available.
+        
+        🟩 An open API available that provides unrestricted access to the text generator (other than security and CDN restrictions).
+ 
 
 ## List of Projects
 
