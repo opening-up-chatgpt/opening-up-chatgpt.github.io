@@ -36,7 +36,7 @@ How to add a project to the live table:
 
 ## Criteria
 
-**Availability**
+### **Availability**
 
  **Source code**
 
