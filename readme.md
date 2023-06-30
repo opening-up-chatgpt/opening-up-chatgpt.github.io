@@ -39,6 +39,7 @@ How to add a project to the live table:
 - Availability
 
     -  **Source code**
+  
 🟥 Project is closed source code.
 
 🟧 Some source code is open.
