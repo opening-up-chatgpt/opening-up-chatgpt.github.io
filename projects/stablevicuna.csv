@@ -1,7 +1,7 @@
 var_name,var_value
 project_name,"StableVicuna-13B"
 project_link,"https://huggingface.co/CarperAI/stable-vicuna-13b-delta"
-project_notes,""StableVicuna-13B is a Vicuna-13B v0 model fine-tuned using reinforcement learning from human feedback (RLHF) via Proximal Policy Optimization (PPO) on various conversational and instructional datasets""
+project_notes,"StableVicuna-13B is a Vicuna-13B v0 model fine-tuned using reinforcement learning from human feedback (RLHF) via Proximal Policy Optimization (PPO) on various conversational and instructional datasets"
 project_llmbase,"LLaMA"
 project_rlbase,"OASST1 (human), GPT4All (human), Alpaca (synthetic)"
 project_license,""
