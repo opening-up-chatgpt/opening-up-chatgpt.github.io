@@ -33,7 +33,7 @@ for i, fname in enumerate(all_files):
             cl = row[ci[c + "_class"]]
             link = row[ci[c + "_link"]]
             notes = row[ci[c + "_notes"]]
-            symbol = "&#10004;" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else ""
+            symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else ""
             r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
         r1_html += "</tr>\n"
         html_table += r1_html
