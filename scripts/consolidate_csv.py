@@ -28,17 +28,17 @@ for i, fname in enumerate(all_files):
     #attributes = ["_class", "_link", "_notes"]
     for row in transposed[1:]:
         # first row
-        r1_html = '<tr class="row-a"><td class="name-cell"><a href="{}" title="{}">{}</a></td>'.format(row[ci["project_link"]], row[ci["project_notes"]], row[ci["project_name"]])
+        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["project_link"]], row[ci["project_notes"]], row[ci["project_name"]])
         for c in cells:
             cl = row[ci[c + "_class"]]
             link = row[ci[c + "_link"]]
             notes = row[ci[c + "_notes"]]
             symbol = "&#10004;" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else ""
-            r1_html += '<td class="{} data-cell"><a href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
+            r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
         r1_html += "</tr>\n"
         html_table += r1_html
         # second row
-        r2_html = '<tr class="row-b"><td><a href="{}" title="{}">{}</a></td>'.format(row[ci["org_link"]], row[ci["org_notes"]], row[ci["org_name"]])
+        r2_html = '<tr class="row-b"><td><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["org_link"]], row[ci["org_notes"]], row[ci["org_name"]])
         r2_html += '<td colspan="3" class="row-b">LLM base: {}</td><td colspan="3" class="row-b">RLHF base: {}</td></tr>\n'.format(row[ci["project_llmbase"]], row[ci["project_rlbase"]])
         html_table += r2_html
 
