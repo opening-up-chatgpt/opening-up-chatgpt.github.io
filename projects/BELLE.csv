@@ -16,7 +16,7 @@ llmdata_link,
 llmdata_notes,
 llmweights_class,partial
 llmweights_link,
-llmweights_notes,LLaMA based, copyright status unclear
+llmweights_notes,LLaMA based but copyright status unclear
 rldata_class,partial
 rldata_link,
 rldata_notes,
