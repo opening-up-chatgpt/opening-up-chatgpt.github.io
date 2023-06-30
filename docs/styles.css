@@ -2,56 +2,94 @@ body {
 	max-width:1200px;
 	margin: auto;
 	font-family:Arial, sans-serif;
+	padding:0 1em 0 1em;
+}
+/* graphical elements */
+img#title-logo { 
+	display:inline-block;
+	padding-right:8px;
+	margin-bottoM:-3px;
+
 }
 
+
 /* typography */
-p { line-height:1.4em; }
+
+/* responsive font sizes */
+
+
+p { 
+	line-height:1.4em; 
+}
 
 .colour-open { color:#3e9b74; }
 .colour-partial { color:#dd9f1c; }
 .colour-closed { color:#ca6014; }
 
 
+@media (max-width:1200px) {
+	#included-table {
+		display:block;
+		overflow-x:auto;
+		white-space:nowrap;
+	}
+}
+
 /* main table features */
 table {
+	display:table;
 	table-layout:fixed;
+	font-size:1em;
 }
-table tr th:nth-of-type(n+1) {
-	width:70px;
+
+/* default column width*/
+thead tr.main-header th {
+	width:100px;
 }
-table tr th.first-column {
-	width:120px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-tbody td.name-cell, tbody td.org {
-	display:block;
-	overflow:hidden;
-	text-overflow:ellipsis;
-}
-table tr td > * {
-	vertical-align:middle;
-}
+
 thead tr.second-header th {
 	font-weight:normal;
 	font-size:0.8em;
+	width:100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/* custom width for first column */
+table tr th.first-column {
+	display:block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* ensure that rows are the same height */
+tbody td.name-cell, tbody td.org {
+	display:block;
+	width:160px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+table tr td > * {
+	vertical-align:middle;
 }
 
 tbody tr td {
 	padding:0;
 }
 tbody tr.row-a td {
-	border-top:10px solid #ffffff;
+	border-top:4px solid #ffffff;
 }
 tbody tr.row-b td {
-	border-bottom:10px solid #ffffff;
+	border-bottom:4px solid #ffffff;
 }
 
 tr.row-b td {
-	padding-bottom:5px;
+	padding-bottom:1px;
 }
 tr.row-a td {
-	padding-top:5px;
+	padding-top:1px;
 }
 th {
   border-bottom: 1px solid black;
