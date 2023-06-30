@@ -1,7 +1,6 @@
 # Opening up ChatGPT: a curated list to track openness, transparency, and accountability in instruction-following text generators ![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Some Title](./opening-up-chatgpt-logo-green.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
-
+![Some Title](./opening-up-chatgpt-logo-green.png)
 
 # ⚡ [view live table](https://liesenf.github.io/opening-up-chatgpt/) 
 
