@@ -38,7 +38,7 @@ How to add a project to the live table:
 
 **Availability**
 
--  **Source code**
+ **Source code**
 
     🟥 Project is closed source code.
     
@@ -46,7 +46,7 @@ How to add a project to the live table:
     
     🟩 Project source code openly available and fully open available for inspection.
 
-- **LLM training data**
+**LLM training data**
   
     🟥 Training data of base large language models (LLM) is not open for inspectionn.
     
@@ -54,7 +54,7 @@ How to add a project to the live table:
     
     🟩 The training data of all large language models (LLM) is fully open for inspection.
 
-- **LLM model weights**
+**LLM model weights**
 
     🟥 LLM weights are not shared and model training procedure is not open for inspection.
     
@@ -62,7 +62,7 @@ How to add a project to the live table:
     
     🟩 LLM weights are shared and model training procedure is fully open for inspection.
 
-- **RLHF training data**:
+**RLHF training data**:
 
     🟥 Training data of the reinforcement-learning from human feedback (RLHF) component is not open for inspectionn.
     
@@ -70,7 +70,7 @@ How to add a project to the live table:
     
     🟩 The training data of for the reinforcement-learning from human feedback (RLHF) component is fully open for inspection.
 
-- **RLHF model weights**:
+**RLHF model weights**:
 
     🟥 RLHF component weights are not shared and model training procedure is not open for inspection.
     
@@ -78,7 +78,7 @@ How to add a project to the live table:
     
     🟩 RLHF component weights are shared and model training procedure is fully open for inspection.
 
--  **License**:
+**License**:
 
     🟥 The project is not licensed clearly or does not use a true Open Source Initiative (OSI)-approved license.
     
@@ -88,7 +88,7 @@ How to add a project to the live table:
        
 **Documentation**
 
-- **Code**
+**Code**
  
     🟥 Code documentation not available.
     
@@ -96,7 +96,7 @@ How to add a project to the live table:
     
     🟩 All components of the project features a comprehensive code documentation.
 
-- **Architecture**
+**Architecture**
 
     🟥 System architecture and model training setup are not documented.
     
@@ -104,7 +104,7 @@ How to add a project to the live table:
     
     🟩 System architecture and model training setup is fully documented.
 
-- **Preprint**
+**Preprint**
 
     🟥 No archived preprint(s) available.
     
@@ -112,7 +112,7 @@ How to add a project to the live table:
     
     🟩 Archived preprint(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
 
-- **Paper**
+**Paper**
 
     🟥 No peer-reviewed paper(s) available.
     
@@ -120,7 +120,7 @@ How to add a project to the live table:
     
     🟩 Peer-reviewed paper(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
 
-- **Datasheets**
+**Datasheets**
 
     🟥 Datasheet(s) are not available.
     
@@ -131,7 +131,7 @@ How to add a project to the live table:
 
 **Access methods**
 
-- **Package**
+**Package**
 
     🟥 No index software package is available.
     
@@ -140,7 +140,7 @@ How to add a project to the live table:
     🟩 A packaged release of fully open-source software (e.g. a Python Package Index, Homebrew) is available.
 
 
-- **API**
+**API**
 
     🟥 No API access.
     
