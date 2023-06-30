@@ -40,11 +40,11 @@ How to add a project to the live table:
 
     -  **Source code**
   
-🟥 Project is closed source code.
-
-🟧 Some source code is open.
-
-🟩 Project source code openly available and fully open available for inspection.
+        🟥 Project is closed source code.
+        
+        🟧 Some source code is open.
+        
+        🟩 Project source code openly available and fully open available for inspection.
 
     - **LLM training data**:
  Is the training data of the base large language model (LLM) fully open for inspection (green)? We find that text generators often build on existing base LLMs and often inherit access and documentations restrictions from these models (orange).
