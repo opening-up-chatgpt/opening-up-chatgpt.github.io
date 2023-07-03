@@ -18,10 +18,47 @@ def create_dataframe(files):
         # get column names
         if i == 0:
             column_names = transposed[0]
+        # append transposed row to list of tuples
         lrows.append(tuple(transposed[1]))
 
     df = pd.DataFrame(lrows, columns = column_names)
     df.set_index("project_name", inplace = True)
+    return df
+
+
+def calculate_openness(df):
+    openness_weights = {
+        "opencode": 1, 
+        "llmdata": 1, 
+        "llmweights": 1, 
+        "rldata": 1, 
+        "rlweights": 1, 
+        "license": 1, 
+        "code": 1, 
+        "architecture": 1, 
+        "preprint": 1, 
+        "paper": 1, 
+        "modelcard": 1, 
+        "datasheet": 1, 
+        "package": 1, 
+        "api": 1
+    }
+    class_values = {
+        "open": 1,
+        "partial": 0.5,
+        "closed": 0,
+    }
+    openness = []
+    projects = df.index.tolist()
+    for p in projects:
+        cumul_openness = 0
+        for v, w in openness_weights.items():
+            vclass = df.loc[p, v + "_class"]
+            vvalue = class_values[vclass] if vclass in class_values else 0
+            cumul_openness += w * vvalue
+        openness.append(cumul_openness)
+    # add the openness variable to the DataFrame
+    df["openness"] = openness
     return df
 
 
@@ -49,7 +86,7 @@ def write_html(df):
             cl = df.loc[p, c + "_class"]
             link = df.loc[p, c + "_link"]
             notes = df.loc[p, c + "_notes"]
-            symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else ""
+            symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else "?"
             r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
         r1_html += "</tr>\n"
         html_table += r1_html
@@ -69,5 +106,8 @@ def write_html(df):
 path = r'./projects' 
 all_files = glob.glob(path + "/*.csv")
 
-df = create_dataframe(all_files)
+df = create_dataframe()
+df = calculate_openness(df)
+# sort by openness
+df.sort_values(by="openness", ascending=False)
 write_html(df)
