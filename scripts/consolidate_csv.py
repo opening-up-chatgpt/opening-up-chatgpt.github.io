@@ -44,7 +44,7 @@ def write_html(df):
         #attributes = ["_class", "_link", "_notes"]
 
         # first row
-        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project_link"], df.loc[p, "project_notes"], df.loc[p, "project_name"])
+        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project_link"], df.loc[p, "project_notes"], p)
         for c in cells:
             cl = df.loc[p, c + "_class"]
             link = df.loc[p, c + "_link"]
