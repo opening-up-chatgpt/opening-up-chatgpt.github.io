@@ -1,9 +1,29 @@
 body {
+	font-family:Arial, sans-serif;
+}
+#header, #content {
 	max-width:1200px;
 	margin: auto;
-	font-family:Arial, sans-serif;
 	padding:0 1em 0 1em;
 }
+#footer > * {
+	max-width:1200px;
+	margin: auto;
+	padding:0 1em 0 1em;
+	color:#696969;
+}
+
+#footer a:link, #footer a:visited {
+	color:#696969;
+}
+
+#footer {
+	padding:3em 1em 3em 1em;
+	background-color:#f7f7f7;
+	font-size:0.8em;
+}
+
+
 div#included-table {
 	margin:0 10px 0 0;
 }
@@ -14,8 +34,9 @@ img#title-logo {
 	display:inline-block;
 	padding-right:8px;
 	margin-bottom:-3px;
-
 }
+
+
 
 
 /* typography */
