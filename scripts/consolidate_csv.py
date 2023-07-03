@@ -69,13 +69,9 @@ def write_html(df):
     # loop through projects
     projects = df.index.tolist()
     for p in projects:
-        # add data by looping through each line and adding 2 rows to the html table for every row of the csv.
+        # add data by looping through each row and converting it 2 rows for the html table.
         # also add classes to the <td> elements for colour coding and links to source of the class judgement: https://github.com/liesenf/awesome-open-chatgpt/issues/12
-        # get column indices
-        # ci = {name: index for index, name in enumerate(transposed[0])}
         cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license", "code", "architecture", "preprint", "paper", "modelcard", "datasheet", "package", "api"]
-        # row = transposed[1]
-        #attributes = ["_class", "_link", "_notes"]
         # first row
         r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project_link"], df.loc[p, "project_notes"], p)
         for c in cells:
