@@ -106,7 +106,7 @@ def write_html(df):
 path = r'./projects' 
 all_files = glob.glob(path + "/*.csv")
 
-df = create_dataframe()
+df = create_dataframe(all_files)
 df = calculate_openness(df)
 # sort by openness
 df.sort_values(by="openness", ascending=False)
