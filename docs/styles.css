@@ -4,6 +4,11 @@ body {
 	font-family:Arial, sans-serif;
 	padding:0 1em 0 1em;
 }
+div#included-table {
+	margin:0 10px 0 0;
+}
+
+
 /* graphical elements */
 img#title-logo { 
 	display:inline-block;
@@ -33,9 +38,6 @@ p {
 		overflow-x:auto;
 		white-space:nowrap;
 	}
-}
-div#included-table {
-	margin:0 15px 0 0;
 }
 
 /* main table features */
@@ -122,6 +124,8 @@ td.data-cell a {
 	display:block;
 	padding:0 0 6px 0;
 }
+/* special treatment for our "~" */
+td.data-cell.partial a { padding:3px 0 3px 0; }
 
 /* links */
 td a:link, td a:visited, td a:active {
@@ -134,6 +138,12 @@ td.data-cell a:link, td.data-cell a:visited, td.data-cell a:active {
 td.data-cell a:hover {
 	font-weight:bold;
 }
+/* I wish we could trust CSS vars to work */
+td.data-cell.open:hover { border-top-color:#3e9b74; }
+td.data-cell.partial:hover { border-top-color:#dd9f1c; }
+td.data-cell.closed:hover { border-top-color:#ca6014; }
+
+
 
 /* secondary rows should be less prominent */
 tr.row-b {
