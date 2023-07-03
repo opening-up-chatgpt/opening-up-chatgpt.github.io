@@ -8,19 +8,16 @@ def create_dataframe(files):
     lrows = []
     # Read the input CSV file, transpose the rows and columns and save to dictionary
     for i, fname in enumerate(files):
-
         with open(fname, 'r') as file:
             file.readline()
             reader = csv.reader(file)
             rows = list(reader)
             transposed = list(zip(*rows))
-
         # get column names
         if i == 0:
             column_names = transposed[0]
         # append transposed row to list of tuples
         lrows.append(tuple(transposed[1]))
-
     df = pd.DataFrame(lrows, columns = column_names)
     df.set_index("project_name", inplace = True)
     return df
@@ -69,7 +66,7 @@ def write_html(df):
     html_table += '<tr class="second-header"><th>(maker, bases, URL)</th><th>Open code</th><th>LLM data</th><th>LLM weights</th><th>RLHF data</th><th>RLHF weights</th><th>License</th><th>Code</th><th>Architecture</th><th>Preprint</th><th>Paper</th><th>Modelcard</th><th>Datasheet</th><th>Package</th><th>API</th></tr>\n'
     html_table += '</thead>\n'
     html_table += '<tbody>\n'
-
+    # loop through projects
     projects = df.index.tolist()
     for p in projects:
         # add data by looping through each line and adding 2 rows to the html table for every row of the csv.
@@ -79,7 +76,6 @@ def write_html(df):
         cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license", "code", "architecture", "preprint", "paper", "modelcard", "datasheet", "package", "api"]
         # row = transposed[1]
         #attributes = ["_class", "_link", "_notes"]
-
         # first row
         r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project_link"], df.loc[p, "project_notes"], p)
         for c in cells:
@@ -94,10 +90,10 @@ def write_html(df):
         r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org_link"], df.loc[p, "org_name"], df.loc[p, "org_name"])
         r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td></tr>\n'.format(df.loc[p, "project_llmbase"], df.loc[p, "project_rlbase"])
         html_table += r2_html
-
+    # closing tags
     html_table += '</tbody>\n'
     html_table += '</table>\n'
-
+    # write to disk
     with open("./docs/table.html", 'w') as file:
         file.write(html_table)
 
@@ -108,6 +104,6 @@ all_files = glob.glob(path + "/*.csv")
 
 df = create_dataframe(all_files)
 df = calculate_openness(df)
-# sort by openness
-df.sort_values(by="openness", ascending=False)
+# sort by openness and project name
+df = df.sort_index(ascending=False).sort_values(by="openness", ascending=False)
 write_html(df)
