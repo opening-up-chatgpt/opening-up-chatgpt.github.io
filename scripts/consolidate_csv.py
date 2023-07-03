@@ -11,7 +11,7 @@ html_table += '<tr class="second-header"><th>(maker, bases, URL)</th><th>Open co
 html_table += '</thead>\n'
 html_table += '<tbody>\n'
 
-# Read the input CSV file and transpose the rows and columns
+# Read the input CSV file, transpose the rows and columns and save to dictionary
 for i, fname in enumerate(all_files):
 
     with open(fname, 'r') as file:
@@ -24,23 +24,24 @@ for i, fname in enumerate(all_files):
     # also add classes to the <td> elements for colour coding and links to source of the class judgement: https://github.com/liesenf/awesome-open-chatgpt/issues/12
     # get column indices
     ci = {name: index for index, name in enumerate(transposed[0])}
-    cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license","code","architecture","preprint","paper","modelcard","datasheet","package","api"]
+    cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license", "code", "architecture", "preprint", "paper", "modelcard", "datasheet", "package", "api"]
+    
     #attributes = ["_class", "_link", "_notes"]
-    for row in transposed[1:]:
-        # first row
-        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["project_link"]], row[ci["project_notes"]], row[ci["project_name"]])
-        for c in cells:
-            cl = row[ci[c + "_class"]]
-            link = row[ci[c + "_link"]]
-            notes = row[ci[c + "_notes"]]
-            symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else ""
-            r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
-        r1_html += "</tr>\n"
-        html_table += r1_html
-        # second row
-        r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["org_link"]], row[ci["org_name"]], row[ci["org_name"]])
-        r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td></tr>\n'.format(row[ci["project_llmbase"]], row[ci["project_rlbase"]])
-        html_table += r2_html
+    row = transposed[1]
+    # first row
+    r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["project_link"]], row[ci["project_notes"]], row[ci["project_name"]])
+    for c in cells:
+        cl = row[ci[c + "_class"]]
+        link = row[ci[c + "_link"]]
+        notes = row[ci[c + "_notes"]]
+        symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else ""
+        r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
+    r1_html += "</tr>\n"
+    html_table += r1_html
+    # second row
+    r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(row[ci["org_link"]], row[ci["org_name"]], row[ci["org_name"]])
+    r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td></tr>\n'.format(row[ci["project_llmbase"]], row[ci["project_rlbase"]])
+    html_table += r2_html
 
 html_table += '</tbody>\n'
 html_table += '</table>\n'
