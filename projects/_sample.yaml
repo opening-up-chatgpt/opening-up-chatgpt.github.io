@@ -1,0 +1,86 @@
+---
+project:
+    name:
+    link:
+    notes:
+    llmbase:
+    rlbase:
+    license:
+
+org:
+    name:
+    link:
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link:
+    notes:
+
+llmdata:
+    class: closed
+    link:
+    notes:
+
+llmweights:
+    class: closed
+    link:
+    notes:
+
+rldata:
+    class: closed
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: closed
+    link:
+    notes:
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:

@@ -1,0 +1,86 @@
+---
+project:
+    name: minChatGPT
+    link: hhttps://github.com/ethanyanjiali/minChatGPT
+    notes:
+    llmbase: GPT2
+    rlbase: anthropic
+    license: GNU General Public License v3.0
+
+org:
+    name: ethanyanjiali
+    link: https://github.com/ethanyanjiali/minChatGPT
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link:
+    notes:
+
+llmdata:
+    class: open
+    link:
+    notes:
+
+llmweights:
+    class: open
+    link:
+    notes:
+
+rldata:
+    class: partial
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: open
+    link:
+    notes:
+
+# documentation
+code:
+    class: open
+    link:
+    notes:
+
+architecture:
+    class: partial
+    link:
+    notes:
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: open
+    link:
+    notes:

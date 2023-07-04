@@ -1,0 +1,86 @@
+---
+project:
+    name: Falcon-40B-instruct
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes:
+    llmbase: Falcon 40B
+    rlbase: Baize (synthetic)
+    license:  Apache 2.0 license
+
+org:
+    name: Technology Innovation Institute
+    link: https://falconllm.tii.ae
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes:
+
+llmdata:
+    class: partial
+    link: https://huggingface.co/datasets/tiiuae/falcon-refinedweb
+    notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data, predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However, only a small sample is made available.
+
+llmweights:
+    class: open
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct/tree/main
+    notes: Model weights available through HuggingFace library
+
+rldata:
+    class: partial
+    link: https://github.com/project-baize/baize-chatbot
+    notes: RL data inherited from Baize but provenance not well-documented. From the documentation 'Falcon-40B-Instruct was finetuned on a 150M tokens from Baize mixed with 5% of RefinedWeb data.'
+
+rlweights:
+    class: open
+    link: https://github.com/project-baize/baize-chatbot#v1
+    notes:
+
+license:
+    class: open
+    link:
+    notes: First release came with a legally murky license that was swiftly criticised and now generates a 404. Current documentation 'Falcon-40B-Instruct is made available under the Apache 2.0 license.'
+
+# documentation
+code:
+    class: partial
+    link:
+    notes:
+
+architecture:
+    class: partial
+    link:
+    notes:
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2306.01116
+    notes: Preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model, hence partial.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper known.
+
+modelcard:
+    class: partial
+    link:
+    notes:
+
+datasheet:
+    class: partial
+    link:
+    notes:
+
+# access
+package:
+    class: partial
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:

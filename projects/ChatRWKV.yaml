@@ -1,0 +1,86 @@
+---
+project:
+    name: ChatRWKV
+    link: https://github.com/BlinkDL/ChatRWKV
+    notes:
+    llmbase: RWKV-LM
+    rlbase: alpaca, shareGPT (synthetic)
+    license:
+
+org:
+    name: BlinkDL/RWKV
+    link: https://www.rwkv.com/
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/BlinkDL/ChatRWKV
+    notes: Various community-contributed enhancements available
+
+llmdata:
+    class: partial
+    link: https://pile.eleuther.ai/
+    notes: Trained on The Pile. Recent versions also build on Red Pajama (https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)
+
+llmweights:
+    class: open
+    link: https://huggingface.co/BlinkDL/rwkv-4-world/tree/main
+    notes: Model weights released across different HuggingFace spaces
+
+rldata:
+    class: closed
+    link:
+    notes: Instruction tuning data not separately available. Documentation 'These are RWKV-4-Pile 1.5/3/7/14B models finetuned on Alpaca, CodeAlpaca, Guanaco, GPT4All, ShareGPT and more'
+
+rlweights:
+    class: closed
+    link:
+    notes: Weights not separately available.
+
+license:
+    class: open
+    link: https://github.com/BlinkDL/ChatRWKV/blob/main/LICENSE
+    notes: Apache 2.0
+
+# documentation
+code:
+    class: partial
+    link:
+    notes: Code documentation scattered across github repo and HuggingFace spaces
+
+architecture:
+    class: partial
+    link:
+    notes: Architecture described in preprint (LM part) but not all details clearly documented.
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2305.13048
+    notes: Preprint covers only LLM (RNN based), not instruction fine-tuning, so partial.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper or published data audit known
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/BlinkDL/rwkv-4-raven
+    notes: No modelcard, HuggingFace spaces only used to share files
+
+datasheet:
+    class: closed
+    link: https://huggingface.co/BlinkDL/rwkv-4-raven
+    notes: No data sheet, HuggingFac spaces only used to share files
+
+# access
+package:
+    class: open
+    link:  https://pypi.org/project/rwkv/
+    notes: Available through pip install rwkv
+
+api:
+    class: partial
+    link:
+    notes: API via HuggingFace

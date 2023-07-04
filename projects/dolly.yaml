@@ -1,0 +1,86 @@
+---
+project:
+    name: dolly
+    link: https://github.com/databrickslabs/dolly
+    notes:
+    llmbase: EleutherAI pythia
+    rlbase: databricks-dolly-15k
+    license:
+
+org:
+    name: databricks
+    link: https://www.databricks.com
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link:
+    notes:
+
+llmdata:
+    class: open
+    link:
+    notes:
+
+llmweights:
+    class: open
+    link:
+    notes:
+
+rldata:
+    class: open
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: open
+    link:
+    notes:
+
+# documentation
+code:
+    class: open
+    link:
+    notes:
+
+architecture:
+    class: open
+    link:
+    notes:
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2304.01373
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access
+package:
+    class: open
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:

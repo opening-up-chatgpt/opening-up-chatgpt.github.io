@@ -1,0 +1,86 @@
+---
+project:
+    name: BELLE
+    link: https://github.com/LianjiaTech/BELLE
+    notes:
+    llmbase: LLaMA & BLOOMZ
+    rlbase: alpaca & shareGPT (synthetic)
+    license: Apache License 2.0
+
+org:
+    name: KE Technologies
+    link: http://www.ke.com
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link:
+    notes:
+
+llmdata:
+    class: open
+    link:
+    notes:
+
+llmweights:
+    class: partial
+    link:
+    notes: LLaMA based but copyright status unclear
+
+rldata:
+    class: partial
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: closed
+    link:
+    notes: LLaMA licence agreement
+
+# documentation
+code:
+    class: closed
+    link:
+    notes:
+
+architecture:
+    class: open
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2303.14742
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: partial
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:

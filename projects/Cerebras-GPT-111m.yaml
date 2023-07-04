@@ -1,0 +1,86 @@
+---
+project:
+    name: Cerebras-GPT-111M
+    link: https://github.com/Cerebras
+    notes:
+    llmbase:
+    rlbase: Alpaca (synthetic)
+    license: Apache 2.0
+
+org:
+    name: Cerebras + Schramm
+    link: https://github.com/Cerebras
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link:
+    notes:
+
+llmdata:
+    class: open
+    link:
+    notes:
+
+llmweights:
+    class: open
+    link:
+    notes:
+
+rldata:
+    class: open
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: open
+    link:
+    notes:
+
+# documentation
+code:
+    class: closed
+    link:
+    notes:
+
+architecture:
+    class: open
+    link:
+    notes:
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2304.03208
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:

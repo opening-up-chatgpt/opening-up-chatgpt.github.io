@@ -1,0 +1,86 @@
+---
+project:
+    name: Vicuna 13B v 1.3
+    link: https://huggingface.co/lmsys/vicuna-13b-v1.3
+    notes: 'Vicuna is a chat assistant trained by fine-tuning LLaMA on user-shared conversations collected from ShareGPT.'
+    llmbase: LLaMA
+    rlbase: ShareGPT
+    license: Non-commercial license
+
+org:
+    name: LMSYS
+    link: https://lmsys.org/
+    notes: According to its website, 'The Large Model Systems Organisation develops large models and systems that are open, accessible and scalable'
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/lm-sys/FastChat
+    notes: Actively maintained repository
+
+llmdata:
+    class: partial
+    link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md#training-dataset
+    notes: Vicuna is fine-tuned LLaMA, and LLaMA in turn is based on 'publicly available datasets' that are not all specified or easily downloadable.
+
+llmweights:
+    class: open
+    link: https://github.com/lm-sys/FastChat#vicuna-weights
+    notes: Unlike Vicuna 13B v0, these weights do not require applying delta
+
+rldata:
+    class: closed
+    link: https://github.com/lm-sys/FastChat#fine-tuning
+    notes: From the documentation 'We will not release the ShareGPT dataset'. Also 'Vicuna v1.3 is fine-tuned from LLaMA with supervised instruction fine-tuning. The training data is around 140K conversations collected from ShareGPT.com.'
+
+rlweights:
+    class: closed
+    link: https://github.com/lm-sys/FastChat#fine-tuning
+    notes: No model weights are shared for the instruction tuning
+
+license:
+    class: partial
+    link: https://github.com/lm-sys/FastChat#vicuna-weights
+    notes: From the documentation 'Vicuna is based on LLaMA and should be used under LLaMA's model license.'
+
+# documentation
+code:
+    class: open
+    link: https://github.com/lm-sys/FastChat
+    notes: Code is quite well-documented and released as part of the FastChat framework.
+
+architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/pdf/2306.05685.pdf
+    notes: Preprint covers training of the Vicuna model.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/lmsys/vicuna-13b-v1.3
+    notes: Minimal model card, but many details are not provided or have to be pieced together from elsewhere.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet provided.
+
+# access
+package:
+    class: open
+    link: https://pypi.org/project/fschat/0.1.2/
+    notes: Available via pip
+
+api:
+    class: partial
+    link: https://github.com/lm-sys/FastChat#api
+    notes: Support provided for several APIs OpenAI restful, HuggingFace, Langchain

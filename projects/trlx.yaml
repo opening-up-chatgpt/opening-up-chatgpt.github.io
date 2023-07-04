@@ -1,0 +1,86 @@
+---
+project:
+    name: trlx
+    link: https://github.com/CarperAI/trlx
+    notes:
+    llmbase: various (pythia, flan, OPT)
+    rlbase: various
+    license: MIT license
+
+org:
+    name: carperai
+    link: https://github.com/CarperAI/trlx
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link:
+    notes:
+
+llmdata:
+    class: open
+    link:
+    notes:
+
+llmweights:
+    class: open
+    link:
+    notes:
+
+rldata:
+    class: partial
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: open
+    link:
+    notes:
+
+# documentation
+code:
+    class: open
+    link:
+    notes:
+
+architecture:
+    class: partial
+    link:
+    notes:
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access
+package:
+    class: partial
+    link:
+    notes:
+
+api:
+    class: open
+    link:
+    notes:

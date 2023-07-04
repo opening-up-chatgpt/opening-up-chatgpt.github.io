@@ -1,0 +1,86 @@
+---
+project:
+    name: text-generation-webui
+    link: https://github.com/oobabooga/text-generation-webui
+    notes:
+    llmbase: various
+    rlbase: various
+    license: GNU Affero General Public License v3.0
+
+org:
+    name: Oobabooga
+    link: https://oobabooga.github.io
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link:
+    notes:
+
+llmdata:
+    class: open
+    link: https://huggingface.co/models?sort=downloads&search=eleutherai%2Fpythia+deduped
+    notes:
+
+llmweights:
+    class: open
+    link:
+    notes:
+
+rldata:
+    class: closed
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: open
+    link:
+    notes:
+
+# documentation
+code:
+    class: open
+    link:
+    notes:
+
+architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:

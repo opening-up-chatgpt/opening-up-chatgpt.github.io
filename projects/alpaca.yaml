@@ -1,0 +1,86 @@
+---
+project:
+    name: Stanford Alpaca
+    link: https://crfm.stanford.edu/2023/03/13/alpaca.html
+    notes: project_notes
+    llmbase: LLaMA
+    rlbase: Self-Instruct
+    license: LLaMA license agreement
+
+org:
+    name: Stanford University CRFM
+    link: https://crfm.stanford.edu/
+    notes: 
+
+# availability:
+opencode:
+    class: open
+    link: 
+    notes: 
+
+llmdata:
+    class: open
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes:
+
+llmweights:
+    class: partial
+    link: 
+    notes: LLaMA based, copyright status unclear
+
+rldata:
+    class: partial
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: 
+
+rlweights:
+    class: closed
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: 
+
+license:
+    class: closed
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
+    notes: LLaMA licence agreement
+
+# documentation:
+code:
+    class: closed
+    link: 
+    notes: 
+
+architecture:
+    class: open
+    link: 
+    notes: 
+
+preprint:
+    class: closed
+    link: 
+    notes:
+
+paper:
+    class: closed
+    link: 
+    notes:
+
+modelcard:
+    class: partial
+    link: 
+    notes: 
+
+datasheet:
+    class: partial
+    link: 
+    notes: 
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: 
+
+api:
+    class: closed
+    link: 
+    notes: 
