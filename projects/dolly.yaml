@@ -1,0 +1,69 @@
+---
+# project:
+    project_name: dolly
+    project_link: https://github.com/databrickslabs/dolly
+    project_notes:
+    project_llmbase: EleutherAI pythia
+    project_rlbase: databricks-dolly-15k
+    project_license:
+    org_name: databricks
+    org_link: https://www.databricks.com
+    org_notes:
+
+# availability:
+    opencode_class: open
+    opencode_link:
+    opencode_notes:
+
+    llmdata_class: open
+    llmdata_link:
+    llmdata_notes:
+
+    llmweights_class: open
+    llmweights_link:
+    llmweights_notes:
+
+    rldata_class: open
+    rldata_link:
+    rldata_notes:
+
+    rlweights_class: closed
+    rlweights_link:
+    rlweights_notes:
+
+    license_class: open
+    license_link:
+    license_notes:
+
+    code_class: open
+    code_link:
+    code_notes:
+
+    architecture_class: open
+    architecture_link:
+    architecture_notes:
+
+    preprint_class: partial
+    preprint_link: https://arxiv.org/abs/2304.01373
+    preprint_notes:
+
+    paper_class: closed
+    paper_link:
+    paper_notes:
+
+    modelcard_class: closed
+    modelcard_link:
+    modelcard_notes:
+
+    datasheet_class: closed
+    datasheet_link:
+    datasheet_notes:
+
+# access
+    package_class: open
+    package_link:
+    package_notes:
+
+    api_class: closed
+    api_link:
+    api_notes:

@@ -1,0 +1,69 @@
+---
+# project:
+    project_name: Open Assistant
+    project_link: https://open-assistant.io/
+    project_notes:
+    project_llmbase: Pythia 12B
+    project_rlbase: OpenAssistant Conversations
+    project_license: Apache 2.0
+    org_name: LAION-AI
+    org_link: https://open-assistant.io/
+    org_notes:
+
+# availability:
+    opencode_class: open
+    opencode_link: https://github.com/LAION-AI/Open-Assistant
+    opencode_notes: Code includes guide for developers
+
+    llmdata_class: open
+    llmdata_link: https://github.com/LAION-AI/Open-Assistant/tree/main/data/datasets
+    llmdata_notes: Datasets documented in detail and recipes for cleaning up and downloading provided in code notebooks.
+
+    llmweights_class: open
+    llmweights_link: https://huggingface.co/OpenAssistant
+    llmweights_notes: Model weights in several variants downloadable through HuggingFace
+
+    rldata_class: open
+    rldata_link: https://huggingface.co/datasets/OpenAssistant/oasst1
+    rldata_notes: OpenAssistant Conversations is 'a human-generated:  human-annotated assistant-style conversation corpus consisting of 161: 443 messages distributed across 66: 497 conversation trees:  in 35 different languages:  annotated with 461: 292 quality ratings' (preprint)
+
+    rlweights_class: closed
+    rlweights_link:
+    rlweights_notes: RLHF weights not separately released
+
+    license_class: open
+    license_link: https://projects.laion.ai/Open-Assistant/docs/faq#what-license-does-open-assistant-use
+    license_notes: Apache 2.0
+
+    code_class: open
+    code_link: https://projects.laion.ai/Open-Assistant/docs/intro
+    code_notes: Separate website provides entry point to comprehensive documentation
+
+    architecture_class: open
+    architecture_link: https://github.com/LAION-AI/Open-Assistant/tree/main/model
+    architecture_notes: Instructions to tune the pipeline on training data
+
+    preprint_class: partial
+    preprint_link: https://arxiv.org/abs//2304.07327
+    preprint_notes: Preprint describes creation of OpenAssistant Conversations corpus for instruction tuning:  but not the base LLM:  hence partial.
+
+    paper_class: closed
+    paper_link:
+    paper_notes: No peer-reviewed paper or published data audit found
+
+    modelcard_class: closed
+    modelcard_link:
+    modelcard_notes:
+
+    datasheet_class: closed
+    datasheet_link:
+    datasheet_notes:
+
+# access
+    package_class: open
+    package_link:
+    package_notes:
+
+    api_class: open
+    api_link: https://projects.laion.ai/Open-Assistant/api
+    api_notes:

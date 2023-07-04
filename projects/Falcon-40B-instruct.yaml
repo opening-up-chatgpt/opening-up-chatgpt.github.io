@@ -1,0 +1,69 @@
+---
+# project:
+    project_name: Falcon-40B-instruct
+    project_link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    project_notes:
+    project_llmbase: Falcon 40B
+    project_rlbase: Baize (synthetic)
+    project_license:  Apache 2.0 license
+    org_name: Technology Innovation Institute
+    org_link: https://falconllm.tii.ae
+    org_notes:
+
+# availability:
+    opencode_class: open
+    opencode_link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    opencode_notes:
+
+    llmdata_class: partial
+    llmdata_link: https://huggingface.co/datasets/tiiuae/falcon-refinedweb
+    llmdata_notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data:  predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However:  only a small sample is made available.
+
+    llmweights_class: open
+    llmweights_link: https://huggingface.co/tiiuae/falcon-40b-instruct/tree/main
+    llmweights_notes: Model weights available through HuggingFace library
+
+    rldata_class: partial
+    rldata_link: https://github.com/project-baize/baize-chatbot
+    rldata_notes: RL data inherited from Baize but provenance not well-documented. From the documentation 'Falcon-40B-Instruct was finetuned on a 150M tokens from Baize mixed with 5% of RefinedWeb data.'
+
+    rlweights_class: open
+    rlweights_link: https://github.com/project-baize/baize-chatbot#v1
+    rlweights_notes:
+
+    license_class: open
+    license_link:
+    license_notes: First release came with a legally murky license that was swiftly criticised and now generates a 404. Current documentation 'Falcon-40B-Instruct is made available under the Apache 2.0 license.'
+
+    code_class: partial
+    code_link:
+    code_notes:
+
+    architecture_class: partial
+    architecture_link:
+    architecture_notes:
+
+    preprint_class: partial
+    preprint_link: https://arxiv.org/abs/2306.01116
+    preprint_notes: Preprint covers the creation and curation of RefinedWeb dataset:  but not other aspects of the model:  hence partial.
+
+    paper_class: closed
+    paper_link:
+    paper_notes: No peer-reviewed paper known.
+
+    modelcard_class: partial
+    modelcard_link:
+    modelcard_notes:
+
+    datasheet_class: partial
+    datasheet_link:
+    datasheet_notes:
+
+# access
+    package_class: partial
+    package_link:
+    package_notes:
+
+    api_class: closed
+    api_link:
+    api_notes:
