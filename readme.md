@@ -11,7 +11,7 @@ Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up Cha
 - [List of Projects](##opening-up-chatgpt-a-curated-list-to-track-openness-transparency-and-accountability-in-instruction-following-text-generators-)
 
 ## Overview
-We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. See the criteria [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
+We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. The criteria are detailed [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
 
 | Availability                                                          | Documentation                                                      | Access          |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------|-----------------|
