@@ -1,5 +1,5 @@
 ---
-- project
+# project:
     project_name: Stanford Alpaca
     project_link: https://crfm.stanford.edu/2023/03/13/alpaca.html
     project_notes: project_notes
@@ -10,7 +10,7 @@
     org_link: https://crfm.stanford.edu/
     org_notes: 
 
-- availability 
+# availability:
     opencode_class: open
     opencode_link: 
     opencode_notes: 
@@ -35,7 +35,7 @@
     license_link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
     license_notes: LLaMA licence agreement
 
-- documentation
+# documentation:
     code_class: closed
     code_link: 
     code_notes: 
@@ -60,7 +60,7 @@
     datasheet_link: 
     datasheet_notes: 
 
-- access
+# access:
     package_class: closed
     package_link: 
     package_notes: 
