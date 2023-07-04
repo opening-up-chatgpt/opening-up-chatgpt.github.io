@@ -13,7 +13,8 @@ def create_dataframe(files):
         with open(fname, 'r') as file:
             file_df = pd.json_normalize(yaml.safe_load(file))
         # append transposed row to df
-        source_file.append(fname[1:])
+        if file_df.loc[0, "project.name"] != "None":
+            source_file.append(fname[1:])
         df = pd.concat([df, file_df], axis=0)
     # get rid of rows without a project_name
     df = df.replace({None: ""})
