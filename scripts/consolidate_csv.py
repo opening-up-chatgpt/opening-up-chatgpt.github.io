@@ -16,9 +16,10 @@ def create_dataframe(files):
         source_file.append(fname[1:])
         df = pd.concat([df, file_df], axis=0)
     # get rid of rows without a project_name
-    df = df[df["project.name"] != "None"]
+    df = df[df["project.name"] != ""]
     df.set_index("project.name", inplace = True)
     df["source.file"] = source_file
+    df = df.replace({None: ""})
     return df
 
 
