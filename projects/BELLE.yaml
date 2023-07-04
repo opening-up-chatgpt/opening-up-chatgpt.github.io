@@ -1,69 +1,86 @@
 ---
-# project:
-    project_name: BELLE
-    project_link: https://github.com/LianjiaTech/BELLE
-    project_notes:
-    project_llmbase: LLaMA & BLOOMZ
-    project_rlbase: alpaca & shareGPT (synthetic)
-    project_license: Apache License 2.0
-    org_name: KE Technologies
-    org_link: http://www.ke.com
-    org_notes:
+project:
+    name: BELLE
+    link: https://github.com/LianjiaTech/BELLE
+    notes:
+    llmbase: LLaMA & BLOOMZ
+    rlbase: alpaca & shareGPT (synthetic)
+    license: Apache License 2.0
+
+org:
+    name: KE Technologies
+    link: http://www.ke.com
+    notes:
 
 # availability:
-    opencode_class: open
-    opencode_link:
-    opencode_notes:
+opencode:
+    class: open
+    link:
+    notes:
 
-    llmdata_class: open
-    llmdata_link:
-    llmdata_notes:
+llmdata:
+    class: open
+    link:
+    notes:
 
-    llmweights_class: partial
-    llmweights_link:
-    llmweights_notes: LLaMA based but copyright status unclear
+llmweights:
+    class: partial
+    link:
+    notes: LLaMA based but copyright status unclear
 
-    rldata_class: partial
-    rldata_link:
-    rldata_notes:
+rldata:
+    class: partial
+    link:
+    notes:
 
-    rlweights_class: closed
-    rlweights_link:
-    rlweights_notes:
+rlweights:
+    class: closed
+    link:
+    notes:
 
-    license_class: closed
-    license_link:
-    license_notes: LLaMA licence agreement
+license:
+    class: closed
+    link:
+    notes: LLaMA licence agreement
 
-    code_class: closed
-    code_link:
-    code_notes:
+# documentation
+code:
+    class: closed
+    link:
+    notes:
 
-    architecture_class: open
-    architecture_link:
-    architecture_notes:
+architecture:
+    class: open
+    link:
+    notes:
 
-    preprint_class: open
-    preprint_link: https://arxiv.org/abs/2303.14742
-    preprint_notes:
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2303.14742
+    notes:
 
-    paper_class: closed
-    paper_link:
-    paper_notes:
+paper:
+    class: closed
+    link:
+    notes:
 
-    modelcard_class: closed
-    modelcard_link:
-    modelcard_notes:
+modelcard:
+    class: closed
+    link:
+    notes:
 
-    datasheet_class: partial
-    datasheet_link:
-    datasheet_notes:
+datasheet:
+    class: partial
+    link:
+    notes:
 
 # access:
-    package_class: closed
-    package_link:
-    package_notes:
+package:
+    class: closed
+    link:
+    notes:
 
-    api_class: closed
-    api_link:
-    api_notes:
+api:
+    class: closed
+    link:
+    notes:

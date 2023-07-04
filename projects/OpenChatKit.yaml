@@ -1,69 +1,86 @@
 ---
-# project:
-    project_name: OpenChatKit
-    project_link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
-    project_notes:
-    project_llmbase: EleutherAI pythia
-    project_rlbase: OIG
-    project_license: Apache 2.0 license
-    org_name: togethercomputer
-    org_link: https://github.com/togethercomputer
-    org_notes:
+project:
+    name: OpenChatKit
+    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
+    notes:
+    llmbase: EleutherAI pythia
+    rlbase: OIG
+    license: Apache 2.0 license
+
+org:
+    name: togethercomputer
+    link: https://github.com/togethercomputer
+    notes:
 
 # availability:
-    opencode_class: open
-    opencode_link:
-    opencode_notes:
+opencode:
+    class: open
+    link:
+    notes:
 
-    llmdata_class: open
-    llmdata_link: https://github.com/togethercomputer/OpenDataHub
-    llmdata_notes: Training data curated and shared in separate repository
+llmdata:
+    class: open
+    link: https://github.com/togethercomputer/OpenDataHub
+    notes: Training data curated and shared in separate repository
 
-    llmweights_class: open
-    llmweights_link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B/tree/main
-    llmweights_notes: Model weights available via HuggingFace
+llmweights:
+    class: open
+    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B/tree/main
+    notes: Model weights available via HuggingFace
 
-    rldata_class: open
-    rldata_link: https://huggingface.co/datasets/laion/OIG
-    rldata_notes: From the documentation 'This is our attempt to create a large instruction dataset of medium quality along with a smaller high quality instruciton dataset (OIG-small-chip2).'
+rldata:
+    class: open
+    link: https://huggingface.co/datasets/laion/OIG
+    notes: From the documentation 'This is our attempt to create a large instruction dataset of medium quality along with a smaller high quality instruciton dataset (OIG-small-chip2).'
 
-    rlweights_class: closed
-    rlweights_link:
-    rlweights_notes: RL weights not separately made available
+rlweights:
+    class: closed
+    link:
+    notes: RL weights not separately made available
 
-    license_class: open
-    license_link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B#model-details
-    license_notes: Apache 2.0
+license:
+    class: open
+    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B#model-details
+    notes: Apache 2.0
 
-    code_class: open
-    code_link: https://github.com/togethercomputer/OpenChatKit
-    code_notes: Actively maintained repository
+# documentation
+code:
+    class: open
+    link: https://github.com/togethercomputer/OpenChatKit
+    notes: Actively maintained repository
 
-    architecture_class: open
-    architecture_link: https://github.com/togethercomputer/OpenChatKit#reproducing-pythia-chat-base-7b
-    architecture_notes: Architecture and recipe for reproducing model provided
+architecture:
+    class: open
+    link: https://github.com/togethercomputer/OpenChatKit#reproducing-pythia-chat-base-7b
+    notes: Architecture and recipe for reproducing model provided
 
-    preprint_class: partial
-    preprint_link: https://arxiv.org/abs/2304.01373
-    preprint_notes: Preprint describes LM base (Pythia) but not instruction tuning details
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2304.01373
+    notes: Preprint describes LM base (Pythia) but not instruction tuning details
 
-    paper_class: closed
-    paper_link:
-    paper_notes: No peer-reviewed paper or data audit found
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper or data audit found
 
-    modelcard_class: partial
-    modelcard_link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
-    modelcard_notes: Model card partially available but fairly minimally specified
+modelcard:
+    class: partial
+    link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
+    notes: Model card partially available but fairly minimally specified
 
-    datasheet_class: partial
-    datasheet_link: https://huggingface.co/datasets/laion/OIG
-    datasheet_notes: OIG instruction dataset documented
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/laion/OIG
+    notes: OIG instruction dataset documented
 
 # access
-    package_class: open
-    package_link:
-    package_notes:
+package:
+    class: open
+    link:
+    notes:
 
-    api_class: closed
-    api_link:
-    api_notes:
+api:
+    class: closed
+    link:
+    notes:

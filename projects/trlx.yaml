@@ -1,69 +1,86 @@
 ---
-# project:
-    project_name: trlx
-    project_link: https://github.com/CarperAI/trlx
-    project_notes:
-    project_llmbase: various (pythia:  flan:  OPT)
-    project_rlbase: various
-    project_license: MIT license
-    org_name: carperai
-    org_link: https://github.com/CarperAI/trlx
-    org_notes:
+project:
+    name: trlx
+    link: https://github.com/CarperAI/trlx
+    notes:
+    llmbase: various (pythia, flan, OPT)
+    rlbase: various
+    license: MIT license
+
+org:
+    name: carperai
+    link: https://github.com/CarperAI/trlx
+    notes:
 
 # availability:
-    opencode_class: open
-    opencode_link:
-    opencode_notes:
+opencode:
+    class: open
+    link:
+    notes:
 
-    llmdata_class: open
-    llmdata_link:
-    llmdata_notes:
+llmdata:
+    class: open
+    link:
+    notes:
 
-    llmweights_class: open
-    llmweights_link:
-    llmweights_notes:
+llmweights:
+    class: open
+    link:
+    notes:
 
-    rldata_class: partial
-    rldata_link:
-    rldata_notes:
+rldata:
+    class: partial
+    link:
+    notes:
 
-    rlweights_class: closed
-    rlweights_link:
-    rlweights_notes:
+rlweights:
+    class: closed
+    link:
+    notes:
 
-    license_class: open
-    license_link:
-    license_notes:
+license:
+    class: open
+    link:
+    notes:
 
-    code_class: open
-    code_link:
-    code_notes:
+# documentation
+code:
+    class: open
+    link:
+    notes:
 
-    architecture_class: partial
-    architecture_link:
-    architecture_notes:
+architecture:
+    class: partial
+    link:
+    notes:
 
-    preprint_class: closed
-    preprint_link:
-    preprint_notes:
+preprint:
+    class: closed
+    link:
+    notes:
 
-    paper_class: closed
-    paper_link:
-    paper_notes:
+paper:
+    class: closed
+    link:
+    notes:
 
-    modelcard_class: closed
-    modelcard_link:
-    modelcard_notes:
+modelcard:
+    class: closed
+    link:
+    notes:
 
-    datasheet_class: closed
-    datasheet_link:
-    datasheet_notes:
+datasheet:
+    class: closed
+    link:
+    notes:
 
 # access
-    package_class: partial
-    package_link:
-    package_notes:
+package:
+    class: partial
+    link:
+    notes:
 
-    api_class: open
-    api_link:
-    api_notes:
+api:
+    class: open
+    link:
+    notes:

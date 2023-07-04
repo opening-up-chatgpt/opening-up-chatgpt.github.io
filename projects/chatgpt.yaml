@@ -1,69 +1,86 @@
 ---
-# project:
-    project_name: ChatGPT
-    project_link: https://chat.openai.com/
-    project_notes: NA
-    project_llmbase: GPT 3.5
-    project_rlbase: Instruct-GPT
-    project_license: NA
-    org_name: OpenAI
-    org_link: https://openai.com/
-    org_notes: NA
+project:
+    name: ChatGPT
+    link: https://chat.openai.com/
+    notes: NA
+    llmbase: GPT 3.5
+    rlbase: Instruct-GPT
+    license: NA
+
+org:
+    name: OpenAI
+    link: https://openai.com/
+    notes: NA
 
 # availability:
-    opencode_class: closed
-    opencode_link: https://chat.openai.com/
-    opencode_notes: OpenAI has not released any source code related to ChatGPT
+opencode:
+    class: closed
+    link: https://chat.openai.com/
+    notes: OpenAI has not released any source code related to ChatGPT
 
-    llmdata_class: closed
-    llmdata_link:
-    llmdata_notes:
+llmdata:
+    class: closed
+    link:
+    notes:
 
-    llmweights_class: closed
-    llmweights_link:
-    llmweights_notes:
+llmweights:
+    class: closed
+    link:
+    notes:
 
-    rldata_class: closed
-    rldata_link:
-    rldata_notes:
+rldata:
+    class: closed
+    link:
+    notes:
 
-    rlweights_class: closed
-    rlweights_link:
-    rlweights_notes:
+rlweights:
+    class: closed
+    link:
+    notes:
 
-    license_class: closed
-    license_link:
-    license_notes:
+license:
+    class: closed
+    link:
+    notes:
 
-    code_class: closed
-    code_link:
-    code_notes:
+# documentation
+code:
+    class: closed
+    link:
+    notes:
 
-    architecture_class: closed
-    architecture_link:
-    architecture_notes:
+architecture:
+    class: closed
+    link:
+    notes:
 
-    preprint_class: closed
-    preprint_link:
-    preprint_notes:
+preprint:
+    class: closed
+    link:
+    notes:
 
-    paper_class: closed
-    paper_link:
-    paper_notes:
+paper:
+    class: closed
+    link:
+    notes:
 
-    modelcard_class: closed
-    modelcard_link:
-    modelcard_notes:
+modelcard:
+    class: closed
+    link:
+    notes:
 
-    datasheet_class: closed
-    datasheet_link:
-    datasheet_notes:
+datasheet:
+    class: closed
+    link:
+    notes:
 
 # access
-    package_class: closed
-    package_link:
-    package_notes:
+package:
+    class: closed
+    link:
+    notes:
 
-    api_class: closed
-    api_link:
-    api_notes:
+api:
+    class: closed
+    link:
+    notes:

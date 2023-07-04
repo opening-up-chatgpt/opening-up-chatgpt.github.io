@@ -1,70 +1,86 @@
 ---
-# project:
-    project_name:
-    project_link:
-    project_notes:
-    project_llmbase:
-    project_rlbase:
-    project_license:
-    org_name:
-    org_link:
-    org_notes:
+project:
+    name:
+    link:
+    notes:
+    llmbase:
+    rlbase:
+    license:
+
+org:
+    name:
+    link:
+    notes:
 
 # availability:
-    opencode_class: closed
-    opencode_link:
-    opencode_notes:
+opencode:
+    class: closed
+    link:
+    notes:
 
-    llmdata_class: closed
-    llmdata_link:
-    llmdata_notes:
+llmdata:
+    class: closed
+    link:
+    notes:
 
-    llmweights_class: closed
-    llmweights_link:
-    llmweights_notes:
+llmweights:
+    class: closed
+    link:
+    notes:
 
-    rldata_class: closed
-    rldata_link:
-    rldata_notes:
+rldata:
+    class: closed
+    link:
+    notes:
 
-    rlweights_class: closed
-    rlweights_link:
-    rlweights_notes:
+rlweights:
+    class: closed
+    link:
+    notes:
 
-    license_class: closed
-    license_link:
-    license_notes:
+license:
+    class: closed
+    link:
+    notes:
 
 # documentation:
-    code_class: closed
-    code_link:
-    code_notes:
+code:
+    class: closed
+    link:
+    notes:
 
-    architecture_class: closed
-    architecture_link:
-    architecture_notes:
+architecture:
+    class: closed
+    link:
+    notes:
 
-    preprint_class: closed
-    preprint_link:
-    preprint_notes:
+preprint:
+    class: closed
+    link:
+    notes:
 
-    paper_class: closed
-    paper_link:
-    paper_notes:
+paper:
+    class: closed
+    link:
+    notes:
 
-    modelcard_class: closed
-    modelcard_link:
-    modelcard_notes:
+modelcard:
+    class: closed
+    link:
+    notes:
 
-    datasheet_class: closed
-    datasheet_link:
-    datasheet_notes:
+datasheet:
+    class: closed
+    link:
+    notes:
 
 # access:
-    package_class: closed
-    package_link:
-    package_notes:
+package:
+    class: closed
+    link:
+    notes:
 
-    api_class: closed
-    api_link:
-    api_notes:
+api:
+    class: closed
+    link:
+    notes:

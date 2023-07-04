@@ -1,69 +1,86 @@
 ---
-# project:
-    project_name: Cerebras-GPT-111M
-    project_link: https://github.com/Cerebras
-    project_notes:
-    project_llmbase:
-    project_rlbase: Alpaca (synthetic)
-    project_license: Apache 2.0
-    org_name: Cerebras + Schramm
-    org_link: https://github.com/Cerebras
-    org_notes:
+project:
+    name: Cerebras-GPT-111M
+    link: https://github.com/Cerebras
+    notes:
+    llmbase:
+    rlbase: Alpaca (synthetic)
+    license: Apache 2.0
+
+org:
+    name: Cerebras + Schramm
+    link: https://github.com/Cerebras
+    notes:
 
 # availability:
-    opencode_class: open
-    opencode_link:
-    opencode_notes:
+opencode:
+    class: open
+    link:
+    notes:
 
-    llmdata_class: open
-    llmdata_link:
-    llmdata_notes:
+llmdata:
+    class: open
+    link:
+    notes:
 
-    llmweights_class: open
-    llmweights_link:
-    llmweights_notes:
+llmweights:
+    class: open
+    link:
+    notes:
 
-    rldata_class: open
-    rldata_link:
-    rldata_notes:
+rldata:
+    class: open
+    link:
+    notes:
 
-    rlweights_class: closed
-    rlweights_link:
-    rlweights_notes:
+rlweights:
+    class: closed
+    link:
+    notes:
 
-    license_class: open
-    license_link:
-    license_notes:
+license:
+    class: open
+    link:
+    notes:
 
-    code_class: closed
-    code_link:
-    code_notes:
+# documentation
+code:
+    class: closed
+    link:
+    notes:
 
-    architecture_class: open
-    architecture_link:
-    architecture_notes:
+architecture:
+    class: open
+    link:
+    notes:
 
-    preprint_class: partial
-    preprint_link: https://arxiv.org/abs/2304.03208
-    preprint_notes:
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2304.03208
+    notes:
 
-    paper_class: closed
-    paper_link:
-    paper_notes:
+paper:
+    class: closed
+    link:
+    notes:
 
-    modelcard_class: closed
-    modelcard_link:
-    modelcard_notes:
+modelcard:
+    class: closed
+    link:
+    notes:
 
-    datasheet_class: closed
-    datasheet_link:
-    datasheet_notes:
+datasheet:
+    class: closed
+    link:
+    notes:
 
 # access:
-    package_class: closed
-    package_link:
-    package_notes:
+package:
+    class: closed
+    link:
+    notes:
 
-    api_class: closed
-    api_link:
-    api_notes:
+api:
+    class: closed
+    link:
+    notes:
