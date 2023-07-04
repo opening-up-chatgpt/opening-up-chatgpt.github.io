@@ -45,7 +45,7 @@ How to add a project to the live table:
 
 Overview of available open text generators with links to evidence of all above evaluation criteria.
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/alpaca.yaml#L2
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/alpaca.yaml#L1C1-L70C16
 
 **[bigscience-workshop xmtf](https://github.com/bigscience-workshop/xmtf)**
 
