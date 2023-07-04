@@ -52,10 +52,10 @@ https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/e4fe656f
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/e4fe656fe852ad5ba4aa9ebcaa0191c6a5c875d1/projects/chatgpt.yaml#L3-L70
 
 ### ChatRWKV
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/ChatRWKV.yaml#L3-L70
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929ec9e14842258f76243884aaf490a282ea/projects/ChatRWKV.yaml#L3-L70
 
 ### Falcon
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/Falcon-40B-instruct.yaml#L3-L70
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929ec9e14842258f76243884aaf490a282ea/projects/Falcon-40B-instruct.yaml#L3-L70
 
 ### minChatGPT
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/minChatGPT.yaml#L3-L70
