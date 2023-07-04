@@ -45,7 +45,7 @@ img#title-logo {
 
 
 p { 
-	line-height:1.4em; 
+	line-height:1.4em;
 }
 
 .colour-open { color:#3e9b74; }
@@ -143,7 +143,7 @@ table td.data-cell.partial { background-color:#dd9f1c;-}
 
 td.data-cell a {
 	display:block;
-	padding:0 0 6px 0;
+	padding:2px 0 4px 0;
 }
 /* special treatment for our "~" */
 td.data-cell.partial a { padding:3px 0 3px 0; }
