@@ -1,70 +1,86 @@
 ---
-# project:
-    project_name: Stanford Alpaca
-    project_link: https://crfm.stanford.edu/2023/03/13/alpaca.html
-    project_notes: project_notes
-    project_llmbase: LLaMA
-    project_rlbase: Self-Instruct
-    project_license: LLaMA license agreement
-    org_name: Stanford University CRFM
-    org_link: https://crfm.stanford.edu/
-    org_notes: 
+project:
+    name: Stanford Alpaca
+    link: https://crfm.stanford.edu/2023/03/13/alpaca.html
+    notes: project_notes
+    llmbase: LLaMA
+    rlbase: Self-Instruct
+    license: LLaMA license agreement
+
+org:
+    name: Stanford University CRFM
+    link: https://crfm.stanford.edu/
+    notes: 
 
 # availability:
-    opencode_class: open
-    opencode_link: 
-    opencode_notes: 
+opencode:
+    class: open
+    link: 
+    notes: 
 
-    llmdata_class: open
-    llmdata_link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    llmdata_notes:
+llmdata:
+    class: open
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes:
 
-    llmweights_class: partial
-    llmweights_link: 
-    llmweights_notes: LLaMA based, copyright status unclear
+llmweights:
+    class: partial
+    link: 
+    notes: LLaMA based, copyright status unclear
 
-    rldata_class: partial
-    rldata_link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    rldata_notes: 
+rldata:
+    class: partial
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: 
 
-    rlweights_class: closed
-    rlweights_link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    rlweights_notes: 
+rlweights:
+    class: closed
+    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
+    notes: 
 
-    license_class: closed
-    license_link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
-    license_notes: LLaMA licence agreement
+license:
+    class: closed
+    link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
+    notes: LLaMA licence agreement
 
 # documentation:
-    code_class: closed
-    code_link: 
+code:
+    class: closed
+    link: 
     code_notes: 
 
-    architecture_class: open
-    architecture_link: 
-    architecture_notes: 
+architecture:
+    class: open
+    link: 
+    notes: 
 
-    preprint_class: closed
-    preprint_link: 
-    preprint_notes:
+preprint:
+    class: closed
+    link: 
+    notes:
 
-    paper_class: closed
-    paper_link: 
-    paper_notes:
+paper:
+    class: closed
+    link: 
+    notes:
 
-    modelcard_class: partial
-    modelcard_link: 
-    modelcard_notes: 
+modelcard:
+    class: partial
+    link: 
+    notes: 
 
-    datasheet_class: partial
-    datasheet_link: 
-    datasheet_notes: 
+datasheet:
+    class: partial
+    link: 
+    notes: 
 
 # access:
-    package_class: closed
-    package_link: 
-    package_notes: 
+package:
+    class: closed
+    link: 
+    notes: 
 
-    api_class: closed
-    api_link: 
-    api_notes: 
+api:
+    class: closed
+    link: 
+    notes: 
