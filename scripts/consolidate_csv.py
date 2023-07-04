@@ -2,6 +2,7 @@ import csv
 import glob
 import pandas as pd
 from bs4 import BeautifulSoup
+import datetime
 
 
 def create_dataframe(files):
@@ -106,6 +107,11 @@ def create_index(table):
     target_element = soup.find(id="included-table")
     # Convert the HTML code string into a BeautifulSoup object and append it to the target element
     target_element.append(BeautifulSoup(table, 'html.parser'))
+    # Add build time info
+    utc_datetime = datetime.datetime.utcnow()
+    build_message = utc_datetime.strftime("Table last built on %Y-%m-%d at %H:%M UTC")
+    target_footer = soup.find(id="build-time")
+    target_footer.string = build_message
     # write to disk
     with open("./docs/index.html", 'w') as f:
         f.write(str(soup))
