@@ -45,8 +45,10 @@ How to add a project to the live table:
 
 Overview of available open text generators with links to evidence of all above evaluation criteria.
 
+### Alpaca
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/alpaca.yaml#L3-L70
 
+### Belle
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/BELLE.yaml#L3-L70
 
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/Cerebras-GPT-111m.yaml#L3-L70
