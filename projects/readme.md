@@ -1,9 +1,9 @@
 # How to contribute 
 
-Every project is a separate file. The file some fields with contains basic metadata and then a set of triples of `_class`, `_link` and `_notes`. Class can be one of three values: 🟩 open, 🟧 partial or 🟥 closed (leave empty to signify NA). Link is a URL providing evidence for the openness classification. Notes provide context and reasoning for the classification.
+Every project is a separate yaml file. The first few fields contain basic metadata about the model, the rest of the file is a set of triples of `_class`, `_link` and `_notes`. Class can be one of three values: 🟩 open, 🟧 partial or 🟥 closed (leave empty to signify NA). Link is a URL providing evidence for the openness classification. Notes provide context and reasoning for the classification.
 
 # Criteria
-The below list spells out for the openness criteria for features in the areas of Availability, Documentation and Access. Use these guidelines to reason about determinations of openness levels.
+The below list spells out for the openness criteria for features in the areas of Availability, Documentation and Access. Use these guidelines to document determinations of openness levels as precisely as possible.
 
 ## **Availability**
 
