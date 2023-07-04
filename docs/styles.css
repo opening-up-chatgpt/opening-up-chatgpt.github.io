@@ -174,3 +174,5 @@ tr.row-b {
 tr.row-b a:link, tr.row-b a:visited, tr.row-b a:active {
 	color:#cccccc;
 }
+tr.row-b .source-link { text-align:right }
+tr.row-b .source-link:active, tr.row-b .source-link:hover { font-weight:bold; }
