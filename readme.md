@@ -8,7 +8,7 @@ Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up Cha
 
 - [Overview](#overview)
 - [How to contribute](#how-to-contribute)
-- [List of Projects](#list-of-projects)
+- [List of Projects](##opening-up-chatgpt-a-curated-list-to-track-openness-transparency-and-accountability-in-instruction-following-text-generators-)
 
 ## Overview
 We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. See the criteria [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
@@ -19,27 +19,21 @@ We classify projects for their degrees of openness across **a predefined set of 
 
 
 ## How to contribute
-You can contribute in (at least) two ways: either by editing specific data points for particular projects; or by updating the awesomelist below. Our goal is to have the awesomelist and the more detailed database of openness features by project roughly in sync, but awesomelists are by nature more free-form and text-driven
-Template to add a project to the [List of Projects](#list-of-projects) section:
+You can contribute in (at least) two ways: either by editing specific data points for particular projects in individual yaml files; or by updating the awesomelist below. Our goal is to have the awesomelist and the more detailed database of openness features by project roughly in sync, but awesomelists are by nature more free-form and text-driven.
 
-```markdown
 
 1. Add entry to list of projects: 
-
-## [{owner}/{project-name}]{https://github.com/link/to/project}
-
-2. edit projects/newproject.md template
-```
-
-How to add a project to the live table:
-
 ```markdown
-
-1. Copy and edit the /project/newproject.csv file in a pull request. 
-
 ## [{owner}/{project-name}]{https://github.com/link/to/project}
-
 ```
+2. Describe the project in terms of its openness, mentioning particular areas of focus (e.g., remarkably detailed documentation; murky licensing; relevant preprints. Use links liberally.
+
+
+How to contribute to the live table:
+1. Fork the repo and edit an existing yaml file or create a new one based on /projects/_sample.yaml
+2. File a pull request to have your changes reviewed and, hopefully, merged into main.
+
+The live table is updated whenever there is a change to the files in the /projects/  folder.
 
 ## Opening up ChatGPT: a curated list to track openness, transparency, and accountability in instruction-following text generators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
