@@ -43,8 +43,9 @@ Overview of available open text generators with links to evidence of all above e
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/alpaca.yaml#L3-L70
 
 ### Belle
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/BELLE.yaml#L3-L70
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4dfeae8db12bdd00b8bc7a1c83405b82c99b0aa1/projects/BELLE.yaml#L3-L70
 
+### CerebrasGPT
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/Cerebras-GPT-111m.yaml#L3-L70
 
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/chatgpt.yaml#L3-L70
