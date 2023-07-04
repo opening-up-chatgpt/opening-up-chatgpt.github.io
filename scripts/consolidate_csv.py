@@ -19,6 +19,8 @@ def create_dataframe(files):
         # append transposed row to list of tuples
         lrows.append(tuple(transposed[1]))
     df = pd.DataFrame(lrows, columns = column_names)
+    # get rid of rows without a project_name
+    df = df[df["project_name"] != ""]
     df.set_index("project_name", inplace = True)
     return df
 
