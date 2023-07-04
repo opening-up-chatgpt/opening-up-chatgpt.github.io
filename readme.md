@@ -46,14 +46,18 @@ https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730dd
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/a1af1c56e8faa82a9225942767eb42c573c7275c/projects/BELLE.yaml#L3-L70
 
 ### CerebrasGPT
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/Cerebras-GPT-111m.yaml#L3-L70
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/e4fe656fe852ad5ba4aa9ebcaa0191c6a5c875d1/projects/Cerebras-GPT-111m.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/chatgpt.yaml#L3-L70
+### chatGPT
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/e4fe656fe852ad5ba4aa9ebcaa0191c6a5c875d1/projects/chatgpt.yaml#L3-L70
 
+### ChatRWKV
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/ChatRWKV.yaml#L3-L70
 
+### Falcon
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/Falcon-40B-instruct.yaml#L3-L70
 
+### minChatGPT
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/minChatGPT.yaml#L3-L70
 
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/MPT-7b-instruct.yaml#L3-L70
