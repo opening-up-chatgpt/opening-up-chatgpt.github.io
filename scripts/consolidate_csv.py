@@ -1,4 +1,4 @@
-import csv
+import yaml
 import glob
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -6,24 +6,19 @@ import datetime
 
 
 def create_dataframe(files):
-    # initialize list of rows
-    lrows = []
-    # Read the input CSV file, transpose the rows and columns and save to dictionary
-    for i, fname in enumerate(files):
+    # Read the input YAML file, transpose the rows and columns and save to dataframe
+    df = pd.DataFrame()
+    source_file = []
+    for fname in files:
         with open(fname, 'r') as file:
-            file.readline()
-            reader = csv.reader(file)
-            rows = list(reader)
-            transposed = list(zip(*rows))
-        # get column names
-        if i == 0:
-            column_names = transposed[0] + ("source_file",)
-        # append transposed row to list of tuples
-        lrows.append(tuple(transposed[1] + (fname[1:],)))
-    df = pd.DataFrame(lrows, columns = column_names)
+            file_df = pd.json_normalize(yaml.safe_load(file))
+        # append transposed row to df
+        source_file.append(fname[1:])
+        df = pd.concat([df, file_df], axis=0)
     # get rid of rows without a project_name
-    df = df[df["project_name"] != ""]
-    df.set_index("project_name", inplace = True)
+    df = df[df["project.name"] != ""]
+    df.set_index("project.name", inplace = True)
+    df["source.file"] = source_file
     return df
 
 
@@ -54,7 +49,7 @@ def calculate_openness(df):
     for p in projects:
         cumul_openness = 0
         for v, w in openness_weights.items():
-            vclass = df.loc[p, v + "_class"]
+            vclass = df.loc[p, v + ".class"]
             vvalue = class_values[vclass] if vclass in class_values else 0
             cumul_openness += w * vvalue
         openness.append(cumul_openness)
@@ -77,19 +72,19 @@ def write_html(df):
         # also add classes to the <td> elements for colour coding and links to source of the class judgement: https://github.com/liesenf/awesome-open-chatgpt/issues/12
         cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license", "code", "architecture", "preprint", "paper", "modelcard", "datasheet", "package", "api"]
         # first row
-        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project_link"], df.loc[p, "project_notes"], p)
+        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project.link"], df.loc[p, "project.notes"], p)
         for c in cells:
-            cl = df.loc[p, c + "_class"]
-            link = df.loc[p, c + "_link"]
-            notes = df.loc[p, c + "_notes"]
+            cl = df.loc[p, c + ".class"]
+            link = df.loc[p, c + ".link"]
+            notes = df.loc[p, c + ".notes"]
             symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else "?"
             r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
         r1_html += "</tr>\n"
         html_table += r1_html
         # second row
-        r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org_link"], df.loc[p, "org_name"], df.loc[p, "org_name"])
-        r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td>'.format(df.loc[p, "project_llmbase"], df.loc[p, "project_rlbase"])
-        source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source_file"]
+        r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org.link"], df.loc[p, "org.name"], df.loc[p, "org.name"])
+        r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td>'.format(df.loc[p, "project.llmbase"], df.loc[p, "project.rlbase"])
+        source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source.file"]
         source_file = source_link.split("/")[-1]
         r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" title="{}" target="_blank">&sect;</a></td></tr>\n'.format(source_link, source_file)
         html_table += r2_html
@@ -120,7 +115,7 @@ def create_index(table):
 
 #the path of the csv files to combine
 path = r'./projects' 
-all_files = glob.glob(path + "/*.csv")
+all_files = glob.glob(path + "/*.yaml")
 
 df = create_dataframe(all_files)
 df = calculate_openness(df)

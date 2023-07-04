@@ -47,7 +47,7 @@ license:
 code:
     class: closed
     link: 
-    code_notes: 
+    notes: 
 
 architecture:
     class: open
