@@ -1,17 +1,25 @@
-# Opening up ChatGPT: a curated list to track openness, transparency, and accountability in instruction-following text generators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# [![logo](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) Opening up ChatGPT — [view live table](https://opening-up-chatgpt.github.io/) 
 
-# [![Awesome](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) [view live table](https://opening-up-chatgpt.github.io/) 
+Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In Proceedings of CUI’23. Eindhoven. doi:10.1145/3571884.3604316.
 
-Large language models that exhibit instruction-following behaviour represent one of the biggest recent upheavals in conversational interfaces, a trend in large part fuelled by the release of OpenAI's ChatGPT, a proprietary large language model for text generation fine-tuned through reinforcement learning from human feedback (LLM+RLHF). We review the risks of relying on proprietary software and survey the first crop of open-source projects of comparable architecture and functionality. The main contribution of this paper is to show that openness is differentiated, and to offer scientific documentation of degrees of openness in this fast-moving field. We evaluate projects in terms of openness of code, training data, model weights, reinforcement learning data, licensing, scientific documentation, and access methods. We find that while there is a fast-growing list of projects billing themselves as 'open source', many inherit undocumented data of dubious legality, few share the all-important RLHF components (a key site where human annotation labour is involved), and careful scientific documentation is exceedingly rare. Degrees of openness are relevant to fairness and accountability at all points, from data collection and curation to model architecture, and from training and fine-tuning to release and deployment. 
+> Large language models that exhibit instruction-following behaviour represent one of the biggest recent upheavals in conversational interfaces, a trend in large part fuelled by the release of OpenAI's ChatGPT, a proprietary large language model for text generation fine-tuned through reinforcement learning from human feedback (LLM+RLHF). We review the risks of relying on proprietary software and survey the first crop of open-source projects of comparable architecture and functionality. The main contribution of this paper is to show that openness is differentiated, and to offer scientific documentation of degrees of openness in this fast-moving field. We evaluate projects in terms of openness of code, training data, model weights, reinforcement learning data, licensing, scientific documentation, and access methods. We find that while there is a fast-growing list of projects billing themselves as 'open source', many inherit undocumented data of dubious legality, few share the all-important RLHF components (a key site where human annotation labour is involved), and careful scientific documentation is exceedingly rare. Degrees of openness are relevant to fairness and accountability at all points, from data collection and curation to model architecture, and from training and fine-tuning to release and deployment. 
 
 ## Contents
 
 - [Overview](#overview)
-- [Criteria](#survey-criteria)
+- [How to contribute](#how-to-contribute)
 - [List of Projects](#list-of-projects)
 
-## How to edit the awesome list and live table
+## Overview
+We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. See the criteria [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
 
+| Availability                                                          | Documentation                                                      | Access          |
+|-----------------------------------------------------------------------|--------------------------------------------------------------------|-----------------|
+| <ul><li>Open code</li><li>LLM data</li><li>LLM weights</li><li>RL data</li><li>RL weights</li><li>License</li></ul> | <ul><li>Code</li><li>Architecture</li><li>Preprint</li><li>Paper</li><li>Model card</li><li>Data sheet</li></ul> | <ul><li>Package</li><li>API</li></ul> |
+
+
+## How to contribute
+You can contribute in (at least) two ways: either by editing specific data points for particular projects; or by updating the awesomelist below. Our goal is to have the awesomelist and the more detailed database of openness features by project roughly in sync, but awesomelists are by nature more free-form and text-driven
 Template to add a project to the [List of Projects](#list-of-projects) section:
 
 ```markdown
@@ -33,131 +41,7 @@ How to add a project to the live table:
 
 ```
 
-
-## Criteria
-
-### **Availability**
-
- **Source code**
-
-    🟥 Project is closed source code.
-    
-    🟧 Some source code is open.
-    
-    🟩 Project source code openly available and fully open available for inspection.
-
-**LLM training data**
-  
-    🟥 Training data of base large language models (LLM) is not open for inspectionn.
-    
-    🟧 Some of the training data of the large language models (LLM) is open for inspection.
-    
-    🟩 The training data of all large language models (LLM) is fully open for inspection.
-
-**LLM model weights**
-
-    🟥 LLM weights are not shared and model training procedure is not open for inspection.
-    
-    🟧 LLM weights are not fully shared or model training procedure is not fully open for inspection.
-    
-    🟩 LLM weights are shared and model training procedure is fully open for inspection.
-
-**RLHF training data**:
-
-    🟥 Training data of the reinforcement-learning from human feedback (RLHF) component is not open for inspectionn.
-    
-    🟧 Some of the training data of the reinforcement-learning from human feedback (RLHF) component is open for inspection.
-    
-    🟩 The training data of for the reinforcement-learning from human feedback (RLHF) component is fully open for inspection.
-
-**RLHF model weights**:
-
-    🟥 RLHF component weights are not shared and model training procedure is not open for inspection.
-    
-    🟧 RLHF component weights are not fully shared or model training procedure is not fully open for inspection.
-    
-    🟩 RLHF component weights are shared and model training procedure is fully open for inspection.
-
-**License**:
-
-    🟥 The project is not licensed clearly or does not use a true Open Source Initiative (OSI)-approved license.
-    
-    🟧 Only parts of the project or components are fully covered by a true Open Source Initiative (OSI)-approved license.
-    
-    🟩 The project is fully covered by a true Open Source Initiative (OSI)-approved license.
-       
-### **Documentation**
-
-**Code**
- 
-    🟥 Code documentation not available.
-    
-    🟧 Some components of the project features code documentation.
-    
-    🟩 All components of the project features a comprehensive code documentation.
-
-**Architecture**
-
-    🟥 System architecture and model training setup are not documented.
-    
-    🟧 System architecture and model training setup is partially documented.
-    
-    🟩 System architecture and model training setup is fully documented.
-
-**Preprint**
-
-    🟥 No archived preprint(s) available.
-    
-    🟧 Archived preprint(s) that detail parts of the software including base models, fine-tuning, or RLHF components are available.
-    
-    🟩 Archived preprint(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
-
-**Paper**
-
-    🟥 No peer-reviewed paper(s) available.
-    
-    🟧 Peer-reviewed paper(s) detail parts of the software including base models, fine-tuning, or RLHF components.
-    
-    🟩 Peer-reviewed paper(s) are available that cover all parts of the software including base models, fine-tuning, and RLHF components.
-
-**Model card**
-
-    🟥 Model card(s) not available.
-    
-    🟧 Model card(s) that provide partial insight on model architecture, training, fine-tuning, and evaluation are available.
-    
-    🟩 Model card(s) are available that provide comprehensive insight on model architecture, training, fine-tuning, and evaluation are available.
-
-**Datasheet**
-
-    🟥 Datasheet(s) are not available.
-    
-    🟧 Datasheet(s) that provide partial insight on data collection and curation are available.
-    
-    🟩 Datasheet(s) are available that provide comprehensive insight on data collection and curation are available.
-
-
-### **Access methods**
-
-**Package**
-
-    🟥 No index software package is available.
-    
-    🟧 User-oriented code or web-interface is available but not as a versioned package.
-    
-    🟩 A packaged release of fully open-source software (e.g. a Python Package Index, Homebrew) is available.
-
-
-**API**
-
-    🟥 No API access.
-    
-    🟧 Commerial or restircted-access user API is available.
-    
-    🟩 An open API available that provides unrestricted access to the text generator (other than security and CDN restrictions).
-
-
-## List of Projects
+## Opening up ChatGPT: a curated list to track openness, transparency, and accountability in instruction-following text generators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Overview of available open text generators with links to evidence of all above evaluation criteria.
 

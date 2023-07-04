@@ -2,6 +2,7 @@ import csv
 import glob
 import pandas as pd
 from bs4 import BeautifulSoup
+import datetime
 
 
 def create_dataframe(files):
@@ -16,9 +17,9 @@ def create_dataframe(files):
             transposed = list(zip(*rows))
         # get column names
         if i == 0:
-            column_names = transposed[0]
+            column_names = transposed[0] + ("source_file",)
         # append transposed row to list of tuples
-        lrows.append(tuple(transposed[1]))
+        lrows.append(tuple(transposed[1] + (fname[1:],)))
     df = pd.DataFrame(lrows, columns = column_names)
     # get rid of rows without a project_name
     df = df[df["project_name"] != ""]
@@ -87,7 +88,10 @@ def write_html(df):
         html_table += r1_html
         # second row
         r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org_link"], df.loc[p, "org_name"], df.loc[p, "org_name"])
-        r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td></tr>\n'.format(df.loc[p, "project_llmbase"], df.loc[p, "project_rlbase"])
+        r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td>'.format(df.loc[p, "project_llmbase"], df.loc[p, "project_rlbase"])
+        source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source_file"]
+        source_file = source_link.split("/")[-1]
+        r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" title="{}" target="_blank">&sect;</a></td></tr>\n'.format(source_link, source_file)
         html_table += r2_html
     # closing tags
     html_table += '</tbody>\n'
@@ -104,6 +108,11 @@ def create_index(table):
     target_element = soup.find(id="included-table")
     # Convert the HTML code string into a BeautifulSoup object and append it to the target element
     target_element.append(BeautifulSoup(table, 'html.parser'))
+    # Add build time info
+    utc_datetime = datetime.datetime.utcnow()
+    build_message = utc_datetime.strftime("Table last built on %Y-%m-%d at %H:%M UTC")
+    target_footer = soup.find(id="build-time")
+    target_footer.string = build_message
     # write to disk
     with open("./docs/index.html", 'w') as f:
         f.write(str(soup))
