@@ -1,6 +1,7 @@
 import csv
 import glob
 import pandas as pd
+from bs4 import BeautifulSoup
 
 
 def create_dataframe(files):
@@ -91,9 +92,21 @@ def write_html(df):
     # closing tags
     html_table += '</tbody>\n'
     html_table += '</table>\n'
+    return html_table
+
+
+def create_index(table):
+    # read and parse the template file
+    with open("./docs/template.html", "r") as f:
+        html = f.read()
+    soup = BeautifulSoup(html, "html.parser")
+    # find the target location
+    target_element = soup.find(id="included-table")
+    # Convert the HTML code string into a BeautifulSoup object and append it to the target element
+    target_element.append(BeautifulSoup(table, 'html.parser'))
     # write to disk
-    with open("./docs/table.html", 'w') as file:
-        file.write(html_table)
+    with open("./docs/index.html", 'w') as f:
+        f.write(str(soup))
 
 
 #the path of the csv files to combine
@@ -104,4 +117,5 @@ df = create_dataframe(all_files)
 df = calculate_openness(df)
 # sort by openness and project name
 df = df.sort_index(ascending=False).sort_values(by="openness", ascending=False)
-write_html(df)
+table = write_html(df)
+create_index(table)
