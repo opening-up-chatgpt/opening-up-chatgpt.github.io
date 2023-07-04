@@ -40,7 +40,7 @@ The live table is updated whenever there is a change to the files in the /projec
 Overview of available open text generators with links to evidence of all above evaluation criteria.
 
 ### Alpaca
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/alpaca.yaml#L3-L70
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/alpaca.yaml#L3-L70
 
 ### Belle
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/a1af1c56e8faa82a9225942767eb42c573c7275c/projects/BELLE.yaml#L3-L70
@@ -58,7 +58,7 @@ https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929e
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929ec9e14842258f76243884aaf490a282ea/projects/Falcon-40B-instruct.yaml#L3-L70
 
 ### minChatGPT
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/minChatGPT.yaml#L3-L70
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/minChatGPT.yaml#L3-L70
 
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/MPT-7b-instruct.yaml#L3-L70
 
