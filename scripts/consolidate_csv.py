@@ -90,7 +90,8 @@ def write_html(df):
         r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org_link"], df.loc[p, "org_name"], df.loc[p, "org_name"])
         r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td>'.format(df.loc[p, "project_llmbase"], df.loc[p, "project_rlbase"])
         source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source_file"]
-        r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" target="_blank">&sect;</a></td></tr>\n'.format(source_link)
+        source_file = source_link.split("/")[-1]
+        r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" title="{}" target="_blank">&sect;</a></td></tr>\n'.format(source_link, source_file)
         html_table += r2_html
     # closing tags
     html_table += '</tbody>\n'
