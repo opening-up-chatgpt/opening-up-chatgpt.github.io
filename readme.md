@@ -21,16 +21,13 @@ We classify projects for their degrees of openness across **a predefined set of 
 ## How to contribute
 You can contribute in (at least) two ways: either by editing specific data points for particular projects in individual yaml files; or by updating the awesomelist below. Our goal is to have the awesomelist and the more detailed database of openness features by project roughly in sync, but awesomelists are by nature more free-form and text-driven.
 
-
+How to contribute to the awesomelist below:
 1. Add entry to list of projects: 
-```markdown
-## [{owner}/{project-name}]{https://github.com/link/to/project}
-```
-2. Describe the project in terms of its openness, mentioning particular areas of focus (e.g., remarkably detailed documentation; murky licensing; relevant preprints. Use links liberally.
-
+2. Describe the project in terms of its openness, mentioning particular areas of focus (e.g., remarkably detailed documentation; murky licensing; relevant preprints). Use links liberally.
+3. If there is a yaml file for the project already (see below), transclude it
 
 How to contribute to the live table:
-1. Fork the repo and edit an existing yaml file or create a new one based on /projects/_sample.yaml
+1. Fork the repo and edit an existing yaml file or create a new one based on the sample `yaml` file in [/projects](/projects)
 2. File a pull request to have your changes reviewed and, hopefully, merged into main.
 
 The live table is updated whenever there is a change to the files in the /projects/  folder.
