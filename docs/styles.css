@@ -23,6 +23,7 @@ p.warning {
 }
 
 #footer {
+	margin-top:2em;
 	padding:3em 1em 3em 1em;
 	background-color:#f7f7f7;
 	font-size:0.8em;
@@ -45,6 +46,12 @@ img#title-logo {
 
 
 /* typography */
+
+blockquote { 
+	border-left:4px solid #f7f7f7;
+	padding-left:1em;
+	margin-left:1em;
+}
 
 /* responsive font sizes */
 
