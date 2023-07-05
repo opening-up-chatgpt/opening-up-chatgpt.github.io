@@ -66,21 +66,21 @@ paper:
 
 modelcard:
     class: partial
-    link:
-    notes:
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes: Model card on HuggingFace is mostly used to advertise the model, not to document its training and evaluation details.
 
 datasheet:
-    class: partial
+    class: closed
     link:
-    notes:
+    notes: There is no datasheet available.
 
 # access
 package:
-    class: partial
+    class: closed
     link:
-    notes:
+    notes: There is no package.
 
 api:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/tiiuae/falcon-40b-instruct
+    notes: There is no API, and HuggingFace inference API is disabled for this model.
