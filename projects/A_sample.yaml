@@ -3,6 +3,12 @@
 # In filling out this yaml file, please follow the criteria as described here: 
 # https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
 
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation 
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Andreas Liesenfeld, Alianda Lopez, and Mark Dingemanse. 2023. Opening up ChatGPT: Tracking openness, transparency, and accountability in instruction-tuned text generators. In Proceedings of the 5th Conference on Conversational User Interfaces (CUI ’23), July 19–21, 2023, Eindhoven, The Netherlands.
+
 project:
     name:
     link:
