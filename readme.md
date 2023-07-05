@@ -34,7 +34,8 @@ The live table is updated whenever there is a change to the files in the /projec
 
 ## List of projects  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Overview of available open text generators with links to evidence for the evaluation criteria.
+Overview of available open text generators with links to evidence for the evaluation criteria. The target breed of models in focus here is characterized by the following two features: its architecture is at base a large language model instruction-tuned by reinforcement learning with human feedback (LLM + RLHF) and it aims for openness and transparency (along degrees we quantify).
+
 
 ### Alpaca
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/alpaca.yaml#L3-L70
