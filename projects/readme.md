@@ -2,6 +2,11 @@
 
 Every project is a separate yaml file. The first few fields contain basic metadata about the model, the rest of the file is a set of triples of `_class`, `_link` and `_notes`. Class can be one of three values: 🟩 open, 🟧 partial or 🟥 closed (leave empty to signify NA). Link is a URL providing evidence for the openness classification. Notes provide context and reasoning for the classification.
 
+You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io and a citation to the paper in which the initial dataset & criteria were published:
+
+> Andreas Liesenfeld, Alianda Lopez, and Mark Dingemanse. 2023. Opening up ChatGPT: Tracking openness, transparency, and accountability in instruction-tuned text generators. In _Proceedings of the 5th Conference on Conversational User Interfaces (CUI ’23)_, July 19–21, 2023, Eindhoven, The Netherlands.
+
+
 # Criteria
 The below list spells out for the openness criteria for features in the areas of Availability, Documentation and Access. Use these guidelines to document determinations of openness levels as precisely as possible.
 
