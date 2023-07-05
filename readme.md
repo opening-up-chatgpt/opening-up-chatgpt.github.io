@@ -35,7 +35,7 @@ How to contribute to the live table:
 
 The live table is updated whenever there is a change to the files in the /projects/  folder.
 
-## List of projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+## List of projects  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Overview of available open text generators with links to evidence of all above evaluation criteria.
 
