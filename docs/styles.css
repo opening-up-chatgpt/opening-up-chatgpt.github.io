@@ -1,6 +1,19 @@
 body {
 	font-family:Arial, sans-serif;
 }
+
+/* I wish we could trust CSS vars to work */
+p#table-guide {
+	color:#696969;
+	font-size:0.9em;
+}
+span.openness { display:inline-block;
+padding:1px 5px; color:#ffffff }
+span.open { background-color:#3e9b74; }
+span.partial { background-color:#dd9f1c; }
+span.closed { background-color:#ca6014; }
+
+
 p.warning { 
 	display:block;
 	padding:15px 20px;
@@ -41,7 +54,10 @@ img#title-logo {
 	padding-right:8px;
 	margin-bottom:-3px;
 }
-
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+	color:#000000;
+	text-decoration:none;
+}
 
 
 
