@@ -21,66 +21,66 @@ opencode:
 llmdata:
     class: closed
     link:
-    notes:
+    notes: OpenAI has not released or documented any of the source training data
 
 llmweights:
     class: closed
     link:
-    notes:
+    notes: OpenAI has not released model weights for GPT3.5
 
 rldata:
     class: closed
     link:
-    notes:
+    notes:  OpenAI has not released the instruction-tuning data
 
 rlweights:
     class: closed
     link:
-    notes:
+    notes: OpenAI has not released details about RLHF models weights
 
 license:
     class: closed
     link:
-    notes:
+    notes: None of the code is open sourced; license unknown.
 
 # documentation
 code:
     class: closed
     link:
-    notes:
+    notes: Code is not available, documentation level unknown.
 
 architecture:
     class: closed
     link:
-    notes:
+    notes: OpenAI has not clearly documented the LLM+RLHF architecture or its evaluation.
 
 preprint:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://arxiv.org/abs/2203.02155
+    notes: Preprint describes only the instruction-tuning method; no further papers available.
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No peer-reviewed paper documenting this system is available.
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/openai/gpt-3/blob/master/model-card.md
+    notes: No modelcard is available for GPT3.5. The linked model card is for GPT3 is dated Sept 2020.
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: OpenAI has not released a datasheet or any other documentation or evaluation of source data.
 
 # access
 package:
     class: closed
     link:
-    notes:
+    notes: Some third party packages exist; support for them is contingent on OpenAI's whims.
 
 api:
     class: closed
     link:
-    notes:
+    notes: API access is only available for commercial users.
