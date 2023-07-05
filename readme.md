@@ -8,10 +8,10 @@ Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up Cha
 
 - [Overview](#overview)
 - [How to contribute](#how-to-contribute)
-- [List of Projects](#list-of-projects)
+- [List of Projects](#list-of-projects--)
 
 ## Overview
-We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. The criteria are detailed [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
+We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. The criteria are described in detail [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
 
 | Availability                                                          | Documentation                                                      | Access          |
 |-----------------------------------------------------------------------|--------------------------------------------------------------------|-----------------|
@@ -19,14 +19,14 @@ We classify projects for their degrees of openness across **a predefined set of 
 
 
 ## How to contribute
-You can contribute in (at least) two ways: either by editing specific data points for particular projects in individual yaml files; or by updating the awesomelist below. Our goal is to have the awesomelist and the more detailed database of openness features by project roughly in sync, but awesomelists are by nature more free-form and text-driven.
+You can contribute in (at least) two ways: either by updating the awesomelist [below](#list-of-projects--), or by editing specific data points in the table (which means editing project-specific yaml files). Our goal is to have both elements roughly in sync, but awesomelists are by nature more free-form and text-driven, and we anticipate using them also for discovering new projects.
 
 How to contribute to the awesomelist below:
 1. Add entry to list of projects: 
 2. Describe the project in terms of its openness, mentioning particular areas of focus (e.g., remarkably detailed documentation; murky licensing; relevant preprints). Use links liberally.
 3. If there is a yaml file for the project already (see below), transclude it
 
-How to contribute to the live table:
+How to contribute to the [live table](https://opening-up-chatgpt.github.io):
 1. Fork the repo and edit an existing yaml file or create a new one based on the sample `yaml` file in [/projects](/projects)
 2. File a pull request to have your changes reviewed and, hopefully, merged into main.
 
@@ -34,7 +34,7 @@ The live table is updated whenever there is a change to the files in the /projec
 
 ## List of projects  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Overview of available open text generators with links to evidence of all above evaluation criteria.
+Overview of available open text generators with links to evidence for the evaluation criteria.
 
 ### Alpaca
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/alpaca.yaml#L3-L70
