@@ -60,21 +60,29 @@ https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929e
 ### minChatGPT
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/minChatGPT.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/MPT-7b-instruct.yaml#L3-L70
+### MPT-7b-instruct
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/MPT-7b-instruct.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/Open-Assistant.yaml#L3-L70
+### Open Assistant
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/Open-Assistant.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/OpenChatKit.yaml#L3-L70
+### OpenChatKit
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/OpenChatKit.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/stablevicuna.yaml#L3-L70
+### Stable Vicuna
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/stablevicuna.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/text-generation-webui.yaml#L3-L70
+### Text generation webui
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/text-generation-webui.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/trlx.yaml#L3-L70
+### trlx
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/trlx.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/vicuna13B-lmsys.yaml#L3-L70
+### Vicuna13b-lmsys
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/vicuna13B-lmsys.yaml#L3-L70
 
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/4c6730ddef6a5501d64380227f3beba6afa0391a/projects/xmtf.yaml#L3-L70
+### XMTF
+https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/xmtf.yaml#L3-L70
 
 ## Contribute
 
