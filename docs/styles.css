@@ -1,6 +1,11 @@
 body {
 	font-family:Arial, sans-serif;
 }
+p.warning { 
+	display:block;
+	padding:15px 20px;
+	background-color:#f7f7f7; !important
+}
 #header, #content {
 	max-width:1200px;
 	margin: auto;
