@@ -1,4 +1,4 @@
-# [![logo](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) Opening up ChatGPT — [view live table](https://opening-up-chatgpt.github.io/) 
+# [![logo](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) Opening up ChatGPT [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) — [view live table](https://opening-up-chatgpt.github.io/) 
 
 Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In Proceedings of CUI’23. Eindhoven. doi:10.1145/3571884.3604316.
 
@@ -35,7 +35,7 @@ How to contribute to the live table:
 
 The live table is updated whenever there is a change to the files in the /projects/  folder.
 
-## Opening up ChatGPT: a curated list to track openness, transparency, and accountability in instruction-following text generators [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+## Opening up ChatGPT: a curated list to track openness, transparency, and accountability in instruction-following text generators 
 
 Overview of available open text generators with links to evidence of all above evaluation criteria.
 
