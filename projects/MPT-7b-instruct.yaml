@@ -1,7 +1,7 @@
 ---
 project:
-    name: MPT-7B
-    link: https://www.mosaicml.com/blog/mpt-7b
+    name: MPT-7B Instruct
+    link: https://huggingface.co/mosaicml/mpt-7b-instruct
     notes:
     llmbase: MosaicML
     rlbase: dolly, anthropic
@@ -15,23 +15,23 @@ org:
 # availability:
 opencode:
     class: open
-    link:
-    notes:
+    link: https://github.com/mosaicml/llm-foundry/tree/main/llmfoundry/models/mpt
+    notes: Codebase part of LLM foundry
 
 llmdata:
-    class: closed
-    link: https://huggingface.co/mosaicml/mpt-7b-instruct
-    notes:
+    class: partial
+    link: https://huggingface.co/datasets/c4
+    notes: C4 is part of the dataset but a precise specification of source data is hard to find
 
 llmweights:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/mosaicml/mpt-7b-instruct/tree/main
+    notes: Weights available via HuggingFace
 
 rldata:
     class: partial
-    link:
-    notes:
+    link: https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
+    notes: dolly-hhrlhf: 'This dataset is a combination of Databrick's dolly-15k dataset and a filtered subset of Anthropic's HH-RLHF.'
 
 rlweights:
     class: closed
@@ -41,18 +41,18 @@ rlweights:
 license:
     class: open
     link:
-    notes:
+    notes: CC-by-SA 3.0
 
 # documentation
 code:
     class: open
-    link:
-    notes:
+    link: https://github.com/mosaicml/llm-foundry/
+    notes: LLM Foundry codebase is well-documented and in active development.
 
 architecture:
     class: partial
-    link:
-    notes:
+    link: https://huggingface.co/mosaicml/mpt-7b-instruct
+    notes: Architecture reasonably well-documented
 
 preprint:
     class: closed
@@ -65,9 +65,9 @@ paper:
     notes:
 
 modelcard:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/mosaicml/mpt-7b-instruct
+    notes: 
 
 datasheet:
     class: closed
