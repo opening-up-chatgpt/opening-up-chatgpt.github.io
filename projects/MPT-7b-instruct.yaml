@@ -31,7 +31,7 @@ llmweights:
 rldata:
     class: partial
     link: https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
-    notes: dolly-hhrlhf: 'This dataset is a combination of Databrick's dolly-15k dataset and a filtered subset of Anthropic's HH-RLHF.'
+    notes: dolly-hhrlhf (a combination of Databrick's dolly-15k dataset and a filtered subset of Anthropic's HH-RLHF)
 
 rlweights:
     class: closed
@@ -47,7 +47,7 @@ license:
 code:
     class: open
     link: https://github.com/mosaicml/llm-foundry/
-    notes: LLM Foundry codebase is well-documented and in active development.
+    notes: LLM Foundry codebase is well-documented and in active development
 
 architecture:
     class: partial
