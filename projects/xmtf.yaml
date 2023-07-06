@@ -62,7 +62,7 @@ preprint:
 paper:
     class: closed
     link:
-    notes:
+    notes: No peer-reviewed paper found
 
 modelcard:
     class: open
@@ -76,11 +76,11 @@ datasheet:
 
 # access
 package:
-    class: open
+    class: closed
     link:
-    notes:
+    notes: No packages published
 
 api:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/spaces/bigscience/petals-api
+    notes: Petals API via HuggingFace not always available ('not enough hardware capacity')
