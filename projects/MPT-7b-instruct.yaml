@@ -31,7 +31,7 @@ llmweights:
 rldata:
     class: partial
     link: https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
-    notes: dolly-hhrlhf (a combination of Databrick's dolly-15k dataset and a filtered subset of Anthropic's HH-RLHF)
+    notes: dolly-hhrlhf, combination of Databrick dolly-15k dataset and a filtered subset of Anthropic HH-RLHF
 
 rlweights:
     class: closed
