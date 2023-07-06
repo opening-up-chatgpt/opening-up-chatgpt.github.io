@@ -1,0 +1,86 @@
+---
+project:
+    name: MPT-30B Instruct
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct
+    notes:
+    llmbase: MosaicML
+    rlbase: dolly, anthropic
+    license: CC-By-SA-3.0
+
+org:
+    name: MosaicML
+    link: https://www.mosaicml.com
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/mosaicml/llm-foundry/tree/main/llmfoundry/models/mpt
+    notes: Codebase part of LLM foundry
+
+llmdata:
+    class: partial
+    link: https://huggingface.co/datasets/c4
+    notes: C4 is part of the dataset but a precise specification of source data is hard to find
+
+llmweights:
+    class: open
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct/tree/main
+    notes: Weights available via HuggingFace
+
+rldata:
+    class: partial
+    link: https://huggingface.co/datasets/mosaicml/dolly_hhrlhf
+    notes: dolly-hhrlhf: 'This dataset is a combination of Databrick's dolly-15k dataset and a filtered subset of Anthropic's HH-RLHF.'
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: open
+    link:
+    notes: CC-by-SA 3.0
+
+# documentation
+code:
+    class: open
+    link: https://github.com/mosaicml/llm-foundry/
+    notes: LLM Foundry codebase is well-documented and in active development.
+
+architecture:
+    class: partial
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct
+    notes: Architecture reasonably well-documented
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/mosaicml/mpt-30b-instruct
+    notes: Modelcard is somewhat lacking in detail
+
+datasheet:
+    class: closed
+    link: https://www.mosaicml.com/blog/mpt-30b
+    notes: Datasheet not available; data somewhat documented in blog post at link
+
+# access
+package:
+    class: open
+    link:
+    notes:
+
+api:
+    class: partial
+    link: 
+    notes: API via HuggingFace
