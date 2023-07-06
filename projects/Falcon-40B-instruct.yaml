@@ -34,9 +34,9 @@ rldata:
     notes: RL data inherited from Baize but provenance not well-documented. From the documentation 'Falcon-40B-Instruct was finetuned on a 150M tokens from Baize mixed with 5% of RefinedWeb data.'
 
 rlweights:
-    class: open
+    class: closed
     link: https://github.com/project-baize/baize-chatbot#v1
-    notes:
+    notes: No RL weights or checkpoints made available
 
 license:
     class: open
