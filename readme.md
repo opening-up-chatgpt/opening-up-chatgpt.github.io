@@ -32,6 +32,8 @@ How to contribute to the [live table](https://opening-up-chatgpt.github.io):
 
 The live table is updated whenever there is a change to the files in the /projects/  folder.
 
+If you know of a new instruction-tuned LLM+RLHF model we should be including, you can also add an [issue](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/issues).
+
 ## List of projects  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Overview of available open text generators with links to evidence for the evaluation criteria. The target breed of models in focus here is characterized by the following two features: its architecture is at base a large language model instruction-tuned by reinforcement learning with human feedback (LLM + RLHF) and it aims for openness and transparency (along degrees we quantify).
