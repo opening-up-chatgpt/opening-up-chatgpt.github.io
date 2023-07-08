@@ -92,6 +92,7 @@ We try to be fairly systematic in our coverage of LLM+RLHF models, documenting d
 * [Awesome Totally Open ChatGPT](https://github.com/nichtdax/awesome-totally-open-chatgpt/) — a free-form awesomelist of ChatGPT alternatives.
 * [gpt4free: other models](https://github.com/xtekky/gpt4free#other-models) — another list of alternatives to GTP3.5/GPT4
 * [Jetstream's Awesome free and open sources alternatives to ChatGPT](https://github.com/JetstreamAIVisionary/Awesome-free-and-open-source-alternatives-to-ChatGPT-and-pilot-training-courseware.-) — a free-form listing "dedicated to showcasing a collection of awesome free and open-source alternatives to ChatGPT"
+* [LLMZoo](https://github.com/FreedomIntelligence/LLMZoo) — Motivation: "Break "AI supremacy" and democratize ChatGPT"
 
 Here are some background readings on why openness matters, why closed models make bad baselines, and why some of us call for more counterfoil research in times of hype:
 
