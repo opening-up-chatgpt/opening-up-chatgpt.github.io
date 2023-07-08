@@ -99,9 +99,7 @@ Here are some background readings on why openness matters, why closed models mak
 * [Closed AI models make bad baselines](https://hackingsemantics.xyz/2023/closed-baselines/), by Anna Rogers. Proposes a simple principle: "That which is not open and reasonably reproducible cannot be considered a requisite baseline."
 * [Why ChatGPT is bad for open psycholinguistics](https://cxjacobs.notion.site/Why-ChatGPT-is-bad-for-open-psycholinguistics-6accb832bb4d414aa2fa8e648af95d7f) — by Cassandra Jacobs. Quote: "The downsides of ChatGPT are specific to it—not intrinsic to language modeling as a whole. Using ChatGPT [in] one’s work undermines open science, reproducibility & lacks the flexibility of previous systems that could be manipulated & changed to suit one’s scientific needs."
 * [Stop feeding the hype and start resisting](https://irisvanrooijcogsci.com/2023/01/14/stop-feeding-the-hype-and-start-resisting/), by Iris van Rooij. Quote: "It’s almost as if academics are eager to do the PR work for OpenAI (the company that created ChatGPT; as well as its predecessor GPT-3 and its anticipated successor GPT-4). Why?"
-* [AI is a lot of work](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) — by Josh Dzieza for _The Verge_. Quote: "ChatGPT seems so human because it was trained by an AI that was mimicking humans who were rating an AI that was mimicking humans who were pretending to be a better version of an AI that was trained on human writing."
-* [Monetizing uninformation: a prediction](https://ideophone.org/monetizing-uninformation-a-prediction/) — by Mark Dingemanse
-  
+* [AI is a lot of work](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) — by Josh Dzieza for _The Verge_. Quote: "ChatGPT seems so human because it was trained by an AI that was mimicking humans who were rating an AI that was mimicking humans who were pretending to be a better version of an AI that was trained on human writing."  
 
 ## Contribute
 
