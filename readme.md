@@ -87,15 +87,20 @@ https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bf
 
 ## Related resources
 
-We try to be fairly systematic in our coverage, documenting degrees of openness for >10 features. You may also be interested in the following resources:
+We try to be fairly systematic in our coverage of LLM+RLHF models, documenting degrees of openness for >10 features. There are many other resources that provide more free-form listings of relevant stuff:
 
 * [Awesome Totally Open ChatGPT](https://github.com/nichtdax/awesome-totally-open-chatgpt/) — a free-form awesomelist of ChatGPT alternatives.
 * [gpt4free: other models](https://github.com/xtekky/gpt4free#other-models) — another list of alternatives to GTP3.5/GPT4
 * [Jetstream's Awesome free and open sources alternatives to ChatGPT](https://github.com/JetstreamAIVisionary/Awesome-free-and-open-source-alternatives-to-ChatGPT-and-pilot-training-courseware.-) — a free-form listing "dedicated to showcasing a collection of awesome free and open-source alternatives to ChatGPT"
 
-Here is some background reading on why openness matters:
+Here are some background readings on why openness matters, why closed models make bad baselines, and why some of us call for more counterfoil research in times of hype:
 
-* [Closed AI models make bad baselines](https://hackingsemantics.xyz/2023/closed-baselines/), by Anna Rogers
+* [The gradient of generative AI release](https://dl.acm.org/doi/10.1145/3593013.3593981) — FACCT '23 paper by Irene Solaiman on degrees of openness in generative AI
+* [Closed AI models make bad baselines](https://hackingsemantics.xyz/2023/closed-baselines/), by Anna Rogers. Proposes a simple principle: "That which is not open and reasonably reproducible cannot be considered a requisite baseline."
+* [Why ChatGPT is bad for open psycholinguistics](https://cxjacobs.notion.site/Why-ChatGPT-is-bad-for-open-psycholinguistics-6accb832bb4d414aa2fa8e648af95d7f) — by Cassandra Jacobs. Quote: "The downsides of ChatGPT are specific to it—not intrinsic to language modeling as a whole. Using ChatGPT [in] one’s work undermines open science, reproducibility & lacks the flexibility of previous systems that could be manipulated & changed to suit one’s scientific needs."
+* [Stop feeding the hype and start resisting](https://irisvanrooijcogsci.com/2023/01/14/stop-feeding-the-hype-and-start-resisting/), by Iris van Rooij. Quote: "It’s almost as if academics are eager to do the PR work for OpenAI (the company that created ChatGPT; as well as its predecessor GPT-3 and its anticipated successor GPT-4). Why?"
+* [AI is a lot of work](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) — by Josh Dzieza for _The Verge_. Quote: "ChatGPT seems so human because it was trained by an AI that was mimicking humans who were rating an AI that was mimicking humans who were pretending to be a better version of an AI that was trained on human writing."
+* [Monetizing uninformation: a prediction](https://ideophone.org/monetizing-uninformation-a-prediction/) — by Mark Dingemanse
   
 
 ## Contribute
