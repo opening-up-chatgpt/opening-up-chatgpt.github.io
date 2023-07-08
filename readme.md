@@ -8,7 +8,8 @@ Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up Cha
 
 - [Overview](#overview)
 - [How to contribute](#how-to-contribute)
-- [List of Projects](#list-of-projects--)
+- [Curated list of 'open' LLM+RLHF projects](#list-of-projects--)
+- [Related resources](#related-resources)
 
 ## Overview
 We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. The criteria are described in detail [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
@@ -83,6 +84,19 @@ https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bf
 
 ### XMTF
 https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/xmtf.yaml#L3-L70
+
+## Related resources
+
+We try to be fairly systematic in our coverage, documenting degrees of openness for >10 features. You may also be interested in the following resources:
+
+* [Awesome Totally Open ChatGPT](https://github.com/nichtdax/awesome-totally-open-chatgpt/) — a free-form awesomelist of ChatGPT alternatives.
+* [gpt4free: other models](https://github.com/xtekky/gpt4free#other-models) — another list of alternatives to GTP3.5/GPT4
+* [Jetstream's Awesome free and open sources alternatives to ChatGPT](https://github.com/JetstreamAIVisionary/Awesome-free-and-open-source-alternatives-to-ChatGPT-and-pilot-training-courseware.-) — a free-form listing "dedicated to showcasing a collection of awesome free and open-source alternatives to ChatGPT"
+
+Here is some background reading on why openness matters:
+
+* [Closed AI models make bad baselines](https://hackingsemantics.xyz/2023/closed-baselines/), by Anna Rogers
+  
 
 ## Contribute
 
