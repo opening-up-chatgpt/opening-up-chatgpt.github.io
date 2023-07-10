@@ -12,7 +12,7 @@
 project:
     name: ChatGLM-6B
     link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md
-    notes: From the readme: "ChatGLM-6B uses technology similar to ChatGPT, optimized for Chinese QA and dialogue. The model is trained for about 1T tokens of Chinese and English corpus, supplemented by supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback. With only about 6.2 billion parameters, the model is able to generate answers that are in line with human preference."
+    notes: From the readme, "ChatGLM-6B uses technology similar to ChatGPT, optimized for Chinese QA and dialogue. The model is trained for about 1T tokens of Chinese and English corpus, supplemented by supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback. With only about 6.2 billion parameters, the model is able to generate answers that are in line with human preference."
     llmbase: GLM (own)
     rlbase: Unspecified
     license: Apache 2.0
