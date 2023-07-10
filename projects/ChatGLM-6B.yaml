@@ -41,7 +41,7 @@ llmweights:
 rldata:
     class: closed
     link:
-    notes: "supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback" — but none of the datasets used are clearly specified.
+    notes: docs mention "supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback", but none of the datasets used are clearly specified.
 
 rlweights:
     class: closed
