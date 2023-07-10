@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the stipulation 
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In Proceedings of CUI’23. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316.
+
+project:
+    name: ChatGLM-6B
+    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md
+    notes: From the readme: "ChatGLM-6B uses technology similar to ChatGPT, optimized for Chinese QA and dialogue. The model is trained for about 1T tokens of Chinese and English corpus, supplemented by supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback. With only about 6.2 billion parameters, the model is able to generate answers that are in line with human preference."
+    llmbase: GLM (own)
+    rlbase: Unspecified
+    license: Apache 2.0
+
+org:
+    name: THUDM
+    link: https://github.com/THUDM
+    notes: Knowledge Engineering Group (KEG) & Data Mining at Tsinghua University
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#deployment
+    notes: Some code made available on Github
+
+llmdata:
+    class: closed
+    link:
+    notes: Training data undisclosed and not made available
+
+llmweights:
+    class: open
+    link: https://huggingface.co/THUDM/chatglm-6b/tree/main
+    notes: Model made available through HuggingFace
+
+rldata:
+    class: closed
+    link:
+    notes: "supervised fine-tuning, feedback bootstrap, and reinforcement learning wit human feedback" — but none of the datasets used are clearly specified.
+
+rlweights:
+    class: closed
+    link:
+    notes: No weights or checkpoints corresponding to the delta of the LLM vs RLHF provided
+
+license:
+    class: open
+    link: https://github.com/THUDM/ChatGLM-6B/blob/main/LICENSE
+    notes: Apache 2.0
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/THUDM/ChatGLM-6B/blob/main/ptuning/README_en.md
+    notes: Some documentation available, but a lot of code is not commented or explained.
+
+architecture:
+    class: partial
+    link: 
+    notes: Full details architecture not specified in a single place
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: partial
+    link: https://openreview.net/forum?id=-Aw0rrrPUF
+    notes: ICLR 2023 paper describes the training of the GLM-130B model, but not the RLHF portion
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/THUDM/chatglm-6b
+    notes: No modelcard; the HuggingFace modelcard spot is used just as the homepage for the model.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package
+
+api:
+    class: open
+    link: https://github.com/THUDM/ChatGLM-6B/blob/main/README_en.md#api-deployment
+    notes: API provided through fastapi uvicorn
