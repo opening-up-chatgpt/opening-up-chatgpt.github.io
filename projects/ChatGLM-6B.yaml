@@ -29,9 +29,9 @@ opencode:
     notes: Some code made available on Github
 
 llmdata:
-    class: closed
-    link:
-    notes: Training data undisclosed and not made available
+    class: partial
+    link: http://doi.org/10.18653/v1/2022.acl-long.26
+    notes: Training data not centrally made available, but described in 2022 ACL paper, appears to be mostly public datasets
 
 llmweights:
     class: open
@@ -71,8 +71,8 @@ preprint:
 
 paper:
     class: partial
-    link: https://openreview.net/forum?id=-Aw0rrrPUF
-    notes: ICLR 2023 paper describes the training of the GLM-130B model, but not the RLHF portion
+    link: https://aclanthology.org/2022.acl-long.26/
+    notes: ACL 2022 paper describes the training of the GLM base model, but the RLHF portion is more recent (there is also a related ICLR paper for a newer generation https://openreview.net/forum?id=-Aw0rrrPUF)
 
 modelcard:
     class: closed
