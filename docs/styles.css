@@ -14,11 +14,13 @@ span.partial { background-color:#dd9f1c; }
 span.closed { background-color:#ca6014; }
 
 
-p.warning { 
+p.highlight { 
 	display:block;
 	padding:15px 20px;
 	background-color:#f7f7f7; !important
 }
+p#tagline a { padding-left:4px; }
+
 #header, #content {
 	max-width:1200px;
 	margin: auto;
