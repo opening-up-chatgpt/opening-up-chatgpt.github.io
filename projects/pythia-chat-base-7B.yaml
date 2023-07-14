@@ -1,6 +1,6 @@
 ---
 project:
-    name: OpenChatKit
+    name: Pythia-Chat-Base-7B-v0.16
     link: https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B
     notes:
     llmbase: EleutherAI pythia
