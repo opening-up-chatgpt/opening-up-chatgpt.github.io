@@ -1,35 +1,28 @@
-body {
-	font-family:Arial, sans-serif;
-}
+/* Opening up ChatGPT
+   HTML & CSS handcrafted by MD */
 
-/* I wish we could trust CSS vars to work */
-p#table-guide {
-	color:#696969;
-	font-size:0.9em;
-}
-span.openness { display:inline-block;
-padding:1px 5px; color:#ffffff }
-span.open { background-color:#3e9b74; }
-span.partial { background-color:#dd9f1c; }
-span.closed { background-color:#ca6014; }
+/* Colours
+   open:    #3e9b74
+   partial: #dd9f1c
+   closed:  #ca6014
+   (colourblind-friendly yellow, orange, red)
+   (I wish CSS vars worked as expected across browsers.)
+*/
+.colour-open { color:#3e9b74; }
+.colour-partial { color:#dd9f1c; }
+.colour-closed { color:#ca6014; }
 
-
-p.highlight { 
-	display:block;
-	padding:15px 20px;
-	background-color:#f7f7f7; !important
-}
-p#tagline a { padding-left:4px; }
+/* overall layout */
 
 #header, #content {
 	max-width:1200px;
 	margin: auto;
-	padding:0 1em 0 1em;
+	padding:0 1rem 0 1rem;
 }
 #footer > * {
 	max-width:1200px;
 	margin: auto;
-	padding:0 1em 0 1em;
+	padding:0 1rem 0 1rem;
 	color:#696969;
 }
 
@@ -38,10 +31,10 @@ p#tagline a { padding-left:4px; }
 }
 
 #footer {
-	margin-top:2em;
-	padding:3em 1em 3em 1em;
+	margin-top:2rem;
+	padding:2rem 1rem 2rem 1rem;
 	background-color:#f7f7f7;
-	font-size:0.8em;
+	font-size:0.8rem;
 }
 
 
@@ -50,20 +43,9 @@ div#included-table {
 }
 
 
-/* graphical elements */
-img#title-logo { 
-	display:inline-block;
-	padding-right:8px;
-	margin-bottom:-3px;
-}
-h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
-	color:#000000;
-	text-decoration:none;
-}
+/* basic typography */
 
-
-
-/* typography */
+html {  font-family:Arial, sans-serif;}
 
 blockquote { 
 	border-left:4px solid #f7f7f7;
@@ -71,31 +53,79 @@ blockquote {
 	margin-left:1em;
 }
 
-/* responsive font sizes */
+p,li,blockquote { line-height:1.4rem; }
 
+/* responsize design */
+/* adjustments for mobile devices */
 
-p { 
-	line-height:1.4em;
-}
-
-.colour-open { color:#3e9b74; }
-.colour-partial { color:#dd9f1c; }
-.colour-closed { color:#ca6014; }
-
-/* make table vertically scrollable on smaller screens */
 @media (max-width:1200px) {
+/* make table vertically scrollable on smaller screens */
 	div#included-table {
 		display:block;
 		overflow-x:auto;
 		white-space:nowrap;
 	}
+/* make citation a bit smaller */
+	#content p#citation {
+/*		font-size:1rem;
+		line-height:1.1rem; */
+		display:block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space:nowrap;
+	}
+/* optimize line-height */
+	p,li { line-height:1.3rem; 
+		margin-bottom:0.5rem;
+	}
 }
+	
+}
+
+/* Title*/
+h1 a { border:none; }
+h1 a img#title-logo { 
+	display:inline-block;
+	padding-right:8px;
+	margin-bottom:-3px;
+	height:60%;
+}
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+	color:#000000;
+	text-decoration:none;
+}
+
+/* Some special paragraphs */
+p.highlight { 
+	display:block;
+	padding:15px 20px;
+	background-color:#f7f7f7; !important
+}
+p#tagline a { padding-left:4px; }
+
+p#table-guide {
+	color:#696969;
+	font-size:0.8rem;
+	line-height:1.1rem;
+}
+
+span.link-icon { 
+	height:60%;
+	display:inline-block;
+} 
+
+span.openness { display:inline-block;
+padding:1px 5px; color:#ffffff }
+span.open { background-color:#3e9b74; }
+span.partial { background-color:#dd9f1c; }
+span.closed { background-color:#ca6014; }
+
 
 /* main table features */
 table {
 	display:table;
 	table-layout:fixed;
-	font-size:1em;
+	font-size:1rem;
 }
 
 /* default column width*/
@@ -105,7 +135,7 @@ thead tr.main-header th {
 
 thead tr.second-header th {
 	font-weight:normal;
-	font-size:0.8em;
+	font-size:0.8rem;
 	width:65px;
 	min-width:65px;
 	overflow: hidden;
@@ -199,7 +229,7 @@ td.data-cell.closed:hover { border-top-color:#ca6014; }
 /* secondary rows should be less prominent */
 tr.row-b {
 	color:#cccccc;
-	font-size:0.8em;
+	font-size:0.8rem;
 }
 tr.row-b a:link, tr.row-b a:visited, tr.row-b a:active {
 	color:#cccccc;
