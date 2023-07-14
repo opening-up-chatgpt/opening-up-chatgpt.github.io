@@ -1,0 +1,88 @@
+---
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In ACM Conference on Conversational User Interfaces (CUI '23). July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: WizardLM-7B
+    link: https://github.com/nlpxucan/WizardLM
+    notes: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
+    llmbase: LLaMA-7B
+    rlbase: Evol-Instruct (synthetic)
+    license: CC-BY-NC-4.0
+
+org:
+    name: Microsoft & Peking University
+    link: https://github.com/nlpxucan
+    notes: 
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
+    notes: Fast-evolving repository contains WizardLM code
+
+llmdata:
+    class: partial
+    link:
+    notes: Based on LLaMA, which is claimed to be public but nowhere exactly documented.
+
+llmweights:
+    class: closed
+    link:
+    notes: Based on LLaMA weights, which are not openly available though a leaked versions is in wide circulation.
+
+rldata:
+    class: open
+    link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM#training-data
+    notes: The Evol-Instruct dataset contains 70k instruction-following sequences generated from Evol-Instruct
+
+rlweights:
+    class: partial
+    link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0/tree/main
+    notes: Model weights offered as a delta to LLaMA
+
+license:
+    class: partial
+    link: https://github.com/nlpxucan/WizardLM/blob/main/WizardLM/MODEL_DIFF_LICENSE
+    notes: Restricted for academic research purposes only. Code and Model diff release under CC-BY-NC-4.0, software code under Apache 2.0
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/nlpxucan/WizardLM/tree/main/WizardLM
+    notes: Code is only partially documented, not clearly versioned, and appears to be in flux.
+
+architecture:
+    class: open
+    link: https://arxiv.org/abs/2304.12244
+    notes: Architecture described in preprint and partly accessible in code repository
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2304.12244
+    notes: Preprint describes method for creating large amounts of LLM-based synthetic RLHF data and fine-tuning WizardLM based on it
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper or data audit found
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/WizardLM/WizardLM-7B-V1.0
+    notes: Model card is only a placeholder and generates an error (missing yaml metadata)
+
+datasheet:
+    class: closed
+    link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
+    notes: Dataset card for Evol-Instruct generates an error
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package available
+
+api:
+    class: closed
+    link:
+    notes: No API available
