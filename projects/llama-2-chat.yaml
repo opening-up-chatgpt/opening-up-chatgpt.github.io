@@ -35,9 +35,9 @@ rldata:
     notes: RLHF data not made available
 
 rlweights:
-    class: closed
-    link:
-    notes: RLHF training regime documented in preprint, but not made available
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
 
 license:
     class: closed
