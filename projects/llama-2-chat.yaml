@@ -56,9 +56,9 @@ architecture:
     notes: Architecture describe in detail in preprint
 
 preprint:
-    class: open
+    class: partial
     link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Corporate preprint provides a lot of detail on pretraining, RLHF, and safety measures.
+    notes: Corporate preprint provides quite some detail on pretraining, RLHF, and safety measures but none on datasets.
 
 paper:
     class: closed
