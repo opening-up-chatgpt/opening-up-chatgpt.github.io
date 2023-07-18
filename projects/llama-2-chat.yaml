@@ -40,7 +40,7 @@ rlweights:
     notes: RLHF training regime documented in preprint, but not made available
 
 license:
-    class: parial
+    class: partial
     link: https://github.com/facebookresearch/llama/blob/main/LICENSE
     notes: Usage requires signing Meta's bespoke 'community license', which allows commercial uses
 
