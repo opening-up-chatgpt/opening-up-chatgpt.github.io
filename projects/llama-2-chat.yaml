@@ -4,8 +4,8 @@ project:
     name: LLaMA 2-chat
     link: https://ai.meta.com/resources/models-and-libraries/llama/
     notes:
-    llmbase:
-    rlbase:
+    llmbase: LLaMA 2
+    rlbase: Meta, StackExchange, Anthropic
     license:
 
 org:
@@ -58,7 +58,7 @@ architecture:
 preprint:
     class: open
     link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Preprint provides a lot of detail on pretraining, RLHF, and safety measures.
+    notes: Corporate preprint provides a lot of detail on pretraining, RLHF, and safety measures.
 
 paper:
     class: closed
