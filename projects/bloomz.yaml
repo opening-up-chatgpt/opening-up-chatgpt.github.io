@@ -1,7 +1,7 @@
 ---
 project:
     name: BLOOMZ
-    link: https://github.com/bigscience-workshop/xmtf
+    link: https://huggingface.co/bigscience/bloomz
     notes:
     llmbase: BLOOMZ, mT0
     rlbase: xP3
