@@ -1,6 +1,6 @@
 ---
 project:
-    name: xmtf
+    name: BLOOMZ
     link: https://github.com/bigscience-workshop/xmtf
     notes:
     llmbase: BLOOMZ, mT0
@@ -71,8 +71,8 @@ modelcard:
 
 datasheet:
     class: open
-    link:
-    notes:
+    link: https://huggingface.co/datasets/bigscience/xP3
+    notes: Dataset documented in dataset card at HuggingFace
 
 # access
 package:
