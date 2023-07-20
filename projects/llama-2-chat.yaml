@@ -66,9 +66,9 @@ paper:
     notes: No peer-reviewed paper found
 
 modelcard:
-    class: open
+    class: partial
     link: https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md
-    notes: Model card provided on HuggingFace
+    notes: There is a model card, but it provides the absolute minimum of detail, and none whatsoever on training data.
 
 datasheet:
     class: closed
