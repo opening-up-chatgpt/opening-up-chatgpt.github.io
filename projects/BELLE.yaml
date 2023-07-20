@@ -4,7 +4,7 @@ project:
     link: https://github.com/LianjiaTech/BELLE
     notes:
     llmbase: LLaMA & BLOOMZ
-    rlbase: alpaca & shareGPT (synthetic)
+    rlbase: alpaca, shareGPT, Belle (synthetic)
     license: Apache License 2.0
 
 org:
@@ -19,9 +19,9 @@ opencode:
     notes:
 
 llmdata:
-    class: open
+    class: partial
     link:
-    notes:
+    notes: Open for variants based on BLOOMZ. Closed for variants based on LLaMA, whose pretraining data is nowhere disclosed or documented.
 
 llmweights:
     class: partial
@@ -30,29 +30,29 @@ llmweights:
 
 rldata:
     class: partial
-    link:
-    notes:
+    link: https://github.com/LianjiaTech/BELLE/tree/main/data/1.5M
+    notes: Synthetic BELLE training data in Chinese released in batches
 
 rlweights:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/tree/main/models
+    notes: Some models available, most only as delta weights requiring separate access to LLaMA
 
 license:
     class: closed
     link:
-    notes: LLaMA licence agreement
+    notes: Lowest common denominator is non-OSI approved LLaMA licence agreement
 
 # documentation
 code:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
+    notes: Quite some documentation on Github, though not all well-organized 
 
 architecture:
     class: open
-    link:
-    notes:
+    link: https://github.com/LianjiaTech/BELLE/blob/main/README_en.md
+    notes: Specified in a fair bit of detail on github
 
 preprint:
     class: open
@@ -62,25 +62,25 @@ preprint:
 paper:
     class: closed
     link:
-    notes:
+    notes: No peer-reviewed paper found
 
 modelcard:
     class: closed
     link:
-    notes:
+    notes: No model card found
 
 datasheet:
     class: partial
     link:
-    notes:
+    notes: No data sheet found
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No dedicated package available
 
 api:
     class: closed
     link:
-    notes:
+    notes: No API found
