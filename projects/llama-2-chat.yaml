@@ -15,14 +15,14 @@ org:
 
 # availability:
 opencode:
-    class: partial
+    class: closed
     link: https://github.com/facebookresearch/llama/tree/main
-    notes: Repository only intended 'as a minimal example to load Llama 2 models and run inference'
+    notes: Repository only offers 'a minimal example to load Llama 2 models and run inference'; no training, fine-tuning, evaluation code made available
 
 llmdata:
     class: closed
     link:
-    notes: Data nowhere specified and not made available, claimed to be 'publicly available' 
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
 
 llmweights:
     class: partial
@@ -48,17 +48,17 @@ license:
 code:
     class: closed
     link:
-    notes: Code only covers minimal examples for running inference and is not exhaustively commented
+    notes: Code only covers minimal examples; no documentation available. 
 
 architecture:
     class: partial
     link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Architecture describe in detail in preprint
+    notes: Architecture sketched in preprint, though many details missing.
 
 preprint:
     class: partial
     link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
-    notes: Corporate preprint provides quite some detail on pretraining, RLHF, and safety measures but none on datasets.
+    notes: Corporate preprint quite some detail on pretraining, RLHF, and safety measures but none on datasets.
 
 paper:
     class: closed
@@ -82,6 +82,6 @@ package:
     notes: Package not provided
 
 api:
-    class: closed
+    class: partial
     link:
-    notes: API not provided
+    notes: API only available behind a privacy-defying signup form
