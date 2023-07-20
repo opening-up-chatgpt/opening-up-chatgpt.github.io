@@ -4,7 +4,7 @@ project:
     link: https://crfm.stanford.edu/2023/03/13/alpaca.html
     notes: project_notes
     llmbase: LLaMA
-    rlbase: Self-Instruct
+    rlbase: Self-Instruct (synthetic)
     license: LLaMA license agreement
 
 org:
@@ -19,9 +19,9 @@ opencode:
     notes: 
 
 llmdata:
-    class: open
-    link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    notes:
+    class: closed
+    link: 
+    notes: Based on LLaMA, whose pretraining data is nowhere disclosed or documented.
 
 llmweights:
     class: partial
@@ -31,48 +31,48 @@ llmweights:
 rldata:
     class: partial
     link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    notes: 
+    notes: alpaca_data.json contains 52K instruction-following data we used for fine-tuning the Alpaca model. 
 
 rlweights:
-    class: closed
+    class: partial
     link: https://github.com/tatsu-lab/stanford_alpaca#data-release
-    notes: 
+    notes: LLaMA based
 
 license:
     class: closed
     link: https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform
-    notes: LLaMA licence agreement
+    notes: Pegged to LLaMA licence agreement
 
 # documentation:
 code:
-    class: closed
-    link: 
-    notes: 
+    class: partial
+    link:  https://github.com/tatsu-lab/stanford_alpaca
+    notes: Insofar as code is made available it is fairly well documented
 
 architecture:
     class: open
-    link: 
-    notes: 
+    link:  https://github.com/tatsu-lab/stanford_alpaca#fine-tuning
+    notes: Fair bit of documentation available on github repository
 
 preprint:
     class: closed
     link: 
-    notes:
+    notes: No preprint found; uses the release-by-blogpost playbook
 
 paper:
     class: closed
     link: 
-    notes:
+    notes: No peer-reviewed work found.
 
 modelcard:
-    class: partial
+    class: closed
     link: 
-    notes: 
+    notes: No model card found
 
 datasheet:
-    class: partial
+    class: closed
     link: 
-    notes: 
+    notes: No data sheet found
 
 # access:
 package:
