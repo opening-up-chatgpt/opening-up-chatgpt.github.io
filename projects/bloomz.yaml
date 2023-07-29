@@ -5,7 +5,7 @@ project:
     notes:
     llmbase: BLOOMZ, mT0
     rlbase: xP3
-    license: Apache License 2.0
+    license: Apache 2.0 and RAIL (responsible AI license)
 
 org:
     name: bigscience-workshop
