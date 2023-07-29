@@ -1,0 +1,86 @@
+---
+project:
+    name: Airoboros L2 70B GPT4
+    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1
+    notes: 
+    llmbase: Llama2
+    rlbase: Airoboros (synthetic)
+    license: Purposely left ambiguous
+
+org:
+    name: Jon Durbin
+    link: https://github.com/jondurbin
+    notes: Only active on GitHub since May 2023
+
+# availability:
+opencode:
+    class: partial
+    link: https://gist.github.com/jondurbin/87fc040b92a3073125ed516b04bc6e19
+    notes: Repo exists for RL data but only a gist exists for model training and architecture
+
+llmdata:
+    class: closed
+    link:
+    notes: Llama2 training data is nowhere documented or disclosed
+
+llmweights:
+    class: partial
+    link:
+    notes: Llama2, made conditionally available by Meta
+
+rldata:
+    class: open
+    link: https://github.com/jondurbin/airoboros
+    notes: Airoboros, an implementation of the Self-Instruct paper
+
+rlweights:
+    class: open
+    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1/tree/main
+    notes: Made available through HuggingFace
+
+license:
+    class: partial
+    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1#licence-and-usage-restrictions
+    notes: Licensing left ambiguous because of murky status of OpenAI-derived Self-Instruct data
+
+# documentation:
+code:
+    class: partial
+    link:
+    notes: What little code available is not very systematically documented
+
+architecture:
+    class: partial
+    link: https://huggingface.co/jondurbin/airoboros-l2-70b-gpt4-1.4.1/discussions/2#64c29e4c617b36543dedac9a
+    notes: Some info can be gleaned at link but most remains undocumented
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint found
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/jondurbin/airoboros-65b-gpt4-1.4
+    notes: Instructs reader to look up model card for prior 65B Llama1 version
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1
+    notes: Datasheet for RL data only
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found
+
+api:
+    class: closed
+    link:
+    notes: No API found
