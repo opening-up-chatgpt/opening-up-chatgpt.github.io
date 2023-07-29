@@ -39,9 +39,9 @@ rlweights:
     notes: Fine-tuned checkpoint available for download
 
 license:
-    class: open
-    link: https://github.com/bigscience-workshop/xmtf/blob/master/LICENSE.md
-    notes: Apache 2.0
+    class: partial
+    link: https://bigscience.huggingface.co/blog/the-bigscience-rail-license
+    notes: Code licensed under Apache 2.0, model under bespoke "Responsible AI License" which imposes some limitations
 
 # documentation
 code:
