@@ -1,12 +1,12 @@
 ---
 
 project:
-    name: LLaMA 2-chat
+    name: LLaMA2 Chat
     link: https://ai.meta.com/resources/models-and-libraries/llama/
     notes:
-    llmbase: LLaMA 2
+    llmbase: LLaMA2
     rlbase: Meta, StackExchange, Anthropic
-    license:
+    license: Unclear
 
 org:
     name: Facebook Research
@@ -32,7 +32,7 @@ llmweights:
 rldata:
     class: closed
     link:
-    notes: RLHF data not made available
+    notes: RLHF data including 1 million Meta-specific tuning prompts not made available (even as it incorporates some open RLHF datasets)
 
 rlweights:
     class: partial
