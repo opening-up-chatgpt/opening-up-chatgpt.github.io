@@ -1,8 +1,8 @@
 ---
 project:
-    name: text-generation-webui
+    name: 
     link: https://github.com/oobabooga/text-generation-webui
-    notes:
+    notes: not an LLM RLHF model
     llmbase: various
     rlbase: various
     license: GNU Affero General Public License v3.0
