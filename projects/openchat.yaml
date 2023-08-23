@@ -62,7 +62,7 @@ code:
 architecture:
     class: partial
     link: https://github.com/imoneoi/openchat/
-    notes: Architecture only partially described: 80k ShareGPT with a conditioning strategy and weighted loss.
+    notes: Architecture only partially described, '80k ShareGPT with a conditioning strategy and weighted loss'.
 
 preprint:
     class: closed
