@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: OpenChat V3
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: OpenChat is a series of open-source language models based on supervised fine-tuning (SFT).
+    llmbase: Llama2
+    rlbase: ShareGPT
+    license: Llama 2 Community License
+
+org:
+    name: OpenChat
+    link: https://github.com/imoneoi/openchat
+    notes:
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/imoneoi/openchat
+    notes: Extensive codebase available on github
+
+llmdata:
+    class: closed
+    link:
+    notes: Based on Llama2, so pretraining data is undisclosed and unavailable
+
+llmweights:
+    class: partial
+    link:
+    notes: Only available for download after signup.
+
+rldata:
+    class: partial
+    link:
+    notes: ShareGPT filtering and cleanup methods available but dataset not directly shared
+
+rlweights:
+    class: open
+    link: https://huggingface.co/openchat/openchat_v3.1/tree/main
+    notes: Model weights for LLM+RL version shared through HuggingFace
+
+license:
+    class: closed
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Llama2 Community License is not an OSI approved open license
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: Code organised by release but only partially documented
+
+architecture:
+    class: partial
+    link: https://github.com/imoneoi/openchat/
+    notes: Architecture only partially described: 80k ShareGPT with a conditioning strategy and weighted loss.
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint found
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/openchat/openchat_v3.1
+    notes: Model card used to advertise model more than for documentation but partially useful.
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found, no separate datasets shared.
+
+# access:
+package:
+    class: open
+    link: https://github.com/imoneoi/openchat/#installation
+    notes: OpenChat package available through
+
+api:
+    class: open
+    link: https://github.com/imoneoi/openchat/#installation
+    notes: API available via package and addressable via WebUI
