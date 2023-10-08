@@ -1,0 +1,86 @@
+---
+project:
+    name: Falcon-80B-chat
+    link: https://huggingface.co/tiiuae/falcon-180B-chat
+    notes: "Falcon-180B-Chat is a 180B parameters causal decoder-only model built by TII based on Falcon-180B and finetuned on a mixture of Ultrachat, Platypus and Airoboros."
+    llmbase: Falcon 180B
+    rlbase: OpenPlatypus, Ultrachat, Airoboros (synthetic)
+    license: FALCON 180B TII LICENSE VERSION 1.0
+
+org:
+    name: Technology Innovation Institute
+    link: https://falconllm.tii.ae
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link: https://huggingface.co/tiiuae/falcon-180B-chat
+    notes: No source code shared anywhere. The over 200 github repositories of TII appear to include no LLM or Falcon related code.
+
+llmdata:
+    class: partial
+    link: https://huggingface.co/datasets/tiiuae/falcon-refinedweb
+    notes: From the documentation 'The key ingredient for the high quality of the Falcon models is their training data, predominantly based (>80%) on RefinedWeb — a novel massive web dataset based on CommonCrawl' (https://huggingface.co/blog/falcon). However, only a small sample is made available.
+
+llmweights:
+    class: partial
+    link: https://huggingface.co/tiiuae/falcon-180B
+    notes: requires signing up and accepting "acceptable use policy"
+
+rldata:
+    class: partial
+    link: https://github.com/project-baize/baize-chatbot
+    notes: No details provided beyond "finetuned on a mixture of Ultrachat, Platypus and Airoboros".
+
+rlweights:
+    class: partial
+    link: https://huggingface.co/tiiuae/falcon-180B-chat/tree/main
+    notes: No RL weights or checkpoints made available; fine-tuned 'chat' model only available after signing "acceptable use policy".
+
+license:
+    class: closed
+    link: https://huggingface.co/spaces/tiiuae/falcon-180b-license/blob/main/LICENSE.txt
+    notes: Released under Falcon 180B TII license (not OSI approved) and a separate "acceptable use policy".
+
+# documentation
+code:
+    class: closed
+    link:
+    notes: No code available, so no code documented.
+
+architecture:
+    class: partial
+    link: https://huggingface.co/tiiuae/falcon-180B-chat#model-architecture-and-objective
+    notes: Architecture described as  "causal decoder-only" and "optimized for inference", but very few details available.
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2306.01116
+    notes: Preprint covers the creation and curation of RefinedWeb dataset, but not other aspects of the model, hence partial.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper known.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/tiiuae/falcon-180B-chat
+    notes: Model card on HuggingFace is mostly used to advertise the model, not to document its training and evaluation details.
+
+datasheet:
+    class: closed
+    link:
+    notes: There is no datasheet available.
+
+# access
+package:
+    class: closed
+    link:
+    notes: There is no package.
+
+api:
+    class: closed
+    link: https://huggingface.co/tiiuae/falcon-180B-chat
+    notes: There is no API, and HuggingFace inference API is disabled for this model.
