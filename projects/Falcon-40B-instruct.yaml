@@ -14,9 +14,9 @@ org:
 
 # availability:
 opencode:
-    class: open
+    class: closed
     link: https://huggingface.co/tiiuae/falcon-40b-instruct
-    notes:
+    notes: No source code shared, even though the term "open source" is used.
 
 llmdata:
     class: partial
@@ -45,14 +45,14 @@ license:
 
 # documentation
 code:
-    class: partial
+    class: closed
     link:
-    notes:
+    notes: No source code found, therefore no documentation found.
 
 architecture:
     class: partial
     link:
-    notes:
+    notes: Architecture sketched on HuggingFace as "Falcon-40B-Instruct is a 40B parameters causal decoder-only model built by TII based on Falcon-40B and finetuned on a mixture of Baize."
 
 preprint:
     class: partial
