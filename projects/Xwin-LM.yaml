@@ -9,7 +9,7 @@ project:
     license: Llama 2 license
 
 org:
-    name: Wxin-LM
+    name: Xwin-LM
     link: https://github.com/Xwin-LM
     notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
 
