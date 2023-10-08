@@ -1,0 +1,87 @@
+---
+
+project:
+    name: Xwin-LM
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1
+    notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
+    llmbase: LLaMA2
+    rlbase: unknown
+    license: Llama 2 license
+
+org:
+    name: Wxin-LM
+    link: https://github.com/Xwin-LM
+    notes: "Xwin-LM aims to develop and open-source alignment technologies for large language models"
+
+# availability:
+opencode:
+    class: closed
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-7B-V0.1
+    notes: HuggingFace page notes 'to do ":" Release the source code'
+
+llmdata:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: RLHF data for Llama includes 1 million Meta-specific tuning prompts not made available, no other details known about RLHF and alignment tuning added by Xwin-LM
+
+rlweights:
+    class: closed
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1/tree/main
+    notes: Downloadable model presumably includes RLHF tuning but no documentation available
+
+license:
+    class: closed
+    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
+    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No documentation available. 
+
+architecture:
+    class: closed
+    link: https://github.com/Xwin-LM/Xwin-LM#news
+    notes: No information available beyond that it is based on Llama and "RLHF plays crucial role"
+
+preprint:
+    class: closed
+    link: https://github.com/Xwin-LM/Xwin-LM#news
+    notes: No preprint available; "Coming soon (Stay tuned)"
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper available
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/Xwin-LM/Xwin-LM-70B-V0.1
+    notes: HuggingFace "model card" used to advertise model, but no details available.
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: API available through vllm and HuggingFace
