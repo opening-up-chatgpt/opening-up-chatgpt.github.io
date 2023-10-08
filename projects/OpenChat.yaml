@@ -35,9 +35,9 @@ rldata:
     notes: Preprint says shareGPT dataset "collected from sharegpt.com" but not disclosed or made available by this project
 
 rlweights:
-    class: partial
-    link: https://github.com/imoneoi/openchat/tree/master/ochat
-    notes: Actual instruction-tuned model weights hard to find, perhaps only available through package or API
+    class: open
+    link: https://huggingface.co/openchat/openchat_v3.2/tree/main
+    notes: Instruction-tuned model weights made available via HuggingFace
 
 license:
     class: partial
