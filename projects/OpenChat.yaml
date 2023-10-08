@@ -1,0 +1,87 @@
+---
+
+project:
+    name: OpenChat
+    link: https://github.com/imoneoi/openchat
+    notes:
+    llmbase: LLaMA2-13B
+    rlbase: ShareGPT with C-RLFT
+    license: Llama 2 Community License
+
+org:
+    name: Tshinghua University
+    link: https://github.com/imoneoi
+    notes: OpenChat notes 'We are a student team from Tsinghua University'
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: Repository offers a large amount of fairly well-organized code for data curation and model
+
+llmdata:
+    class: closed
+    link:
+    notes: Data for Llama2 is nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download of Llama2-13B is only possible after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: Preprint says shareGPT dataset "collected from sharegpt.com" but not disclosed or made available by this project
+
+rlweights:
+    class: partial
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: Actual instruction-tuned model weights hard to find, perhaps only available through package or API
+
+license:
+    class: partial
+    link: https://github.com/imoneoi/openchat/blob/master/LICENSE
+    notes: Code released under Apache 2.0 but usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/imoneoi/openchat/tree/master/ochat
+    notes: There is plenty of code in the github repository but only some of it is documented
+
+architecture:
+    class: open
+    link: https://arxiv.org/abs/2309.11235
+    notes: Architecture quite well described in preprint
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2309.11235
+    notes: Preprint describes the model architecture and instruction tuning approach, though is hampered by building on notoriously closed Llama2
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/openchat/openchat_v3.2
+    notes: There is a model card that provides some details on architecture and evaluation
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: open
+    link: https://github.com/imoneoi/openchat/tree/master#installation
+    notes: Python package 'ochat' provided through pip
+
+api:
+    class: partial
+    link:
+    notes: Model too large to load onto HuggingFace free inference API, so only available through Inference Endpoints or package
