@@ -1,6 +1,6 @@
 ---
 project:
-    name: Falcon-80B-chat
+    name: Falcon-180B-chat
     link: https://huggingface.co/tiiuae/falcon-180B-chat
     notes: "Falcon-180B-Chat is a 180B parameters causal decoder-only model built by TII based on Falcon-180B and finetuned on a mixture of Ultrachat, Platypus and Airoboros."
     llmbase: Falcon 180B
