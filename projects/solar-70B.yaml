@@ -1,0 +1,87 @@
+---
+
+project:
+    name: Solar 70B
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    notes: HuggingFace profile says 'Solar is a great example of the progress enabled by open source.'
+    llmbase: LLaMA2
+    rlbase: Orca-style, Alpaca-style
+    license: Meta Community license, CC-BY-NC
+
+org:
+    name: Upstage AI
+    link: https://en.upstage.ai/
+    notes: Korean venture
+
+# availability:
+opencode:
+    class: closed
+    link: 
+    notes: No code repository found
+
+llmdata:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: No RLHF datasets specified or shared, docs say 'Orca-style dataset, Alpaca-style dataset'
+
+rlweights:
+    class: partial
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit/tree/main
+    notes: Finetuned checkpoints only shared through CC-BY-NC
+
+license:
+    class: closed
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit#model-details
+    notes: Meta Community License for base model, and CC-BY-NC 4.0 for fine-tuned model weights
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: HuggingFace code only comprises configuration json; no documentation available. 
+
+architecture:
+    class: closed
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    notes: Precise architecture, training, fine-tuning procedures not given.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint or any form of scientific docuentation found.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/upstage/SOLAR-0-70b-16bit
+    notes: HuggingFace model card used mostly as advertising, omits many details on training, fine-tuning, evaluation.
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: API only available by signing up for 'private LLM' service
