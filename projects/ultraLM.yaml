@@ -1,0 +1,87 @@
+---
+
+project:
+    name: UltraLM
+    link: https://huggingface.co/openbmb/UltraRM-13b
+    notes:
+    llmbase: LLaMA2
+    rlbase: UltraFeedback (part synthetic)
+    license: Meta Community License
+
+org:
+    name: OpenBMB
+    link: https://www.openbmb.org/
+    notes: "OpenBMB (Open Lab for Big Model Base), founded by TsinghuaNLP & ModelBest Inc (面壁智能), aims to build foundation models and systems towards AGI."
+
+# availability:
+opencode:
+    class: closed
+    link: 
+    notes: 
+
+llmdata:
+    class: closed
+    link:
+    notes: Based on Llama2, which means pretraining data is nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: open
+    link: https://huggingface.co/datasets/openbmb/UltraFeedback
+    notes: UltraFeedback dataset made available along with model release
+
+rlweights:
+    class: partial
+    link: https://huggingface.co/openbmb/UltraLM-13b-v2.0
+    notes: Online materials appear to be in flux and several HuggingFace links generate 404 errors, hence partial
+
+license:
+    class: closed
+    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    notes: Usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: Code only covers minimal examples; no documentation available. 
+
+architecture:
+    class: partial
+    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    notes: Architecture sketched in online materials.
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2310.01377
+    notes: Preprint describes creation of UltraFeedback dataset but also offers some detail on training and architecture of UltraRM models
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/openbmb/UltraLM-13b#model-details
+    notes: Model card on HuggingFace available for 13b (Llama1) model, but not for newer releases, hence partial
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/openbmb/UltraFeedback
+    notes: Datasheet available for RLHF portion, but not for Llama2-based pretraining data, hence partial
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: closed
+    link:
+    notes: API not provided and model too big for HuggingFace inference API
