@@ -56,13 +56,13 @@ architecture:
 
 preprint:
     class: open
-    link: https://arxiv.org/abs/2211.01786
-    notes: Preprint (updated May 2023) of 9 pages +114 page appendix
+    link: https://arxiv.org/abs/2211.05100
+    notes: Preprint (updated June 2023) of 65 pages + 10 page appendix
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found
+    class: open
+    link: https://aclanthology.org/2023.acl-long.891/
+    notes: Peer-reviewed paper of 9 pages + 114 page appendix describes the multitask finetuning (instruction tuning) of BLOOM (see preprint) to form BLOOMZ
 
 modelcard:
     class: open
