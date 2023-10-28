@@ -5,7 +5,7 @@ project:
     link: https://huggingface.co/stabilityai/StableBeluga2
     notes:
     llmbase: LLaMA2
-    rlbase: 'Orca-style' (synthetic)
+    rlbase: Orca-style (synthetic)
     license: Stable Beluga Non-Commercial Community License
 
 org:
