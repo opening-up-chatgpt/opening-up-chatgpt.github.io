@@ -1,0 +1,87 @@
+---
+
+project:
+    name: Stable Beluga 2
+    link: https://huggingface.co/stabilityai/StableBeluga2
+    notes:
+    llmbase: LLaMA2
+    rlbase: 'Orca-style' (synthetic)
+    license: Stable Beluga Non-Commercial Community License
+
+org:
+    name: Stability AI
+    link: https://stability.ai/
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link: 
+    notes: No repository with open code related to training, fine-tuning or evaluation found
+
+llmdata:
+    class: closed
+    link:
+    notes: Pretraining data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: 'Stable Beluga 2 is trained on our internal Orca-style dataset', 'created synthetically using high-quality instructions' from COT Submix Original, NIV2 Submix Original, FLAN 2021 Submix Original, T0 Submix Original.
+
+rlweights:
+    class: open
+    link: https://huggingface.co/stabilityai/StableBeluga2/tree/main
+    notes: Instruction-tuned model weights available
+
+license:
+    class: partial
+    link: https://huggingface.co/stabilityai/StableBeluga2/blob/main/LICENSE.txt
+    notes: Usage requires signing StabilityAI's bespoke 'Stable Beluga Non-Commercial Community License', not an OSI recognised open license
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: Code on HuggingFace only covers minimal examples; no documentation available. 
+
+architecture:
+    class: partial
+    link: https://huggingface.co/stabilityai/StableBeluga2#model-details
+    notes: Says 'Stable Beluga 2 is a Llama2 70B model finetuned on an Orca style Dataset'.
+
+preprint:
+    class: partial
+    link: https://huggingface.co/papers/2306.02707
+    notes: Preprint from Microsoft describes Orca method of finetuning using GPT4-derived synthetic data, but no details of this particular architecture
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/stabilityai/StableBeluga2
+    notes: There is a model card, but it provides a minimum of detail
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: model too large to run on HuggingFace free inference API
