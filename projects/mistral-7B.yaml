@@ -65,9 +65,9 @@ architecture:
     notes: Some information on architecture provided in github repo
 
 preprint:
-    class: closed
-    link:
-    notes: No preprint available
+    class: partial
+    link: http://arxiv.org/abs/2310.06825
+    notes: Preprint rehashes marketing blurbs also given in blog and provides no details about pretraining datasets, instruction tuning datasets, or fine-tuning process, hence partial.
 
 paper:
     class: closed
