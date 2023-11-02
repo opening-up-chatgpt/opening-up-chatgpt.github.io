@@ -1,4 +1,4 @@
-# [![logo](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) Opening up ChatGPT — tracking openness in LLM + RLHF architectures — [openness leaderboard](https://opening-up-chatgpt.github.io/) 
+# [![logo](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) Opening up ChatGPT — tracking openness of instruction-tuned LLMs — [openness leaderboard](https://opening-up-chatgpt.github.io/) 
 
 Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In _Proceedings of the 5th International Conference on Conversational User Interfaces_. Eindhoven. doi:[10.1145/3571884.3604316](https://doi.org/10.1145/3571884.3604316). (also on [arxiv](https://doi.org/10.48550/arXiv.2307.05532))
 
