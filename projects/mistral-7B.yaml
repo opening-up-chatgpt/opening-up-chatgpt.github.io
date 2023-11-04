@@ -35,7 +35,7 @@ llmdata:
 
 llmweights:
     class: open
-    link:
+    link: https://github.com/mistralai/mistral-src#download-the-model
     notes: Base LLM model made available for download
 
 rldata:
