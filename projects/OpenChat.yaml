@@ -1,12 +1,12 @@
 ---
 
 project:
-    name: OpenChat
+    name: OpenChat 3.5 7B
     link: https://github.com/imoneoi/openchat
     notes:
-    llmbase: LLaMA2-13B
+    llmbase: Mistral 7B
     rlbase: ShareGPT with C-RLFT
-    license: Llama 2 Community License
+    license: Apache 2.0
 
 org:
     name: Tshinghua University
@@ -22,12 +22,12 @@ opencode:
 llmdata:
     class: closed
     link:
-    notes: Data for Llama2 is nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+    notes: Pretraining data for Mistral is nowhere disclosed or documented
 
 llmweights:
-    class: partial
-    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
-    notes: Download of Llama2-13B is only possible after requesting access; requires signing a consent form
+    class: open
+    link: https://github.com/mistralai/mistral-src#download-the-model
+    notes: Mistral 7B weights available via Mistral repository
 
 rldata:
     class: closed
@@ -36,13 +36,13 @@ rldata:
 
 rlweights:
     class: open
-    link: https://huggingface.co/openchat/openchat_v3.2/tree/main
+    link: https://huggingface.co/openchat/openchat_3.5/tree/main
     notes: Instruction-tuned model weights made available via HuggingFace
 
 license:
-    class: partial
+    class: open
     link: https://github.com/imoneoi/openchat/blob/master/LICENSE
-    notes: Code released under Apache 2.0 but usage requires signing Meta's bespoke 'community license', not an OSI recognised open license
+    notes: Code and model released under Apache 2.0
 
 # documentation:
 code:
