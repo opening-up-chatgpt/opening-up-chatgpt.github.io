@@ -32,7 +32,7 @@ llmweights:
 rldata:
     class: closed
     link:
-    notes: Preprint says shareGPT dataset "collected from sharegpt.com" but not disclosed or made available by this project
+    notes: "Preprint says shareGPT dataset 'collected from sharegpt.com' but not disclosed or made available by this project"
 
 rlweights:
     class: open
