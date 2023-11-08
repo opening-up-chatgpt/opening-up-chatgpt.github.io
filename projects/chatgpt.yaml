@@ -65,7 +65,7 @@ paper:
     notes: No peer-reviewed paper documenting this system is available.
 
 modelcard:
-    class: partial
+    class: closed
     link: https://github.com/openai/gpt-3/blob/master/model-card.md
     notes: No modelcard is available for GPT3.5. The linked model card is for GPT3 is dated Sept 2020.
 
