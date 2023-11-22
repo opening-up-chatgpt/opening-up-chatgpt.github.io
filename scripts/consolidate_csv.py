@@ -73,7 +73,10 @@ def write_html(df):
         # also add classes to the <td> elements for colour coding and links to source of the class judgement: https://github.com/liesenf/awesome-open-chatgpt/issues/12
         cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license", "code", "architecture", "preprint", "paper", "modelcard", "datasheet", "package", "api"]
         # first row
-        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project.link"], df.loc[p, "project.notes"], p)
+        source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source.file"]
+        source_file = source_link.split("/")[-1]
+        #r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project.link"], df.loc[p, "project.notes"], p)
+        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="data: {}">{}</a></td>'.format(source_link, source_file, p)
         for c in cells:
             cl = df.loc[p, c + ".class"]
             link = df.loc[p, c + ".link"]
@@ -83,11 +86,11 @@ def write_html(df):
         r1_html += "</tr>\n"
         html_table += r1_html
         # second row
-        r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org.link"], df.loc[p, "org.name"], df.loc[p, "org.name"])
+        #r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "org.link"], df.loc[p, "org.name"], df.loc[p, "org.name"])
+        r2_html = '<tr class="row-b"><td class="org"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project.link"], df.loc[p, "project.notes"], df.loc[p, "org.name"])
         r2_html += '<td colspan="3" class="llmbase">LLM base: {}</td><td colspan="3" class="rlbase">RL base: {}</td>'.format(df.loc[p, "project.llmbase"], df.loc[p, "project.rlbase"])
-        source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source.file"]
-        source_file = source_link.split("/")[-1]
-        r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" title="{}" target="_blank">&sect;</a></td></tr>\n'.format(source_link, source_file)
+        #r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" title="{}" target="_blank">&sect;</a></td></tr>\n'.format(source_link, source_file)
+        r2_html += '<td colspan="7"></td><td class="source-link"><a href="{}" title="{}" target="_blank">&sect;</a></td></tr>\n'.format(df.loc[p, "org.link"], df.loc[p, "org.name"])
         html_table += r2_html
     # closing tags
     html_table += '</tbody>\n'
