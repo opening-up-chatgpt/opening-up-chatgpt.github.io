@@ -1,0 +1,87 @@
+---
+
+project:
+    name: Orca 2
+    link: https://www.microsoft.com/en-us/research/project/orca/
+    notes: This file applies to Orca 2 7B and 13B, both fine-tunes of corresponding Llama2 base models.
+    llmbase: LLaMA2
+    rlbase: FLAN, Math, undisclosed
+    license: Microsoft Research License, Llama Community License
+
+org:
+    name: Facebook Research
+    link: https://github.com/facebookresearch
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link: 
+    notes: No source code made available anywhere for data curation, training, fine-tuning, or evaluation
+
+llmdata:
+    class: closed
+    link:
+    notes: Llama pretraining Data nowhere disclosed or documented, and described only in the vaguest terms in a corporate preprint released by Meta
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: Instruction-tuning and explanation-tuning data described in preprint, but not disclosed or made available
+
+rlweights:
+    class: open
+    link: https://huggingface.co/microsoft/Orca-2-7b
+    notes: 7B and 13B finetunes of Llama2 made available through HuggingFace
+
+license:
+    class: closed
+    link: https://github.com/facebookresearch/llama/blob/main/LICENSE
+    notes: Licensed under Microsoft Research License and Meta's bespoke community license, neither OSI recognised
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: Code only covers minimal examples; no documentation available. 
+
+architecture:
+    class: partial
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Architecture sketched in corporate preprints, though many details missing.
+
+preprint:
+    class: partial
+    link: https://arxiv.org/pdf/2311.11045.pdf
+    notes: Corporate preprint from Microsoft Research has some detail on instruction-tuning, explanation-tuning and evaluation
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/microsoft/Orca-2-7b
+    notes: Model card serves as landing page more than careful model documentation
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: Model too large to load on HuggingFace inference library
