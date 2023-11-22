@@ -5,12 +5,12 @@ project:
     link: https://www.microsoft.com/en-us/research/project/orca/
     notes: This file applies to Orca 2 7B and 13B, both fine-tunes of corresponding Llama2 base models.
     llmbase: LLaMA2
-    rlbase: FLAN, Math, undisclosed
+    rlbase: FLAN, Math, undisclosed (synthetic)
     license: Microsoft Research License, Llama Community License
 
 org:
-    name: Facebook Research
-    link: https://github.com/facebookresearch
+    name: Microsoft Research
+    link: https://www.microsoft.com/en-us/research/project/orca/
     notes:
 
 # availability:
