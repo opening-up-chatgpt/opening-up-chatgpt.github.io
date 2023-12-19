@@ -1,0 +1,86 @@
+---
+project:
+    name: AmberChat
+    link: https://huggingface.co/LLM360/AmberChat
+    notes:
+    llmbase: LLaMA-7B
+    rlbase: Evol-Instruct (synthetic)
+    license: Apache 2.0
+
+org:
+    name: LLM360
+    link: https://www.llm360.ai/index.html
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/LLM360
+    notes: No code for finetuning.
+
+llmdata:
+    class: open
+    link: https://huggingface.co/datasets/LLM360/AmberDatasets
+    notes:
+
+llmweights:
+    class: open
+    link: https://huggingface.co/LLM360/Amber
+    notes: 360 model checkpoints released.
+
+rldata:
+    class: open
+    link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
+    notes:
+
+rlweights:
+    class: partial
+    link: https://huggingface.co/LLM360/AmberChat
+    notes: Finetuned model available for download.
+
+license:
+    class: open
+    link: https://huggingface.co/LLM360/AmberChat
+    notes: Everything licensed under Apache 2.0
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/LLM360
+    notes: Code is partly documented.
+
+architecture:
+    class: partial
+    link: https://arxiv.org/abs/2312.06550
+    notes: architecture described in preprint, but not all details documented.
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2312.06550
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes: No paper yet.
+
+modelcard:
+    class: open
+    link: https://huggingface.co/LLM360/AmberChat
+    notes:
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/LLM360/AmberDatasets
+    notes: Short description.
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: open
+    link: https://huggingface.co/LLM360/AmberChat
+    notes: Free Huggingface inference API.
