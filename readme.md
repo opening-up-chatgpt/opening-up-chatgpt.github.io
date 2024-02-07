@@ -37,70 +37,13 @@ If you find any of this useful, please cite our paper:
 ```
 
 ## How to contribute
-You can contribute in (at least) two ways: either by updating the awesomelist [below](#list-of-projects--), or by editing specific data points in the table (which means editing project-specific yaml files). Our goal is to have both elements roughly in sync, but awesomelists are by nature more free-form and text-driven, and we anticipate using them also for discovering new projects.
-
-How to contribute to the awesomelist below:
-1. Add entry to list of projects: 
-2. Describe the project in terms of its openness, mentioning particular areas of focus (e.g., remarkably detailed documentation; murky licensing; relevant preprints). Use links liberally.
-3. If there is a yaml file for the project already (see below), transclude it
+If you know of a new instruction-tuned LLM+RLHF model we should be including, you can also add an [issue](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/issues).
 
 How to contribute to the [live table](https://opening-up-chatgpt.github.io):
 1. Fork the repo and edit an existing yaml file or create a new one based on the sample `yaml` file in [/projects](/projects)
 2. File a pull request to have your changes reviewed and, hopefully, merged into main.
 
 The live table is updated whenever there is a change to the files in the /projects/  folder.
-
-If you know of a new instruction-tuned LLM+RLHF model we should be including, you can also add an [issue](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/issues).
-
-## List of projects  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-Overview of available open text generators with links to evidence for the evaluation criteria. The target breed of models in focus here is characterized by the following two features: its architecture is at base a large language model instruction-tuned by reinforcement learning with human feedback (LLM + RLHF) and it aims for openness and transparency (along degrees we quantify).
-
-
-### Alpaca
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/alpaca.yaml#L3-L70
-
-### Belle
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/a1af1c56e8faa82a9225942767eb42c573c7275c/projects/BELLE.yaml#L3-L70
-
-### CerebrasGPT
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/e4fe656fe852ad5ba4aa9ebcaa0191c6a5c875d1/projects/Cerebras-GPT-111m.yaml#L3-L70
-
-### ChatGPT
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/e4fe656fe852ad5ba4aa9ebcaa0191c6a5c875d1/projects/chatgpt.yaml#L3-L70
-
-### ChatRWKV
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929ec9e14842258f76243884aaf490a282ea/projects/ChatRWKV.yaml#L3-L70
-
-### Falcon
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/61e3929ec9e14842258f76243884aaf490a282ea/projects/Falcon-40B-instruct.yaml#L3-L70
-
-### minChatGPT
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/fd1abe2db7172d3d4fea3ba3c07c407832501b06/projects/minChatGPT.yaml#L3-L70
-
-### MPT-7b-instruct
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/MPT-7b-instruct.yaml#L3-L70
-
-### Open Assistant
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/Open-Assistant.yaml#L3-L70
-
-### OpenChatKit
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/OpenChatKit.yaml#L3-L70
-
-### Stable Vicuna
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/stablevicuna.yaml#L3-L70
-
-### Text generation webui
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/text-generation-webui.yaml#L3-L70
-
-### trlx
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/trlx.yaml#L3-L70
-
-### Vicuna13b-lmsys
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/vicuna13B-lmsys.yaml#L3-L70
-
-### XMTF
-https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/910cd0bff3e8490d2f4ab1909126650ad5ee424d/projects/xmtf.yaml#L3-L70
 
 ## Related resources
 
