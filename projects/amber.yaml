@@ -3,8 +3,8 @@ project:
     name: AmberChat
     link: https://huggingface.co/LLM360/AmberChat
     notes:
-    llmbase: LLaMA-7B
-    rlbase: Evol-Instruct (synthetic)
+    llmbase: Amber
+    rlbase: ShareGPT + Evol-Instruct (synthetic)
     license: Apache 2.0
 
 org:
@@ -14,27 +14,27 @@ org:
 
 # availability:
 opencode:
-    class: partial
-    link: https://github.com/LLM360
-    notes: No code for finetuning.
+    class: open
+    link: https://github.com/LLM360/amber-train/tree/main
+    notes: amber-train repository includes code for training and finetuning.
 
 llmdata:
     class: open
     link: https://huggingface.co/datasets/LLM360/AmberDatasets
-    notes:
+    notes: data well-documented and openly available
 
 llmweights:
     class: open
     link: https://huggingface.co/LLM360/Amber
-    notes: 360 model checkpoints released.
+    notes: 360 model checkpoints released
 
 rldata:
     class: open
     link: https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k
-    notes:
+    notes: RL and fine-tuning data shared and documented
 
 rlweights:
-    class: partial
+    class: open
     link: https://huggingface.co/LLM360/AmberChat
     notes: Finetuned model available for download.
 
@@ -47,38 +47,38 @@ license:
 code:
     class: partial
     link: https://github.com/LLM360
-    notes: Code is partly documented.
+    notes: Code documented in helpful readme.md files but only partly inline.
 
 architecture:
     class: partial
     link: https://arxiv.org/abs/2312.06550
-    notes: architecture described in preprint, but not all details documented.
+    notes: Architecture described in preprint, but not all details documented.
 
 preprint:
     class: open
     link: https://arxiv.org/abs/2312.06550
-    notes:
+    notes: Preprint describes architecture, design choices, training and fine-tuning.
 
 paper:
     class: closed
     link:
-    notes: No paper yet.
+    notes: No peer-reviewed paper yet.
 
 modelcard:
-    class: open
+    class: partial
     link: https://huggingface.co/LLM360/AmberChat
-    notes:
+    notes: Model card doesn't specify use or limitations
 
 datasheet:
     class: partial
     link: https://huggingface.co/datasets/LLM360/AmberDatasets
-    notes: Short description.
+    notes: Concise description (better than most), but doesn't specify funders, purposes, representativeness, legal status as prescribed by datasheets industry standard
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No released package found
 
 api:
     class: open
