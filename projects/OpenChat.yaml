@@ -61,9 +61,9 @@ preprint:
     notes: Preprint describes the model architecture and instruction tuning approach, though is hampered by building on notoriously closed Llama2
 
 paper:
-    class: closed
-    link:
-    notes: No peer-reviewed paper found
+    class: open
+    link: https://openreview.net/forum?id=AOJyfhWYHf
+    notes: Paper reviewed and accepted for ICLR 2024
 
 modelcard:
     class: partial
