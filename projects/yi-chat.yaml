@@ -1,0 +1,88 @@
+---
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Yi 34B Chat
+    link: https://huggingface.co/01-ai/Yi-34B-Chat
+    notes: The Yi series models are the next generation of open-source large language models trained from scratch by 01.AI. Targeted as a bilingual language model and trained on 3T multilingual corpus.
+    llmbase: Yi 34B
+    rlbase: unspecified
+    license: Apache 2.0 and bespoke Yi Series Community License Agreement 2.1
+
+org:
+    name: 01.AI
+    link: https://www.01.ai/
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/01-ai/Yi
+    notes: repository contains some code for demos and for instruction tuning, but only sparse examples of code for initial training and model architecture
+
+llmdata:
+    class: closed
+    link:
+    notes: Training data for base model nowhere specified
+
+llmweights:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-34B/tree/main
+    notes: Base model weights shared via HuggingFace
+
+rldata:
+    class: closed
+    link: https://huggingface.co/datasets/BAAI/COIG
+    notes: Model docs mention COIG but only as an example. Code also shows rm-static is also used in instruction tuning, but not shared.
+
+rlweights:
+    class: open
+    link: https://huggingface.co/01-ai/Yi-34B-Chat/tree/main
+    notes: Instruction-tuned weights shared via HuggingFace
+
+license:
+    class: partial
+    link:
+    notes: Model code licensed under Apache 2.0, model weights licensed under Llama-inspired community license with limitations
+
+# documentation:
+code:
+    class: closed
+    link: https://github.com/01-ai/Yi/
+    notes: Documentation only describes how to deploy, training and fine-tuning code not available or where available not commented or documented
+
+architecture:
+    class: closed
+    link:
+    notes: Model architecture only described in the most general terms.
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint found
+
+paper:
+    class: closed
+    link:
+    notes: No paper found
+
+modelcard:
+    class: closed
+    link:
+    notes: Model card used for advertising and navigation purposes, does not follow general model card specifications.
+
+datasheet:
+    class: closed
+    link:
+    notes: No data sheets found.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: no package found
+
+api:
+    class: partial
+    link:
+    notes: limited access via HF API, otherwise gated and commercially available
