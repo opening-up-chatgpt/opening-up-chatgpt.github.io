@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Gemma 7B Instruct
+    link: https://ai.google.dev/gemma/docs
+    notes: Model weights and developer tools
+    llmbase: Gemma
+    rlbase: Unspecified
+    license:
+
+org:
+    name: Google DeepMind
+    link: https://ai.google.dev/gemma/docs
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/google-deepmind/gemma
+    notes: No pre-training or instructing-tuning code made available. Some developer tools available.
+
+llmdata:
+    class: closed
+    link:
+    notes: No details provided on pre-training data.
+
+llmweights:
+    class: partial
+    link: https://www.kaggle.com/models/keras/gemma/frameworks/keras/variations/gemma_7b_en
+    notes: Base model weights shared via Kaggle, requires privacy-defying access request.
+
+rldata:
+    class: closed
+    link:
+    notes: "Documentation says 'These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.' "
+
+rlweights:
+    class: partial
+    link:
+    notes: Instruction-tuned model weights shared via Kaggle, requires privacy-defying access request
+
+license:
+    class: closed
+    link: https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/335?pli=1
+    notes: Bespoke Gemma Community License Agreement and restrictive Terms of Use, neither open in the sense of OSI. Only Inference code shared under Apache 2.0.
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No pretraining or finetuning code found. No code documentation except for deployment of the open weights.
+
+architecture:
+    class: partial
+    link: https://www.kaggle.com/models/google/gemma
+    notes: Architecture described in very general terms in model card
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint found
+
+paper:
+    class: closed
+    link:
+    notes: No paper found
+
+modelcard:
+    class: open
+    link: https://www.kaggle.com/models/google/gemma
+    notes: Model card on Kaggle provides some detail on model internals and evalaution
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet found, pre-training and instruction-tuning data nowhere specified.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package provided, access is gated through Kaggle, Vertex Model Garden, Google Cloud
+
+api:
+    class: closed
+    link:
+    notes: No API provided, access gated through Kaggle, Vertex Model Garden, Google Cloud
