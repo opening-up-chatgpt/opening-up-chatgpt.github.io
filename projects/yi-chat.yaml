@@ -23,7 +23,7 @@ opencode:
 llmdata:
     class: closed
     link:
-    notes: Training data for base model nowhere specified
+    notes: Training data for base model undocumented, though preprint mentions CommonCrawl as one source
 
 llmweights:
     class: open
@@ -57,9 +57,9 @@ architecture:
     notes: Model architecture only described in the most general terms.
 
 preprint:
-    class: closed
-    link:
-    notes: No preprint found
+    class: open
+    link: https://arxiv.org/abs/2403.04652
+    notes: Preprint provides some info on pretraining data (CommonCrawl) but none on instruction tuning dataset.
 
 paper:
     class: closed
