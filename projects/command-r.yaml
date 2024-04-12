@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Command R+
+    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01
+    notes:
+    llmbase: 
+    rlbase: Aya Collection
+    license: CC-BY-NC and C4AI acceptable use policy
+
+org:
+    name: Cohere AI
+    link: https://cohere.com
+    notes: 
+
+# availability:
+opencode:
+    class: closed
+    link:
+    notes: No codebase available to study or adjust model architecture, training, or inner workings.
+
+llmdata:
+    class: closed
+    link: https://docs.cohere.com/docs/data-statement
+    notes: No documentation, listing or audit of pre-training data available. Cohere itself identifies it as coheretext-filtered and gives the size as 200Gb.
+
+llmweights:
+    class: closed
+    link: 
+    notes: No checkpoint or model prior to SFT and instruction-tuning made available
+
+rldata:
+    class: open
+    link: https://huggingface.co/collections/CohereForAI/aya-datasets-660415741bd4852f01c81c77
+    notes: Aya Collection (Aya Open Science initiative) is a multilingual collection of 513 million instances of promts and completions including instruction-style templates.
+
+rlweights:
+    class: open
+    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01/tree/main
+    notes: Fine-tuned model weights made available for download
+
+license:
+    class: partial
+    link: https://docs.cohere.com/docs/c4ai-acceptable-use-policy
+    notes: Licensed under CC-BY-NC and requires agreeing to C4AI acceptable use policy
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No source code available, so no documentation of code.
+
+architecture:
+    class: closed
+    link:
+    notes: Architecture only sparsely documented.
+
+preprint:
+    class: closed
+    link:
+    notes: No preprint appears to be made available at this time.
+
+paper:
+    class: closed
+    link:
+    notes: No paper known to document the Cohere Command R+ model or architecture.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/CohereForAI/c4ai-command-r-v01-4bit
+    notes: Model card on HF document some aspects but provides no data on training data, instruction-tuning methods
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not available.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No separate package available.
+
+api:
+    class: closed
+    link:
+    notes: API access available only when signing up.
