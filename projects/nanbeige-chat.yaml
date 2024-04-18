@@ -24,73 +24,73 @@ org:
 
 # availability:
 opencode:
-    class: closed
-    link:
-    notes:
+    class: open
+    link: https://github.com/Nanbeige/Nanbeige
+    notes: github repo contains sparse but clear code for training, tuning, and inference
 
 llmdata:
     class: closed
     link:
-    notes:
+    notes: No information on pre-training datasets except a claim of 4.5T tokens
 
 llmweights:
     class: closed
     link:
-    notes:
+    notes: Base model not shared
 
 rldata:
     class: closed
     link:
-    notes:
+    notes: No information on finetuning and DPO datasets
 
 rlweights:
     class: closed
-    link:
-    notes:
+    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/tree/main
+    notes: Model weights for finetuned model shared 
 
 license:
-    class: closed
+    class: partial
     link:
-    notes:
+    notes: Apache 2.0 but commercial use requires signup and an additional community license 
 
 # documentation:
 code:
     class: closed
     link:
-    notes:
+    notes: No documentation of the codebase
 
 architecture:
     class: closed
     link:
-    notes:
+    notes: Architecture not clearly specified
 
 preprint:
     class: closed
     link:
-    notes:
+    notes: No preprint found
 
 paper:
     class: closed
     link:
-    notes:
+    notes: No paper found
 
 modelcard:
     class: closed
     link:
-    notes:
+    notes: No model card found
 
 datasheet:
     class: closed
     link:
-    notes:
+    notes: No datasheet found
 
 # access:
 package:
     class: closed
     link:
-    notes:
+    notes: No package found
 
 api:
-    class: closed
-    link:
-    notes:
+    class: partial
+    link: https://huggingface.co/spaces/Nanbeige/Nanbeige-Plus-Chat-v0.1
+    notes: No API, but HuggingFace space available
