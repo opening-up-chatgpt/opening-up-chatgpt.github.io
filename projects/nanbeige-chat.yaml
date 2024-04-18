@@ -44,7 +44,7 @@ rldata:
     notes: No information on finetuning and DPO datasets
 
 rlweights:
-    class: closed
+    class: open
     link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/tree/main
     notes: Model weights for finetuned model shared 
 
