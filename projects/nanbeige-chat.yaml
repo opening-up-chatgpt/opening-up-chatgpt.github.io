@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Nanbeige2-Chat
+    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat
+    notes: Comes in 8B and 16B versions
+    llmbase: Unknown
+    rlbase: Unknown
+    license: Apache 2.0 and bespoke community license
+
+org:
+    name: Nanbeige LLM lab
+    link: https://huggingface.co/Nanbeige
+    notes: 
+
+# availability:
+opencode:
+    class: closed
+    link:
+    notes:
+
+llmdata:
+    class: closed
+    link:
+    notes:
+
+llmweights:
+    class: closed
+    link:
+    notes:
+
+rldata:
+    class: closed
+    link:
+    notes:
+
+rlweights:
+    class: closed
+    link:
+    notes:
+
+license:
+    class: closed
+    link:
+    notes:
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes:
+
+architecture:
+    class: closed
+    link:
+    notes:
+
+preprint:
+    class: closed
+    link:
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link:
+    notes:
+
+datasheet:
+    class: closed
+    link:
+    notes:
+
+# access:
+package:
+    class: closed
+    link:
+    notes:
+
+api:
+    class: closed
+    link:
+    notes:
