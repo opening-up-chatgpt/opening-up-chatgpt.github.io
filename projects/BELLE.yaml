@@ -15,8 +15,8 @@ org:
 # availability:
 opencode:
     class: open
-    link:
-    notes:
+    link: https://github.com/LianjiaTech/BELLE
+    notes: Repository contains a fair bit of code
 
 llmdata:
     class: partial
