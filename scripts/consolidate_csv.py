@@ -97,6 +97,37 @@ def write_html(df):
     html_table += '</table>\n'
     return html_table
 
+def write_simplified_html(df):
+    html_table = '<table>\n'
+    html_table += '<thead>\n'
+    html_table += '<tr class="main-header"><th>Project</th><th colspan="6">Availability</th><th colspan="6">Documentation</th><th colspan="2">Access</th></tr>\n'
+    html_table += '<tr class="second-header"><th>(maker, bases, URL)</th><th>Open code</th><th>LLM data</th><th>LLM weights</th><th>RL data</th><th>RL weights</th><th>License</th><th>Code</th><th>Architecture</th><th>Preprint</th><th>Paper</th><th>Modelcard</th><th>Datasheet</th><th>Package</th><th>API</th></tr>\n'
+    html_table += '</thead>\n'
+    html_table += '<tbody>\n'
+    # loop through projects
+    projects = df.index.tolist()
+    for p in projects:
+        # add data by looping through each data row and converting it to a row for the html table.
+        # also add classes to the <td> elements for colour coding and links to source of the class judgement: https://github.com/liesenf/awesome-open-chatgpt/issues/12
+        cells = ["opencode", "llmdata", "llmweights", "rldata", "rlweights", "license", "code", "architecture", "preprint", "paper", "modelcard", "datasheet", "package", "api"]
+        # first row
+        source_link = "https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/blob/main" + df.loc[p, "source.file"]
+        source_file = source_link.split("/")[-1]
+        #r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(df.loc[p, "project.link"], df.loc[p, "project.notes"], p)
+        r1_html = '<tr class="row-a"><td class="name-cell"><a target="_blank" href="{}" title="data: {}">{}</a></td>'.format(source_link, source_file, p)
+        for c in cells:
+            cl = df.loc[p, c + ".class"]
+            link = df.loc[p, c + ".link"]
+            notes = df.loc[p, c + ".notes"]
+            symbol = "&#10004;&#xFE0E" if cl == "open" else "~" if cl == "partial" else "&#10008;" if cl == "closed" else "?"
+            r1_html += '<td class="{} data-cell"><a target="_blank" href="{}" title="{}">{}</a></td>'.format(cl, link, notes, symbol)
+        r1_html += "</tr>\n"
+        html_table += r1_html
+    # closing tags
+    html_table += '</tbody>\n'
+    html_table += '</table>\n'
+    return html_table
+
 
 def create_index(table):
     # read and parse the template file
@@ -116,6 +147,23 @@ def create_index(table):
     with open("./docs/index.html", 'w') as f:
         f.write(str(soup))
 
+def create_figure(figure):
+    # read and parse the template file
+        with open("./docs/template_figure.html", "r") as f:
+        html = f.read()
+    soup = BeautifulSoup(html, "html.parser")
+    # find the target location
+    target_element = soup.find(id="included-table")
+    # Convert the HTML code string into a BeautifulSoup object and append it to the target element
+    target_element.append(BeautifulSoup(table, 'html.parser'))
+    # Add build time info
+    utc_datetime = datetime.datetime.utcnow()
+    build_message = utc_datetime.strftime("Table last built on %Y-%m-%d at %H:%M UTC")
+    target_footer = soup.find(id="build-time")
+    target_footer.string = build_message
+    # write to disk
+    with open("./docs/figure.html", 'w') as f:
+        f.write(str(soup))
 
 #the path of the csv files to combine
 path = r'./projects' 
@@ -126,4 +174,6 @@ df = calculate_openness(df)
 # sort by openness and project name
 df = df.sort_index(ascending=False).sort_values(by="openness", ascending=False)
 table = write_html(df)
+figure = write_simplified_html(df)
 create_index(table)
+create_figure(figure)
