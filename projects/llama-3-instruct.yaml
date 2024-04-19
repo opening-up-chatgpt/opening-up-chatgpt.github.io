@@ -17,7 +17,7 @@ org:
 opencode:
     class: closed
     link: https://github.com/meta-llama/llama3
-    notes: Repository only offers 'a minimal example to load Llama 2 models and run inference'; no training, fine-tuning, evaluation code made available
+    notes: Repository only offers minimal code
 
 llmdata:
     class: closed
