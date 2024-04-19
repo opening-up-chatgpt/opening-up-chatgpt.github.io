@@ -35,7 +35,7 @@ llmdata:
 
 llmweights:
     class: partial
-    link:
+    link: https://github.com/meta-llama/
     notes: Base model made available via Meta (requires privacy-defying signup)
 
 rldata:
