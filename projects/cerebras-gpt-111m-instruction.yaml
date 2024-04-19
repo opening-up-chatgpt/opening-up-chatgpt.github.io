@@ -1,0 +1,86 @@
+---
+project:
+    name: Cerebras GPT 111M Instruction
+    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction
+    notes:
+    llmbase: Cerebras
+    rlbase: Alpaca (synthetic)
+    license: Apache 2.0
+
+org:
+    name: Cerebras + Schramm
+    link: https://github.com/Cerebras
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/Cerebras/gigaGPT
+    notes: Some of the training code available in GigaGPT, but fine-tuning
+
+llmdata:
+    class: open
+    link: https://huggingface.co/datasets/EleutherAI/pile
+    notes: Eleuther AI's The Pile
+
+llmweights:
+    class: open
+    link: https://huggingface.co/cerebras/Cerebras-GPT-111M
+    notes: base model available via Cerebras
+
+rldata:
+    class: open
+    link: https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/blob/main/data/alpaca_gpt4_data.json
+    notes: Alpaca GPT4
+
+rlweights:
+    class: open
+    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/tree/main
+    notes: Finetuned model weights available
+
+license:
+    class: partial
+    link: https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction/
+    notes: Licensing situation unclear as model page mentions no license (base model is licensed Apache 2.0)
+
+# documentation
+code:
+    class: closed
+    link:
+    notes: Code only sparsely documented
+
+architecture:
+    class: open
+    link:
+    notes: Described in preprint
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2304.03208
+    notes:
+
+paper:
+    class: closed
+    link:
+    notes:
+
+modelcard:
+    class: closed
+    link: https://huggingface.co/cerebras/Cerebras-GPT-111M
+    notes: Only serves as as advertising for the model 
+
+datasheet:
+    class: open
+    link: https://arxiv.org/abs/2201.07311
+    notes: Datasheet available for The Pile
+
+# access:
+package:
+    class: closed
+    link:
+    notes: No package found
+
+api:
+    class: open
+    link:
+    notes: Available through HuggingFace inference API
