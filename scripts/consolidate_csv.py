@@ -179,7 +179,7 @@ all_files = glob.glob(path + "/*.yaml")
 df = create_dataframe(all_files)
 df = calculate_openness(df)
 # sort by openness and project name
-df = sort_values(by=["openness", "project.name"], ascending=[False,True])
+df = df.sort_values(by=["openness", "project.name"], ascending=[False,True])
 table = write_html(df)
 create_index(table)
 figure = write_simplified_html(df)
