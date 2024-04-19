@@ -177,5 +177,4 @@ figure = write_simplified_html(df)
 create_figure(figure)
 
 # csv filename
-csv_file_path= "./docs/df.csv"
-df.to_csv("csv_file_path", index=False)
+df.to_csv("./docs/df.csv", index=False)
