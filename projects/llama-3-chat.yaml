@@ -1,0 +1,87 @@
+---
+
+project:
+    name: Llama 3 Instruct
+    link: https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6
+    notes:
+    llmbase: Meta Llama 3
+    rlbase: Meta, undocumented
+    license: Meta Llama 3 Community License
+
+org:
+    name: Facebook Research
+    link: https://github.com/facebookresearch
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link: https://github.com/meta-llama/llama3
+    notes: Repository only offers 'a minimal example to load Llama 2 models and run inference'; no training, fine-tuning, evaluation code made available
+
+llmdata:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described only in the vaguest terms in a release blog post
+
+llmweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+rldata:
+    class: closed
+    link:
+    notes: No information available on instruction-tuning.
+
+rlweights:
+    class: partial
+    link: https://ai.meta.com/resources/models-and-libraries/llama-downloads/
+    notes: Download only after requesting access; requires signing a consent form
+
+license:
+    class: closed
+    link: https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct/tree/main
+    notes: Even inspecting the model requires signing Meta Llama 3's bespoke 'community license', not an OSI recognised open license
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: Code only covers minimal examples; no documentation available. 
+
+architecture:
+    class: partial
+    link: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+    notes: Architecture sketched in glossy blog post.
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint or any other scientific documentation available.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper available.
+
+modelcard:
+    class: partial
+    link: https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md
+    notes: There is a model card, but it provides the absolute minimum of detail, and none whatsoever on training data.
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided.
+
+# access:
+package:
+    class: closed
+    link:
+    notes: Package not provided
+
+api:
+    class: partial
+    link:
+    notes: API only available behind a privacy-defying signup form
