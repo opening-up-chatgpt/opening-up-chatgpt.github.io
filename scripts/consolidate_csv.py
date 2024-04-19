@@ -156,7 +156,7 @@ def create_index(table):
 
 def create_figure(figure):
     # read and parse the template file
-        with open("./docs/template_figure.html", "r") as f:
+    with open("./docs/template.html", "r") as f:
         html = f.read()
     soup = BeautifulSoup(html, "html.parser")
     # find the target location
