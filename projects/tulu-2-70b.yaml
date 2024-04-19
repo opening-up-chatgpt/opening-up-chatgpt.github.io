@@ -12,7 +12,7 @@
 project:
     name: Tulu V2 DPO 70B 
     link: https://huggingface.co/allenai/tulu-2-dpo-70b
-    notes: A new DPO model
+    notes: A new DPO model from AllenAI called Tülu
     llmbase: Llama2
     rlbase: Tulu SFT, Ultrafeedback
     license: AI2 ImpACT license
