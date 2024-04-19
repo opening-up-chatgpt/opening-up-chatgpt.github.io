@@ -88,7 +88,7 @@ datasheet:
 package:
     class: open
     link: https://pypi.org/project/ai2-olmo/
-    notes: No separate package made available 
+    notes: AI2-olmo available on PyPi
 
 api:
     class: partial
