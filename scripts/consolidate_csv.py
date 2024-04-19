@@ -155,10 +155,10 @@ def create_figure(figure):
     # find the target location
     target_element = soup.find(id="included-table")
     # Convert the HTML code string into a BeautifulSoup object and append it to the target element
-    target_element.append(BeautifulSoup(table, 'html.parser'))
+    target_element.append(BeautifulSoup(figure, 'html.parser'))
     # Add build time info
     utc_datetime = datetime.datetime.utcnow()
-    build_message = utc_datetime.strftime("Table last built on %Y-%m-%d at %H:%M UTC")
+    build_message = utc_datetime.strftime("Figure last built on %Y-%m-%d at %H:%M UTC")
     target_footer = soup.find(id="build-time")
     target_footer.string = build_message
     # write to disk
