@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Tulu V2 DPO 70B 
+    link: https://huggingface.co/allenai/tulu-2-dpo-70b
+    notes:
+    llmbase: Llama2
+    rlbase: Tulu SFT, Ultrafeedback
+    license: AI2 ImpACT license
+
+org:
+    name: AllenAI
+    link: https://allenai.org/
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/allenai/open-instruct
+    notes: Important effort to make available fine-tuning procedure and source code. Not seen a repository for base model training yet.
+
+llmdata:
+    class: closed
+    link:
+    notes: Based on Llama2 so nothing known about training data
+
+llmweights:
+    class: partial
+    link:
+    notes: Base model made available via Meta (requires privacy-defying signup)
+
+rldata:
+    class: open
+    link: https://github.com/allenai/open-instruct
+    notes: Codebase used for fine-tuning this model and made available for others
+
+rlweights:
+    class: open
+    link: https://huggingface.co/allenai/tulu-2-dpo-70b/tree/main
+    notes: Fine-tuned weights available
+
+license:
+    class: partial
+    link:
+    notes: Meta Community License and AI2 Impact license
+
+# documentation:
+code:
+    class: partial
+    link: https://github.com/allenai/open-instruct
+    notes: OpenInstruct code well-documented
+
+architecture:
+    class: partial
+    link:
+    notes: Post-llama2 aspects quite well described in papers, but Llama itself is closed
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2311.10702
+    notes: Preprint covers the training of Tulu2
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed work found
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/allenai/tulu-2-70b
+    notes: Model card offers little details
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture
+    notes: Some datasheets available (for instruction tuning), but base model entirely undocumented.
+
+# access:
+package:
+    class: closed
+    link: 
+    notes: No separate package found 
+
+api:
+    class: open
+    link:
+    notes: Available via various APIs
