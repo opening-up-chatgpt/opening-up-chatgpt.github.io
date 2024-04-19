@@ -185,4 +185,6 @@ create_index(table)
 figure = write_simplified_html(df)
 create_figure(figure)
 
-df.to_csv(df.csv, index=False)
+# csv filename
+csv_file_path= "./docs/df.csv"
+df.to_csv(csv_file_path", index=False)
