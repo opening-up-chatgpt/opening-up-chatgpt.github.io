@@ -49,20 +49,20 @@ rlweights:
     notes: Full model weights made available
 
 license:
-    class: 
-    link:
-    notes:
+    class: open 
+    link: https://huggingface.co/allenai/OLMo-7B-Instruct
+    notes: Apache 2.0
 
 # documentation:
 code:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-7B-Instruct#model-sources
+    notes: repositories and code well-described, commented and documented
 
 architecture:
-    class: 
-    link:
-    notes:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-7B-Instruct#model-sources
+    notes: Architectured documented in detail in model card, preprint, and technical blog posts
 
 preprint:
     class: open
