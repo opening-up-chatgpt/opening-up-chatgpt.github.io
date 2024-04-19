@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: OLMo 7B Instruct
+    link: https://blog.allenai.org/olmo-open-language-model-87ccfc95f580
+    notes:
+    llmbase: OLMo 7B
+    rlbase: OpenInstruct
+    license: Apache 2.0
+
+org:
+    name: AllenAI
+    link: https://allenai.org/allennlp
+    notes: 
+
+# availability:
+opencode:
+    class: open
+    link: https://github.com/allenai/OLMo
+    notes: Multiple repos with training, architecture and fine-tuning code available
+
+llmdata:
+    class: open
+    link: https://huggingface.co/datasets/allenai/dolma
+    notes: Dolma training data released and documented in exemplary way
+
+llmweights:
+    class: open
+    link: https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778
+    notes: OLMo 7B and many training checkpoints available 
+
+rldata:
+    class: open
+    link: https://huggingface.co/datasets/allenai/ultrafeedback_binarized_cleaned
+    notes: Instruction tuning datasets documented and made available in exemplary ways
+
+rlweights:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-7B-Instruct/tree/main
+    notes: Full model weights made available
+
+license:
+    class: 
+    link:
+    notes:
+
+# documentation:
+code:
+    class: 
+    link:
+    notes:
+
+architecture:
+    class: 
+    link:
+    notes:
+
+preprint:
+    class: open
+    link: https://arxiv.org/abs/2402.00838
+    notes: Preprint describes model architecture, training and fine-tuning data, and training and SFT pipelines
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: open
+    link: https://huggingface.co/allenai/OLMo-7B-Instruct
+    notes: Model card provides broad overview and links to full details
+
+datasheet:
+    class: open
+    link: https://huggingface.co/datasets/allenai/dolma
+    notes: Data sheets and documentation available for the datasets used, linked here is Dolma
+
+# access:
+package:
+    class: open
+    link: https://pypi.org/project/ai2-olmo/
+    notes: No separate package made available 
+
+api:
+    class: partial
+    link: https://huggingface.co/allenai/OLMo-7B-hf
+    notes: Available through HuggingFace though model is
