@@ -61,8 +61,8 @@ code:
 
 architecture:
     class: partial
-    link:
-    notes: Post-llama2 aspects quite well described in papers, but Llama itself is closed
+    link: https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+    notes: Post-llama2 aspects quite well described in papers, e.g. DPO based on Zephyr Beta, but base model is irrevocably closed
 
 preprint:
     class: open
