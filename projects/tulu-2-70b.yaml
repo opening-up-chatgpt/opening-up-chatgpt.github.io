@@ -24,7 +24,7 @@ org:
 
 # availability:
 opencode:
-    class: partial
+    class: open
     link: https://github.com/allenai/open-instruct
     notes: Important effort to make available fine-tuning procedure and source code. Not seen a repository for base model training yet.
 
