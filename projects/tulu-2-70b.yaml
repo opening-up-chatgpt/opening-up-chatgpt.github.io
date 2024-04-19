@@ -50,7 +50,7 @@ rlweights:
 
 license:
     class: partial
-    link:
+    link: https://allenai.org/impact-license
     notes: Meta Community License and AI2 Impact license
 
 # documentation:
