@@ -93,4 +93,4 @@ package:
 api:
     class: partial
     link: https://huggingface.co/allenai/OLMo-7B-hf
-    notes: Available through HuggingFace though model is
+    notes: Available through HuggingFace though model is too large to run on free inference API
