@@ -77,7 +77,7 @@ paper:
 modelcard:
     class: open
     link: https://www.kaggle.com/models/google/gemma
-    notes: Model card on Kaggle provides some detail on model internals and evalaution
+    notes: Model card on Kaggle provides some detail on model internals and evaluation
 
 datasheet:
     class: closed
