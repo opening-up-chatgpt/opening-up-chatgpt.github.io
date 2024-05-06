@@ -46,7 +46,7 @@ rldata:
 rlweights:
     class: open
     link: https://huggingface.co/Intel/neural-chat-7b-v3-1/tree/main
-    notes: finetuned model made openly available
+    notes: finetuned model made openly available by Intel
 
 license:
     class: open
@@ -56,16 +56,16 @@ license:
 # documentation:
 code:
     class: partial
-    link: 
-    notes: Mistral remains closed so only documentation pertains to fine-tuning steps
+    link: https://github.com/intel/intel-extension-for-transformers/tree/main/intel_extension_for_transformers/neural_chat/examples/finetuning/finetune_neuralchat_v3#how-to-train-intelneural-chat-7b-v3-1-on-intel-gaudi2
+    notes: Mistral remains closed so only documentation pertains to fine-tuning steps, but that code is quite well documented, so partial.
 
 architecture:
-    class: open
+    class: partial
     link: https://medium.com/intel-analytics-software/the-practice-of-supervised-finetuning-and-direct-preference-optimization-on-habana-gaudi2-a1197d8a3cd3
     notes: Described in on HuggingFace model card and a Medium post
 
 preprint:
-    class: partial
+    class: closed
     link: https://medium.com/intel-analytics-software/the-practice-of-supervised-finetuning-and-direct-preference-optimization-on-habana-gaudi2-a1197d8a3cd3
     notes: A medium post is apparently the only scientific documentation of this model
 
@@ -75,9 +75,9 @@ paper:
     notes: No peer-reviewed paper found
 
 modelcard:
-    class: open
+    class: partial
     link: https://huggingface.co/Intel/neural-chat-7b-v3-1
-    notes:
+    notes: No model card for Mistral base model portion.
 
 datasheet:
     class: partial
@@ -91,6 +91,6 @@ package:
     notes: Code for running with transformers provided by Intel
 
 api:
-    class: partial
+    class: closed
     link: 
     notes: Provided through HuggingFace but model too large to run via inference API, local deployment or paid access needed 
