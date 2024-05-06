@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: NeuralChat 7B
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1
+    notes: A mistral-based Orca-finetuned chat model
+    llmbase: Mistral 7B
+    rlbase: Orca
+    license: Apache 2.0
+
+org:
+    name: Intel
+    link:
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/intel/intel-extension-for-transformers/tree/main/intel_extension_for_transformers/neural_chat/examples/finetuning/finetune_neuralchat_v3
+    notes: Mistral base model is not open, but repo gives sample code for fine-tuning based on that
+
+llmdata:
+    class: closed
+    link:
+    notes: Mistral has not disclosed anything about its training data
+
+llmweights:
+    class: open
+    link: https://huggingface.co/mistralai/Mistral-7B-v0.1
+    notes: Based on Mistral 7B 0.1
+
+rldata:
+    class: open
+    link: https://huggingface.co/datasets/Open-Orca/SlimOrca
+    notes: RL dataset used for post-training is shared and available
+
+rlweights:
+    class: open
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1/tree/main
+    notes: finetuned model made openly available
+
+license:
+    class: open
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1/blob/main/LICENSE
+    notes: Apache 2.0
+
+# documentation:
+code:
+    class: partial
+    link: 
+    notes: Mistral remains closed so only documentation pertains to fine-tuning steps
+
+architecture:
+    class: open
+    link: https://medium.com/intel-analytics-software/the-practice-of-supervised-finetuning-and-direct-preference-optimization-on-habana-gaudi2-a1197d8a3cd3
+    notes: Described in on HuggingFace model card and a Medium post
+
+preprint:
+    class: partial
+    link: https://medium.com/intel-analytics-software/the-practice-of-supervised-finetuning-and-direct-preference-optimization-on-habana-gaudi2-a1197d8a3cd3
+    notes: A medium post is apparently the only scientific documentation of this model
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper found
+
+modelcard:
+    class: open
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1
+    notes:
+
+datasheet:
+    class: partial
+    link: https://huggingface.co/datasets/Open-Orca/OpenOrca
+    notes: SlimOrca dataset is described as part of OpenOrca (but partial since Mistral data is incrutable)
+
+# access:
+package:
+    class: partial
+    link: https://huggingface.co/Intel/neural-chat-7b-v3-1#fp32-inference-with-transformers
+    notes: Code for running with transformers provided by Intel
+
+api:
+    class: partial
+    link: 
+    notes: Provided through HuggingFace but model too large to run via inference API, local deployment or paid access needed 
