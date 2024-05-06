@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Phi 3 Instruct
+    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
+    notes: 
+    llmbase: Phi3
+    rlbase: Unspecified
+    license: MIT License
+
+org:
+    name: Microsoft
+    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct
+    notes:
+
+# availability:
+opencode:
+    class: closed
+    link:
+    notes: No source code found for pretraining, posttraining, or evaluation
+
+llmdata:
+    class: closed
+    link:
+    notes: No datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
+
+llmweights:
+    class: closed
+    link:
+    notes: No base model of the instruction-tuned Phi-3 was released
+
+rldata:
+    class: closed
+    link:
+    notes: No post-training datasets made available and no information on datasets disclosed except very generic claims about filtering for high quality.
+
+rlweights:
+    class: open
+    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/tree/main
+    notes: Instruction-tuned model weights shared through HuggingFace
+
+license:
+    class: open
+    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/blob/main/LICENSE
+    notes: MIT License
+
+# documentation:
+code:
+    class: closed
+    link:
+    notes: No source code, so no documentation of source code found
+
+architecture:
+    class: open
+    link: https://arxiv.org/abs/2404.14219
+    notes: Architecture described in model card and preprint
+
+preprint:
+    class: partial
+    link: https://arxiv.org/abs/2404.14219
+    notes: Preprint describes model architecture but not training data, focusing mostly on benchmarks and evalution
+
+paper:
+    class: closed
+    link:
+    notes: No paper found
+
+modelcard:
+    class: open
+    link: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct/blob/main/LICENSE
+    notes: Model card provides reasonable level of detail
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet made available
+
+# access:
+package:
+    class: partial
+    link:
+    notes: Available through development version of transformers
+
+api:
+    class: open
+    link:
+    notes: Available through HuggingFace API
