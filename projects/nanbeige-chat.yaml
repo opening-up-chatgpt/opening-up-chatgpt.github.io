@@ -31,7 +31,7 @@ opencode:
 llmdata:
     class: closed
     link:
-    notes: No information on pre-training datasets except a claim of 4.5T tokens
+    notes: No information on pre-training datasets except a claim of 4.5T tokens. Request for information on HF community was closed without comment.
 
 llmweights:
     class: closed
@@ -40,8 +40,8 @@ llmweights:
 
 rldata:
     class: closed
-    link:
-    notes: No information on finetuning and DPO datasets
+    link: https://huggingface.co/Nanbeige/Nanbeige2-8B-Chat/discussions/2#6621e15a4d17641cf788cbd5
+    notes: No information on finetuning and DPO datasets. Some information provided on request (see link), but official documentation not updated.
 
 rlweights:
     class: open
