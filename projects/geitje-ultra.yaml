@@ -25,8 +25,8 @@ org:
 # availability:
 opencode:
     class: closed
-    link: 
-    notes: Mistral has limited source code available, also no training code for Geitje found
+    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra#training-procedure
+    notes: Mistral has limited source code available. No training code for Geitje found apart from the recipe used with the alignment handbook.
 
 llmdata:
     class: partial
@@ -62,7 +62,7 @@ code:
 architecture:
     class: partial
     link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
-    notes: Some information on architecture provided in github repo and HF model card
+    notes: Some information on architecture provided in github repo and HF model card. Training was done using alignment handbook.
 
 preprint:
     class: partial
