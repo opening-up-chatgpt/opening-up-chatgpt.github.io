@@ -15,11 +15,11 @@ project:
     notes: Dutch instruction-tuned model based on Mistral 7B
     llmbase: Mistral 7B
     rlbase: Ultrafeedback Dutch (synthetic)
-    license:
+    license: CC-BY-ND
 
 org:
-    name:
-    link:
+    name: Bram van Roy
+    link: https://huggingface.co/BramVanroy/GEITje-7B-ultra
     notes:
 
 # availability:
