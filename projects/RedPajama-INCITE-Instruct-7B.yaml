@@ -62,7 +62,7 @@ code:
 architecture:
     class: partial
     link: https://together.ai/blog/redpajama
-    notes: Architecture detailed on model card, but crucial parts appear to be forked from GPT-NeoX 
+    notes: Architecture detailed on model card, crucial parts appear to be forked from GPT-NeoX 
 
 preprint:
     class: closed
