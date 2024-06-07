@@ -8,7 +8,6 @@ Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up Cha
 
 - [Overview](#overview)
 - [How to contribute](#how-to-contribute)
-- [Curated list of 'open' LLM+RLHF projects](#list-of-projects--)
 - [Related resources](#related-resources)
 
 ## Overview
