@@ -17,9 +17,25 @@ We classify projects for their degrees of openness across **a predefined set of 
 |-----------------------------------------------------------------------|--------------------------------------------------------------------|-----------------|
 | <ul><li>Open code</li><li>LLM data</li><li>LLM weights</li><li>RL data</li><li>RL weights</li><li>License</li></ul> | <ul><li>Code</li><li>Architecture</li><li>Preprint</li><li>Paper</li><li>Model card</li><li>Data sheet</li></ul> | <ul><li>Package</li><li>API</li></ul> |
 
-If you find any of this useful, please cite our paper:
+If you find any of this useful, please cite our work:
 
 ```bibtex
+
+@inproceedings{liesenfeld_dingemanse_2024,
+	author = {Liesenfeld, Andreas and Dingemanse, Mark},
+	title = {Rethinking open source generative AI: open washing and the EU AI Act},
+	year = {2024},
+	isbn = {9798400704505},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3630106.3659005},
+	doi = {10.1145/3630106.3659005},
+	pages = {1774–1787},
+	numpages = {14},
+	keywords = {Technology assessment, large language models, text generators, text-to-image generators},
+	location = {, Rio de Janeiro, Brazil, },
+	series = {FAccT '24}
+}
 
 @inproceedings{liesenfeld_opening_2023,
 	address = {Eindhoven},
