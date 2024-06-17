@@ -65,9 +65,9 @@ architecture:
     notes: Architecture described in very general terms in model card
 
 preprint:
-    class: closed
-    link:
-    notes: No preprint found
+    class: partial
+    link: https://arxiv.org/abs/2403.08295
+    notes: Preprint released Apr 2024 details architecture and evaluation, but provides no information on pre-training, instruction tuning and SFT datasets
 
 paper:
     class: closed
