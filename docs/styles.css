@@ -79,8 +79,6 @@ p,li,blockquote { line-height:1.4rem; }
 		margin-bottom:0.5rem;
 	}
 }
-	
-}
 
 /* Title*/
 h1 a { border:none; }
@@ -143,6 +141,13 @@ thead tr.second-header th {
 	white-space:nowrap;
 }
 
+thead {
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+	background-color: white;
+}
 
 /* custom width for some columns */
 table tr th.first-column {
