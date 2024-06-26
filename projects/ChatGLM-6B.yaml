@@ -62,7 +62,7 @@ code:
 architecture:
     class: partial
     link: 
-    notes: Full details architecture not specified in a single place
+    notes: Full details of architecture not specified in a single place
 
 preprint:
     class: closed
