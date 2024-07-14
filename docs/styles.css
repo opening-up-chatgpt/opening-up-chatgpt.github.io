@@ -62,7 +62,7 @@ p,li,blockquote { line-height:1.4rem; }
 /* make table vertically scrollable on smaller screens */
 	div#included-table {
 		display:block;
-		overflow-x:auto;
+/*		overflow-x:auto; */
 		white-space:nowrap;
 	}
 /* make citation a bit smaller */
