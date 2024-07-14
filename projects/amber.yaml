@@ -10,7 +10,7 @@ project:
 org:
     name: LLM360
     link: https://www.llm360.ai/index.html
-    notes:
+    notes: LLM360, an initiative to fully open-source LLMs
 
 # availability:
 opencode:
