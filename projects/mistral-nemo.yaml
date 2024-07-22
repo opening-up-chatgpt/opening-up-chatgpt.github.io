@@ -1,0 +1,96 @@
+---
+# Thank you for contributing!
+# In filling out this yaml file, please follow the criteria as described here: 
+# https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria
+
+# You're free to build on this work and reuse the data. It is licensed under CC-BY 4.0, with the
+# stipulation that attribution should come in the form of a link to http://opening-up-chatgpt.github.io
+# and a citation to the paper in which the initial dataset & criteria were published:
+
+# Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In CUI '23: Proceedings of the 5th International Conference on Conversational User Interfaces. July 19-21, Eindhoven. doi: 10.1145/3571884.3604316 
+
+project:
+    name: Mistral NeMo Instruct
+    link: https://mistral.ai/news/mistral-nemo/
+    notes: 
+    llmbase: Mistral NeMo
+    rlbase: unspecified
+    license: Apache 2.0 (model weights only)
+
+org:
+    name: Mistral AI
+    link: https://mistral.ai/
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/mistralai/mistral-inference
+    notes: repository provides 'minimal code to run our models'
+
+llmdata:
+    class: closed
+    link:
+    notes: No information provided on pretraining data
+
+llmweights:
+    class: open
+    link: https://models.mistralcdn.com/mistral-nemo-2407/mistral-nemo-base-2407.tar
+    notes: Base LLM model made available for download
+
+rldata:
+    class: closed
+    link: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1
+    notes: No information provided expect that instruction tuning is done using an unspecified 'variety of publicly available conversation datasets'
+
+rlweights:
+    class: partial
+    link: https://models.mistralcdn.com/mistral-nemo-2407/mistral-nemo-instruct-2407.tar
+    notes: Instruct version of the model made available but no information on fine-tuning procedure provided
+
+license:
+    class: open
+    link: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1/blob/main/README.md
+    notes: Apache 2.0
+
+# documentation:
+code:
+    class: closed
+    link: https://github.com/mistralai/mistral-inference
+    notes: the little code that is available is uncommented and undocumented
+
+architecture:
+    class: partial
+    link: https://github.com/mistralai/mistral-inference
+    notes: Some information on architecture provided in github repo and in release blogpost
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint found
+
+paper:
+    class: closed
+    link:
+    notes: No peer reviewed paper available
+
+modelcard:
+    class: closed
+    link:
+    notes: No model card available
+
+datasheet:
+    class: closed
+    link:
+    notes: No datasheet available
+
+# access:
+package:
+    class: partial
+    link: https://docs.mistral.ai/quickstart/
+    notes: Docker image shared on github
+
+api:
+    class: open
+    link: https://docs.mistral.ai/api
+    notes: API specification provided by vLLM 
