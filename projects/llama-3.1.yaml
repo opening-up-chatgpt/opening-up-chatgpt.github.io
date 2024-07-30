@@ -1,0 +1,87 @@
+---
+
+project:
+    name: Llama 3.1
+    link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
+    notes:
+    llmbase: Meta Llama 3
+    rlbase: Meta, undocumented
+    license: Meta Llama 3 Community License
+
+org:
+    name: Facebook Research
+    link: https://github.com/facebookresearch
+    notes:
+
+# availability:
+opencode:
+    class: partial
+    link: https://github.com/meta-llama/llama3
+    notes: Repository only offers code for inference pipeline
+
+llmdata:
+    class: closed
+    link:
+    notes: Data nowhere disclosed or documented, and described in the llama 3.1 paper as "obtained from the web" 
+
+llmweights:
+    class: partial
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+
+rldata:
+    class: closed
+    link:
+    notes: No information available on instruction-tuning.
+
+rlweights:
+    class: closed
+    link: 
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+
+license:
+    class: closed
+    link:  https://huggingface.co/meta-llama/Meta-Llama-3.1-8B
+    notes: Inspecting the training weights requires signing Meta Llama 3.1's bespoke 'community license', not an OSI recognised open license
+
+# documentation:
+code:
+    class: partial
+    link:
+    notes: Code provide only model architecture and an inferencing pipeline examples; some files are documented.
+
+architecture:
+    class: partial
+    link: https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
+    notes: Architecture described in paper, energy consumtion and environmental impact disclosed in model card, but not in paper; training process not fully documented
+
+preprint:
+    class: closed
+    link: 
+    notes: No preprint or any other scientific documentation available.
+
+paper:
+    class: closed
+    link:
+    notes: No peer-reviewed paper available.
+
+modelcard:
+    class: partial
+    link: https://huggingface.co/meta-llama/Meta-Llama-3.1-405B
+    notes: There is a model card, but it does not disclose the training process
+
+datasheet:
+    class: closed
+    link:
+    notes: Datasheet not provided at all
+
+# access:
+package:
+    class: open
+    link: https://pypi.org/project/llama-models/
+    notes: Package is provided in Pypi
+
+api:
+    class: partial
+    link: https://www.meta.ai/?utm_source=ai_meta_site&utm_medium=web&utm_content=AI_nav&utm_campaign=April_moment
+    notes: API only available behind a privacy-defying signup form
