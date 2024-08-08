@@ -18,9 +18,9 @@ project:
     license: Apache 2.0
 
 org:
-    name: AllenAI
-    link: https://allenai.org/allennlp
-    notes: Slogan is AI for the common good
+    name: Ai2
+    link: https://allenai.org
+    notes: Allen Institute for AI (non-profit research institute)
 
 # availability:
 opencode:
