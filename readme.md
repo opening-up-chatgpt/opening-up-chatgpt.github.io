@@ -1,6 +1,6 @@
 # [![](/openchatgpt-logo-favicon-red-on-transparent.png)](https://osai-index.eu/) Opening up ChatGPT
 
-**Please note:** The original "Opening up ChatGPT" project (active 2023-2024) is superseded by the [European Open Source AI Index](https://osai-index.eu). We preserve this repository for historical purposes, but it is no longer updated. For the latest on openness and generative AI, check out the [osai-index.eu](https://osai-index.eu).
+**Please note:** The original "Opening up ChatGPT" project (active 2022-2024) is superseded by the [European Open Source AI Index](https://osai-index.eu). We preserve this repository for historical purposes, but it is no longer updated. For the latest on openness and generative AI, check out the [osai-index.eu](https://osai-index.eu).
 
 ## Original publication
 
