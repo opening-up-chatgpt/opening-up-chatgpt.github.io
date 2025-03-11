@@ -67,9 +67,7 @@ Here are some background readings on why openness matters, why closed models mak
 * [Stop feeding the hype and start resisting](https://irisvanrooijcogsci.com/2023/01/14/stop-feeding-the-hype-and-start-resisting/), by Iris van Rooij. Quote: "It’s almost as if academics are eager to do the PR work for OpenAI (the company that created ChatGPT; as well as its predecessor GPT-3 and its anticipated successor GPT-4). Why?"
 * [AI is a lot of work](https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots) — by Josh Dzieza for _The Verge_. Quote: "ChatGPT seems so human because it was trained by an AI that was mimicking humans who were rating an AI that was mimicking humans who were pretending to be a better version of an AI that was trained on human writing."  
 
-## Contribute
-
-Contributions welcome! Read the [contribution guidelines](contributing.md) first.
+## Contributors (historical)
 
 List of contributors:
 
