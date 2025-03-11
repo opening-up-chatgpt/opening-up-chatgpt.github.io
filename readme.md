@@ -1,14 +1,10 @@
-# [![logo](docs/logos/openchatgpt-logo-favicon-red-on-transparent.png)](https:///opening-up-chatgpt.github.io/) Opening up ChatGPT — tracking openness of instruction-tuned LLMs — [openness leaderboard](https://opening-up-chatgpt.github.io/) 
+# [![](/openchatgpt-logo-favicon-red-on-transparent.png)](https://osai-index.eu/) Opening up ChatGPT
+
+**Please note:** The original "Opening up ChatGPT" project (active 2023-2024) is superseded by the [European Open Source AI Index](https://osai-index.eu). We preserve this repository for historical purposes, but it is no longer updated. For the latest on openness and generative AI, check out the [osai-index.eu](https://osai-index.eu).
 
 Liesenfeld, Andreas, Alianda Lopez, and Mark Dingemanse. 2023. “Opening up ChatGPT: Tracking Openness, Transparency, and Accountability in Instruction-Tuned Text Generators.” In _Proceedings of the 5th International Conference on Conversational User Interfaces_. Eindhoven. doi:[10.1145/3571884.3604316](https://doi.org/10.1145/3571884.3604316). ([PDF](https://pure.mpg.de/pubman/item/item_3526897_1/component/file_3526898/Liesenfeld%20et%20al_2023_Opening%20up%20ChatGPT.pdf))
 
 > Large language models that exhibit instruction-following behaviour represent one of the biggest recent upheavals in conversational interfaces, a trend in large part fuelled by the release of OpenAI's ChatGPT, a proprietary large language model for text generation fine-tuned through reinforcement learning from human feedback (LLM+RLHF). We review the risks of relying on proprietary software and survey the first crop of open-source projects of comparable architecture and functionality. The main contribution of this paper is to show that openness is differentiated, and to offer scientific documentation of degrees of openness in this fast-moving field. We evaluate projects in terms of openness of code, training data, model weights, reinforcement learning data, licensing, scientific documentation, and access methods. We find that while there is a fast-growing list of projects billing themselves as 'open source', many inherit undocumented data of dubious legality, few share the all-important RLHF components (a key site where human labour is involved), and careful scientific documentation is exceedingly rare. Degrees of openness are relevant to fairness and accountability at all points, from data collection and curation to model architecture, and from training and fine-tuning to release and deployment. 
-
-## Contents
-
-- [Overview](#overview)
-- [How to contribute](#how-to-contribute)
-- [Related resources](#related-resources)
 
 ## Overview
 We classify projects for their degrees of openness across **a predefined set of criteria** in the areas of Availability, Documentation and Access. The criteria are described in detail [here](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/tree/main/projects#criteria).
@@ -50,15 +46,6 @@ If you find any of this useful, please cite our work:
 }
 
 ```
-
-## How to contribute
-If you know of a new instruction-tuned LLM+RLHF model we should be including, you can also add an [issue](https://github.com/opening-up-chatgpt/opening-up-chatgpt.github.io/issues).
-
-How to contribute to the [live table](https://opening-up-chatgpt.github.io):
-1. Fork the repo and edit an existing yaml file or create a new one based on the sample `yaml` file in [/projects](/projects)
-2. File a pull request to have your changes reviewed and, hopefully, merged into main.
-
-The live table is updated whenever there is a change to the files in the /projects/  folder.
 
 ## Related resources
 
